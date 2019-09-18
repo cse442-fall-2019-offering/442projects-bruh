@@ -12,8 +12,13 @@ public class StartMenu : MonoBehaviour {
     {
         SceneManager.LoadScene(3);
     }
-    public void STatsPress()
+    public void StatsPress()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(4);
+    }
+    public void QuitPress()
+    {
+        Debug.Log("QUIT");
+        Application.Quit();
     }
 }

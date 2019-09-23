@@ -60,6 +60,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ChangeDropdownSprite.cs" />
+    <Compile Include="Assets\ChangeTheme.cs" />
+    <Compile Include="Assets\Example.cs" />
     <Compile Include="Assets\Game.cs" />
     <Compile Include="Assets\MainMenu.cs" />
     <Compile Include="Assets\StartMenu.cs" />

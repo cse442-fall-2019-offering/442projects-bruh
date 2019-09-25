@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":1042.2666015625,"y":483.9427490234375,"z":-10.5},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":1302.7928466796875,"orthographic":true}
 =======
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":441.46807861328127,"y":429.6178283691406,"z":-11.066937446594239},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":823.6012573242188,"orthographic":true}
@@ -7,3 +8,6 @@
 =======
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":957.4796142578125,"y":700.74072265625,"z":-12.668702125549317},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":1772.9832763671875,"orthographic":true}
 >>>>>>> issue21_music
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":false,"showMaterialUpdate":false,"showSkybox":false,"showFlares":false,"showImageEffects":false,"showParticleSystems":false},"in2DMode":false,"pivot":{"x":461.78656005859377,"y":340.337646484375,"z":-7.376964569091797},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":771.1002197265625,"orthographic":true}
+>>>>>>> issues16_gauges

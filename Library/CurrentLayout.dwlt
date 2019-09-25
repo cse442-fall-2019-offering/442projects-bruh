@@ -15,9 +15,21 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
     y: 43
     width: 1920
     height: 997
+=======
+    y: 43.2
+    width: 2048
+    height: 1069
+>>>>>>> issue20_diffhighscore
+=======
+    y: 43.2
+    width: 1536
+    height: 781
+>>>>>>> issue21_music
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
@@ -42,12 +54,30 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
+<<<<<<< HEAD
     width: 1920
     height: 947
   m_MinSize: {x: 683, y: 348}
   m_MaxSize: {x: 12008, y: 8048}
   vertical: 0
   controlID: 57
+=======
+    width: 2048
+    height: 1019
+  m_MinSize: {x: 683, y: 498}
+  m_MaxSize: {x: 14004, y: 14048}
+  vertical: 0
+  controlID: 32
+>>>>>>> issue20_diffhighscore
+=======
+    width: 1536
+    height: 731
+  m_MinSize: {x: 683, y: 498}
+  m_MaxSize: {x: 14004, y: 14048}
+  vertical: 0
+  controlID: 29
+>>>>>>> issue21_music
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -63,10 +93,24 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
     x: 1643
     y: 0
     width: 277
     height: 947
+=======
+    x: 1309
+    y: 0
+    width: 739
+    height: 1019
+>>>>>>> issue20_diffhighscore
+=======
+    x: 1259
+    y: 0
+    width: 277
+    height: 731
+>>>>>>> issue21_music
   m_MinSize: {x: 277, y: 74}
   m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 15}
@@ -92,8 +136,18 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
     width: 676
     height: 427
+=======
+    width: 539
+    height: 458
+>>>>>>> issue20_diffhighscore
+=======
+    width: 518
+    height: 457
+>>>>>>> issue21_music
   m_MinSize: {x: 202, y: 224}
   m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 16}
@@ -117,12 +171,27 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
     y: 427
     width: 1643
     height: 520
   m_MinSize: {x: 102, y: 124}
   m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 19}
+=======
+    y: 458
+    width: 1309
+    height: 561
+=======
+    y: 457
+    width: 1259
+    height: 274
+>>>>>>> issue21_music
+  m_MinSize: {x: 232, y: 274}
+  m_MaxSize: {x: 10002, y: 10024}
+  m_ActualView: {fileID: 14}
+>>>>>>> issue20_diffhighscore
   m_Panes:
   - {fileID: 14}
   - {fileID: 19}
@@ -148,8 +217,18 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
     width: 1920
     height: 997
+=======
+    width: 2048
+    height: 1069
+>>>>>>> issue20_diffhighscore
+=======
+    width: 1536
+    height: 781
+>>>>>>> issue21_music
   m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
@@ -169,7 +248,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1920
+=======
+    width: 2048
+>>>>>>> issue20_diffhighscore
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -190,8 +273,18 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
     y: 977
     width: 1920
+=======
+    y: 1049
+    width: 2048
+>>>>>>> issue20_diffhighscore
+=======
+    y: 761
+    width: 1536
+>>>>>>> issue21_music
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -214,12 +307,28 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
     width: 1643
     height: 947
   m_MinSize: {x: 406, y: 348}
   m_MaxSize: {x: 8006, y: 8048}
+=======
+    width: 1309
+    height: 1019
+=======
+    width: 1259
+    height: 731
+>>>>>>> issue21_music
+  m_MinSize: {x: 406, y: 498}
+  m_MaxSize: {x: 10002, y: 14048}
+>>>>>>> issue20_diffhighscore
   vertical: 1
+<<<<<<< HEAD
   controlID: 58
+=======
+  controlID: 30
+>>>>>>> issue21_music
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -239,12 +348,26 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
     width: 1643
     height: 427
+=======
+    width: 1309
+    height: 458
+>>>>>>> issue20_diffhighscore
   m_MinSize: {x: 406, y: 224}
   m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
   controlID: 59
+=======
+    width: 1259
+    height: 457
+  m_MinSize: {x: 406, y: 224}
+  m_MaxSize: {x: 8006, y: 4024}
+  vertical: 0
+  controlID: 31
+>>>>>>> issue21_music
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -260,10 +383,24 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
     x: 676
     y: 0
     width: 967
     height: 427
+=======
+    x: 539
+    y: 0
+    width: 770
+    height: 458
+>>>>>>> issue20_diffhighscore
+=======
+    x: 518
+    y: 0
+    width: 741
+    height: 457
+>>>>>>> issue21_music
   m_MinSize: {x: 204, y: 224}
   m_MaxSize: {x: 4004, y: 4024}
   m_ActualView: {fileID: 17}
@@ -293,10 +430,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1225.2001
-    y: 72
-    width: 309
-    height: 712
+    x: 1259.2001
+    y: 73.6
+    width: 275
+    height: 711
   m_PersistentViewDataDictionary: {fileID: 0}
   m_InitialOpenURL: https://public-cdn.cloud.unity3d.com/editor/production/cloud/hub
   m_GlobalObjectTypeName: 
@@ -352,9 +489,21 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
     y: 500
     width: 1226
     height: 500
+=======
+    y: 531.2
+    width: 1307
+    height: 541
+>>>>>>> issue20_diffhighscore
+=======
+    y: 530.4
+    width: 1257
+    height: 254
+>>>>>>> issue21_music
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -374,14 +523,34 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: 75
+<<<<<<< HEAD
+<<<<<<< HEAD
   m_LastProjectPath: D:\Documents\CSE442\442projects-bruh
+=======
+  m_LastProjectPath: D:\Documents - HDD\Github\442projects-bruh
+>>>>>>> issue20_diffhighscore
+=======
+  m_LastProjectPath: C:\Users\markk\bru\442projects-bruh
+>>>>>>> issue21_music
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedIDs: a42e0000
     m_LastClickedID: 11940
     m_ExpandedIDs: 0000000090090000
+=======
+    m_SelectedIDs: 90090000
+    m_LastClickedID: 2448
+    m_ExpandedIDs: 000000009009000000ca9a3b
+>>>>>>> issue20_diffhighscore
+=======
+    m_SelectedIDs: 642e0000
+    m_LastClickedID: 11876
+    m_ExpandedIDs: 00000000642e000000ca9a3b
+>>>>>>> issue21_music
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -409,7 +578,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 0000000090090000
+=======
+    m_ExpandedIDs: 00000000642e0000
+>>>>>>> issue21_music
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -461,7 +634,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 12}
     m_GridSize: 75
   m_DirectoriesAreaWidth: 115
 --- !u!114 &15
@@ -485,10 +658,24 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
     x: 1643
     y: 73
     width: 275
     height: 927
+=======
+    x: 1308.8
+    y: 73.6
+    width: 737
+    height: 999
+>>>>>>> issue20_diffhighscore
+=======
+    x: 1259.2001
+    y: 73.6
+    width: 275
+    height: 711
+>>>>>>> issue21_music
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
@@ -521,30 +708,53 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
     y: 73
     width: 674
     height: 407
+=======
+    y: 73.6
+    width: 516
+    height: 437
+>>>>>>> issue21_music
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
+<<<<<<< HEAD
       m_ExpandedIDs: d6fbffff
+=======
+    y: 73.6
+    width: 537
+    height: 438
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 43}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: d6fbffff920c0000
+>>>>>>> issue20_diffhighscore
+=======
+      m_ExpandedIDs: a2eaffffb8eaffff40ecffffc8eeffff7eefffff2cf3ffffb8f3ffff18f6ffffae30000094330000aa3300009c370000b23700002c38000012390000743d00008a3d0000
+>>>>>>> issue21_music
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: QuitButton
+        m_OriginalName: QuitButton
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 14630
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -574,10 +784,24 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
     x: 676
     y: 73
     width: 963
     height: 407
+=======
+    x: 539.2
+    y: 73.6
+    width: 766
+    height: 438
+>>>>>>> issue20_diffhighscore
+=======
+    x: 518.4
+    y: 73.6
+    width: 737
+    height: 437
+>>>>>>> issue21_music
   m_PersistentViewDataDictionary: {fileID: 0}
   m_WindowGUID: 7125ce019b18c01498367fe56accfa61
   m_SceneLighting: 1
@@ -585,9 +809,21 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 1042.2666, y: 483.94275, z: -10.5}
     speed: 2
     m_Value: {x: 1042.2666, y: 483.94275, z: -10.5}
+=======
+    m_Target: {x: 441.46808, y: 429.61783, z: -11.066937}
+    speed: 2
+    m_Value: {x: 441.46808, y: 429.61783, z: -11.066937}
+>>>>>>> issue20_diffhighscore
+=======
+    m_Target: {x: 957.4796, y: 700.7407, z: -12.668702}
+    speed: 2
+    m_Value: {x: 957.4796, y: 700.7407, z: -12.668702}
+>>>>>>> issue21_music
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -619,9 +855,21 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: 1302.7928
     speed: 2
     m_Value: 1302.7928
+=======
+    m_Target: 823.60126
+    speed: 2
+    m_Value: 823.60126
+>>>>>>> issue20_diffhighscore
+=======
+    m_Target: 1772.9833
+    speed: 2
+    m_Value: 1772.9833
+>>>>>>> issue21_music
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -654,25 +902,46 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 676
     y: 73
     width: 963
     height: 407
+=======
+    x: 518.4
+    y: 73.6
+    width: 737
+    height: 437
+>>>>>>> issue21_music
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
   m_Stats: 0
-  m_SelectedSizes: 07000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_SelectedSizes: 06000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_TargetDisplay: 0
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
     m_HBaseRangeMin: -960
     m_HBaseRangeMax: 960
     m_VBaseRangeMin: -540
     m_VBaseRangeMax: 540
+=======
+    m_HBaseRangeMin: -512
+    m_HBaseRangeMax: 512
+    m_VBaseRangeMin: -384
+    m_VBaseRangeMax: 384
+>>>>>>> issue20_diffhighscore
+=======
+    m_HBaseRangeMin: -768
+    m_HBaseRangeMax: 768
+    m_VBaseRangeMin: -432
+    m_VBaseRangeMax: 432
+>>>>>>> issue21_music
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -690,16 +959,32 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
+<<<<<<< HEAD
+<<<<<<< HEAD
       width: 963
       height: 390
     m_Scale: {x: 0.3611111, y: 0.3611111}
     m_Translation: {x: 481.5, y: 195}
+=======
+      width: 574
+      height: 293
+    m_Scale: {x: 0.3815104, y: 0.3815104}
+    m_Translation: {x: 287, y: 146.5}
+>>>>>>> issue20_diffhighscore
+=======
+      width: 737
+      height: 420
+    m_Scale: {x: 0.47981772, y: 0.47981772}
+    m_Translation: {x: 368.5, y: 210}
+>>>>>>> issue21_music
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
       x: -1333.3846
       y: -540
       width: 2666.7693
@@ -709,6 +994,28 @@ MonoBehaviour:
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
   m_LastWindowPixelSize: {x: 963, y: 407}
+=======
+      x: -752.2731
+      y: -384
+      width: 1504.5461
+      height: 768
+    m_MinimalGUI: 1
+  m_defaultScale: 0.3815104
+  m_TargetTexture: {fileID: 0}
+  m_CurrentColorSpace: 0
+  m_LastWindowPixelSize: {x: 574, y: 310}
+>>>>>>> issue20_diffhighscore
+=======
+      x: -768
+      y: -437.6662
+      width: 1536
+      height: 875.3324
+    m_MinimalGUI: 1
+  m_defaultScale: 0.47981772
+  m_TargetTexture: {fileID: 0}
+  m_CurrentColorSpace: 0
+  m_LastWindowPixelSize: {x: 921.25, y: 546.25}
+>>>>>>> issue21_music
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000
@@ -735,7 +1042,13 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 500
     width: 1641
     height: 500
+=======
+    y: 530.4
+    width: 1257
+    height: 254
+>>>>>>> issue21_music
   m_PersistentViewDataDictionary: {fileID: 0}

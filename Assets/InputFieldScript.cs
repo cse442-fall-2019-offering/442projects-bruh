@@ -8,9 +8,9 @@ public class InputFieldScript : MonoBehaviour{
 	
 	public string newText;
 	private List<string> answers = new List<string>();
-	public int i = 0;
 	
-	public void Update(){
+	
+	public void UpdateInputText(){
 		//set newtext
 		newText = inputField.text;
 		

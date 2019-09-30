@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class Stats : MonoBehaviour
 {
-    public void HomePress()
+    public void HomeScene()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(2);
     }
 }

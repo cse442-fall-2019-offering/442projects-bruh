@@ -4,15 +4,15 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class StartMenu : MonoBehaviour {
-    public void SettingsPress()
+    public void SettingsScene()
     {
         SceneManager.LoadScene(1);
     }
-    public void PlayPress()
+    public void PlayScene()
     {
         SceneManager.LoadScene(3);
     }
-    public void StatsPress()
+    public void StatsScene()
     {
         SceneManager.LoadScene(4);
     }

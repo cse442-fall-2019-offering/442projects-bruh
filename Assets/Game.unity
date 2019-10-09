@@ -946,11 +946,7 @@ GameObject:
   - component: {fileID: 443107070}
   - component: {fileID: 443107069}
   m_Layer: 5
-<<<<<<< HEAD
-  m_Name: Button
-=======
   m_Name: PullButton
->>>>>>> issue36_pause
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1113,10 +1109,7 @@ GameObject:
   m_Component:
   - component: {fileID: 523172826}
   - component: {fileID: 523172825}
-<<<<<<< HEAD
-=======
   - component: {fileID: 523172827}
->>>>>>> issue36_pause
   m_Layer: 0
   m_Name: RandomWord
   m_TagString: Untagged
@@ -1137,10 +1130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wordDisplay: {fileID: 1645435397}
-<<<<<<< HEAD
-=======
   pause: {fileID: 523172827}
->>>>>>> issue36_pause
 --- !u!4 &523172826
 Transform:
   m_ObjectHideFlags: 0
@@ -1155,8 +1145,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
-=======
 --- !u!114 &523172827
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1170,7 +1158,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPaused: 0
->>>>>>> issue36_pause
 --- !u!1 &523412753
 GameObject:
   m_ObjectHideFlags: 0
@@ -2319,11 +2306,7 @@ GameObject:
   - component: {fileID: 1645435400}
   - component: {fileID: 1645435399}
   m_Layer: 5
-<<<<<<< HEAD
-  m_Name: Text
-=======
   m_Name: WordText
->>>>>>> issue36_pause
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

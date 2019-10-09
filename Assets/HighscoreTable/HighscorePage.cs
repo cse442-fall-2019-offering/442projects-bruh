@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Stats : MonoBehaviour
+public class HighScorePage : MonoBehaviour
 {
     public void HomeScene()
     {

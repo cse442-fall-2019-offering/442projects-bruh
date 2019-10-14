@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":false,"showMaterialUpdate":false,"showSkybox":false,"showFlares":false,"showImageEffects":false,"showParticleSystems":false},"in2DMode":false,"pivot":{"x":1122.897216796875,"y":528.5247802734375,"z":-7.25},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":1971.18505859375,"orthographic":true}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":978.2427978515625,"y":498.34539794921877,"z":-5.668476581573486},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":1088.489013671875,"orthographic":true}
+>>>>>>> issue22_dropdownmenu

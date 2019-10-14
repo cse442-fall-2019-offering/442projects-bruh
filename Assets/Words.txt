@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 these
 are
 all
@@ -7,13 +6,3 @@ words
 in
 our
 database
-=======
-OH
-SHIT
-WHO
-THE
-FUCK
-ARE
-YOU
-BRUH
->>>>>>> issue18_wordpopup

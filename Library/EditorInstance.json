@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
 	"process_id" : 16028,
+=======
+	"process_id" : 15192,
+>>>>>>> issue18_wordpopup
 	"version" : "2018.4.8f1",
 	"app_path" : "C:/Program Files/Unity/Hub/Editor/2018.4.8f1/Editor/Unity.exe",
 	"app_contents_path" : "C:/Program Files/Unity/Hub/Editor/2018.4.8f1/Editor/Data"

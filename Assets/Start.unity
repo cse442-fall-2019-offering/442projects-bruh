@@ -1086,6 +1086,7 @@ MonoBehaviour:
     m_Options:
     - m_Text: SELECT DIFFICULTY
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_Image: {fileID: 0}
     - m_Text: EASY
       m_Image: {fileID: 0}
@@ -1098,6 +1099,13 @@ MonoBehaviour:
     - m_Text: MEDIUM
       m_Image: {fileID: 0}
 >>>>>>> issue22_dropdownmenu
+=======
+      m_Image: {fileID: 0}
+    - m_Text: EASY
+      m_Image: {fileID: 0}
+    - m_Text: MEDIUM
+      m_Image: {fileID: 0}
+>>>>>>> issues16_gauges
     - m_Text: HARD
       m_Image: {fileID: 0}
   m_OnValueChanged:
@@ -2025,6 +2033,7 @@ MonoBehaviour:
       m_Image: {fileID: 0}
     - m_Text: RED CAR
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_Image: {fileID: 0}
     - m_Text: BLUE CAR
       m_Image: {fileID: 0}
@@ -2039,6 +2048,15 @@ MonoBehaviour:
 >>>>>>> issue22_dropdownmenu
     - m_Text: BLACK CAR
       m_Image: {fileID: 0}
+=======
+      m_Image: {fileID: 0}
+    - m_Text: BLUE CAR
+      m_Image: {fileID: 0}
+    - m_Text: GREEN CAR
+      m_Image: {fileID: 0}
+    - m_Text: BLACK CAR
+      m_Image: {fileID: 0}
+>>>>>>> issues16_gauges
     - m_Text: WHITE CAR
       m_Image: {fileID: 0}
   m_OnValueChanged:

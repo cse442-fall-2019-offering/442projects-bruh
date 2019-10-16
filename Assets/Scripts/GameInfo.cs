@@ -6,6 +6,7 @@ public static class GameInfo
 {
     // Start is called before the first frame update
     public static int difficulty;
+    public static string promptWord;
 
     public static int Difficulty
     {
@@ -14,6 +15,11 @@ public static class GameInfo
             
     }
 
+    public static string PromptWord
+    {
+        get { return promptWord; }
+        set { promptWord = value; }
 
-    
+    }
+
 }

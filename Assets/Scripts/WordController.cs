@@ -13,9 +13,35 @@ public class WordController : MonoBehaviour
     public string displayWordMedURL = "https://www-student.cse.buffalo.edu/CSE442-542/2019-Fall/cse-442a/displaywordmed.php";
     public string displayWordHardURL = "https://www-student.cse.buffalo.edu/CSE442-542/2019-Fall/cse-442a/displaywordhard.php";
     public GameObject wordDisplay;
+    public InputField inputField;
+    public string newText;
     void Start()
     {
         
+    }
+    public void UpdateInputText()
+    {
+        //set newtext
+        newText = inputField.text;
+        if (Input.GetKeyDown("space"))
+        {
+            CheckWord();
+            inputField.text = "";
+
+        }
+
+    }
+    public void CheckWord()
+    {
+        if (newText.Length > 1)
+        {
+            newText = newText.Substring(0, newText.Length - 1);
+        }
+        if (newText == GameInfo.PromptWord)
+        {
+            Debug.Log(newText + " was right");
+            Change();
+        }
     }
     public void Change()
     {
@@ -46,7 +72,7 @@ public class WordController : MonoBehaviour
                 string webtext = www.downloadHandler.text;
                 string[] webTextArray = webtext.Split(new string[] { "\n", "\r\n" }, StringSplitOptions.None);
                 wordDisplay.GetComponent<Text>().text = webTextArray[1];
-
+                GameInfo.PromptWord = webTextArray[1];
 
 
             }
@@ -68,7 +94,7 @@ public class WordController : MonoBehaviour
                 string webtext = www.downloadHandler.text;
                 string[] webTextArray = webtext.Split(new string[] { "\n", "\r\n" }, StringSplitOptions.None);
                 wordDisplay.GetComponent<Text>().text = webTextArray[1];
-
+                GameInfo.PromptWord = webTextArray[1];
 
 
             }
@@ -90,7 +116,7 @@ public class WordController : MonoBehaviour
                 string webtext = www.downloadHandler.text;
                 string[] webTextArray = webtext.Split(new string[] { "\n", "\r\n" }, StringSplitOptions.None);
                 wordDisplay.GetComponent<Text>().text = webTextArray[1];
-
+                GameInfo.PromptWord = webTextArray[1];
 
 
             }

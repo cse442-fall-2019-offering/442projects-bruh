@@ -64,12 +64,23 @@
     <Compile Include="Assets\ChangeTheme.cs" />
     <Compile Include="Assets\Example.cs" />
     <Compile Include="Assets\Game.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\HighscoreTable\HighscorePage.cs" />
     <Compile Include="Assets\HighscoreTable\HighscoreTable.cs" />
     <Compile Include="Assets\InputFieldScript.cs" />
     <Compile Include="Assets\MainMenu.cs" />
+=======
+    <Compile Include="Assets\GameInfo.cs" />
+    <Compile Include="Assets\InputFieldScript.cs" />
+    <Compile Include="Assets\MainMenu.cs" />
+    <Compile Include="Assets\PauseScript.cs" />
+    <Compile Include="Assets\setVol_script.cs" />
+>>>>>>> dev
     <Compile Include="Assets\Speedometer\Speedo_Script.cs" />
     <Compile Include="Assets\StartMenu.cs" />
+    <Compile Include="Assets\Stats.cs" />
+    <Compile Include="Assets\WordController.cs" />
+    <None Include="Assets\Words.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />

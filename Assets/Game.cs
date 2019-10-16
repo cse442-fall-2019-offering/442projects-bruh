@@ -37,6 +37,11 @@ public class Game : MonoBehaviour {
             CheckWord();
             inputField.text = "";
         }
+        if (ScoreScript.scoreValue <= 130)
+        {
+            ScoreScript.scoreValue += 5;
+        }
+
 
     }
     public void CheckWord()

@@ -56,6 +56,9 @@ MonoBehaviour:
   m_MaxSize: {x: 14002, y: 14048}
   vertical: 0
   controlID: 12
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!114 &3
 MonoBehaviour:
@@ -75,12 +78,15 @@ MonoBehaviour:
     x: 974
     y: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     width: 549
     height: 719
   m_MinSize: {x: 277, y: 74}
   m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 15}
 =======
+=======
+>>>>>>> Stashed changes
     width: 389
     height: 947
   m_MinSize: {x: 275, y: 50}
@@ -237,7 +243,11 @@ MonoBehaviour:
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   controlID: 82
+=======
+  controlID: 13
+>>>>>>> Stashed changes
 =======
   controlID: 13
 >>>>>>> Stashed changes
@@ -266,7 +276,11 @@ MonoBehaviour:
   m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   controlID: 83
+=======
+  controlID: 14
+>>>>>>> Stashed changes
 =======
   controlID: 14
 >>>>>>> Stashed changes
@@ -398,9 +412,15 @@ MonoBehaviour:
   m_StartGridSize: 75
   m_LastFolders:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   - Assets
   m_LastFoldersGridSize: 75
   m_LastProjectPath: C:\Users\vwsho\Bruh 442
+=======
+  - Assets/Scenes
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: D:\Documents\CSE442\442projects-bruh
+>>>>>>> Stashed changes
 =======
   - Assets/Scenes
   m_LastFoldersGridSize: -1
@@ -411,9 +431,15 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_SelectedIDs: 94090000
     m_LastClickedID: 2452
     m_ExpandedIDs: 00000000940900008a0a000000ca9a3b
+=======
+    m_SelectedIDs: de260000
+    m_LastClickedID: 9950
+    m_ExpandedIDs: 00000000562600005c27000000ca9a3b
+>>>>>>> Stashed changes
 =======
     m_SelectedIDs: de260000
     m_LastClickedID: 9950
@@ -447,7 +473,11 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_ExpandedIDs: 0000000094090000
+=======
+    m_ExpandedIDs: 0000000056260000
+>>>>>>> Stashed changes
 =======
     m_ExpandedIDs: 0000000056260000
 >>>>>>> Stashed changes
@@ -479,7 +509,11 @@ MonoBehaviour:
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_ExpandedInstanceIDs: c6230000da39000000000000
+=======
+    m_ExpandedInstanceIDs: c6230000ca280000
+>>>>>>> Stashed changes
 =======
     m_ExpandedInstanceIDs: c6230000ca280000
 >>>>>>> Stashed changes
@@ -499,7 +533,11 @@ MonoBehaviour:
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       m_ClientGUIView: {fileID: 5}
+=======
+      m_ClientGUIView: {fileID: 11}
+>>>>>>> Stashed changes
 =======
       m_ClientGUIView: {fileID: 11}
 >>>>>>> Stashed changes
@@ -580,7 +618,11 @@ MonoBehaviour:
       m_SelectedIDs: 982e0000
       m_LastClickedID: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       m_ExpandedIDs: d6fbffff
+=======
+      m_ExpandedIDs: c2f5feffd418ffffd0b8ffff30b9ffff52b9ffff70b9ffff9cb9ffff5abdffff00c1ffff64c3ffff2ef9ffff76f9ffffc2fbffff1e2d0000462d00009c3400007a3500008e350000e241000062420000
+>>>>>>> Stashed changes
 =======
       m_ExpandedIDs: c2f5feffd418ffffd0b8ffff30b9ffff52b9ffff70b9ffff9cb9ffff5abdffff00c1ffff64c3ffff2ef9ffff76f9ffffc2fbffff1e2d0000462d00009c3400007a3500008e350000e241000062420000
 >>>>>>> Stashed changes

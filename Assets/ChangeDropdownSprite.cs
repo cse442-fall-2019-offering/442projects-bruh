@@ -23,6 +23,7 @@ public class ChangeDropdownSprite : MonoBehaviour
         {
             case 0:
                 myDropdown.image.sprite = sprite0;
+                GameInfo.difficulty = myDropdown.value;
                 break;
             case 1:
                 myDropdown.image.sprite = sprite1;

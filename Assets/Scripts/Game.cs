@@ -36,6 +36,7 @@ public class Game : MonoBehaviour {
         {
             CheckWord();
             inputField.text = "";
+
         }
 
     }

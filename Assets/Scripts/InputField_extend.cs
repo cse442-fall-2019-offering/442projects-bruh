@@ -11,7 +11,6 @@ public class InputField_extend : MonoBehaviour
     public InputField inputField;
     public void InputFieldSelect()
     {
-        
         inputField.Select();
         inputField.ActivateInputField();
     }

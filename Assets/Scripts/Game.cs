@@ -9,20 +9,24 @@ using UnityEngine.Networking;
 public class Game : MonoBehaviour {
     public string dispaywordURL = "https://www-student.cse.buffalo.edu/CSE442-542/2019-Fall/cse-442a/displayword.php";
     public bool isMute = false;
+<<<<<<< Updated upstream:Assets/Game.cs
     public InputField inputField;
     public string newText;
     public string newWord;
     public GameObject wordDisplay;
 
     public void HomeScene()
+=======
+    public void HomeScene() //loads home scene
+>>>>>>> Stashed changes:Assets/Scripts/Game.cs
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(2); 
     }
-    public void SettingsScene()
+    public void SettingsScene() //loads settings scene
     {
         SceneManager.LoadScene(1);
     }
-    public void Mute()
+    public void Mute() //Mutes audio on button press
     {
         isMute = !isMute;
         AudioListener.volume = isMute ? 0 : 1;

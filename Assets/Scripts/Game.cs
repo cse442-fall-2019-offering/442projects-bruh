@@ -9,16 +9,12 @@ using UnityEngine.Networking;
 public class Game : MonoBehaviour {
     public string dispaywordURL = "https://www-student.cse.buffalo.edu/CSE442-542/2019-Fall/cse-442a/displayword.php";
     public bool isMute = false;
-<<<<<<< Updated upstream:Assets/Game.cs
     public InputField inputField;
     public string newText;
     public string newWord;
     public GameObject wordDisplay;
 
     public void HomeScene()
-=======
-    public void HomeScene() //loads home scene
->>>>>>> Stashed changes:Assets/Scripts/Game.cs
     {
         SceneManager.LoadScene(2); 
     }

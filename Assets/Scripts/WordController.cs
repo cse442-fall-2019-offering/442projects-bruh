@@ -23,6 +23,16 @@ public class WordController : MonoBehaviour
     {
         //set newtext
         newText = inputField.text;
+        if (Input.GetKey(KeyCode.CapsLock)) //effectively disables caps lock and Enter
+        {
+            Debug.Log("Caps lock was pressed");
+            return;
+        }
+        if (Input.GetKey(KeyCode.Return))
+        {
+            Debug.Log("Enter was pressed");
+            return;
+        }
         if (Input.GetKeyDown("space"))
         {
             CheckWord();

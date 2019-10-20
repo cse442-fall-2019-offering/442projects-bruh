@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/HighscoreTable/HighscorePage.unity
+=======
+- path: Assets/Scenes/Game.unity
+>>>>>>> dev
   isLoaded: 1
   isActive: 1

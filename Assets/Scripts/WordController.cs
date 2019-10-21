@@ -15,9 +15,15 @@ public class WordController : MonoBehaviour
     public GameObject wordDisplay;
     public InputField inputField;
     public string newText;
+
+    public float startTime;
+    public int wordsCompleted;
+
     void Start()
     {
-        
+       wordsCompleted = 0; // inits wordsCompleted
+       
+       
     }
     public void UpdateInputText()
     {
@@ -41,6 +47,7 @@ public class WordController : MonoBehaviour
         {
             Debug.Log(newText + " was right");
             Change();
+            IncrWPM();
         }
     }
     public void Change()
@@ -48,6 +55,23 @@ public class WordController : MonoBehaviour
         StartCoroutine(GetScores());
     }
 
+
+   /**
+    * wpfarrel
+    * Increments and calculates Words per minute
+    * returns float of WPM
+    */
+
+    public float IncrWPM() 
+    {
+        float timeInSec = Time.fixedTime;
+        Debug.Log("Time passed: " + timeInSec);
+        wordsCompleted++;
+        Debug.Log("Words Completed: " + wordsCompleted);
+        float currWPM = wordsCompleted / (timeInSec / 60);
+        Debug.Log("WPM = " + currWPM);
+        return currWPM;
+    }
 
 
     // Get the scores from the MySQL DB to display in a GUIText.
@@ -124,3 +148,4 @@ public class WordController : MonoBehaviour
     }
 
 }
+

@@ -19,10 +19,15 @@ public class WordController : MonoBehaviour
     public float startTime;
     public int wordsCompleted;
 
+    GameObject wpm_textBox;
+    public Text text_var;
+
     void Start()
     {
        wordsCompleted = 0; // inits wordsCompleted
-       
+       wpm_textBox = GameObject.Find("wpm_var");
+       text_var = wpm_textBox.GetComponent<Text>();
+
        
     }
     public void UpdateInputText()
@@ -47,7 +52,7 @@ public class WordController : MonoBehaviour
         {
             Debug.Log(newText + " was right");
             Change();
-            IncrWPM();
+            updateSpeedo(IncrWPM());
         }
     }
     public void Change()
@@ -71,6 +76,11 @@ public class WordController : MonoBehaviour
         float currWPM = wordsCompleted / (timeInSec / 60);
         Debug.Log("WPM = " + currWPM);
         return currWPM;
+    }
+
+    public void updateSpeedo(float wpm)
+    {
+        text_var.text = wpm.ToString();
     }
 
 

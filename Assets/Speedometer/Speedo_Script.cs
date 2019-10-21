@@ -34,7 +34,7 @@ public class Speedo_Script : MonoBehaviour
         speed += 30f * Time.deltaTime;
         if (speed > speedMax) speed = speedMax;
         
-        text_var.text = speed.ToString();
+//        text_var.text = speed.ToString();
         needleTransform.eulerAngles = new Vector3(0, 0, GetSpeedRotation()); 
     }
 

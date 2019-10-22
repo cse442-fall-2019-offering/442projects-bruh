@@ -13,27 +13,42 @@ public class WordController : MonoBehaviour
     public string displayWordMedURL = "https://www-student.cse.buffalo.edu/CSE442-542/2019-Fall/cse-442a/displaywordmed.php";
     public string displayWordHardURL = "https://www-student.cse.buffalo.edu/CSE442-542/2019-Fall/cse-442a/displaywordhard.php";
     public GameObject wordDisplay;
-    public GameObject playerCar;
+    public Sprite redCar;
+    public Sprite blueCar;
+    public Sprite greenCar;
+    public Sprite blackCar;
+    public Sprite whiteCar;
     public InputField inputField;
     public string newText;
-    
+    public GameObject GameWonPanel;
+    public GameObject backgroundPanel;
+    public GameObject playerCar;
+
     void Start()
     {
         inputField.enabled= false;
-   
-    }
-    /// Update is called every frame
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.CapsLock))
+        
+        switch (GameInfo.Theme)
         {
-            Debug.Log("Caps lock was pressed");
-        }
-        if (Input.GetKeyDown(KeyCode.Return))
-        {
-            Debug.Log("Enter was pressed");
+            case 1:
+                playerCar.GetComponent <Image>().sprite = redCar;
+                break;
+            case 2:
+                playerCar.GetComponent<Image>().sprite = blueCar;
+                break;
+            case 3:
+                playerCar.GetComponent<Image>().sprite = greenCar;
+                break;
+            case 4:
+                playerCar.GetComponent<Image>().sprite = blackCar;
+                break;
+            case 5:
+                playerCar.GetComponent<Image>().sprite = whiteCar;
+                break;
+
         }
     }
+    
     public void UpdateInputText()
     {
         //set newtext
@@ -49,15 +64,14 @@ public class WordController : MonoBehaviour
     }
     public void CheckWord()
     {
-        newText = newText.ToLower();
         if (newText.Length > 1)
         {
             newText = newText.Substring(0, newText.Length - 1);
         }
         if (newText == GameInfo.PromptWord)
         {
-            Debug.Log(newText + " was right");
-            //Correct();
+            //Debug.Log(newText + " was right");
+            Correct();
             Change();
         }
     }
@@ -68,11 +82,12 @@ public class WordController : MonoBehaviour
 
         }
         else {
-            newText = newText.ToLower();
-            if(newText == GameInfo.PromptWord) { 
-        
-                Debug.Log(newText + " was right");
+            if(newText == GameInfo.PromptWord) {
+
+                //Debug.Log(newText + " was right");
+                Correct();
                 Change();
+                
             }
             inputField.text = "";
             inputField.Select();
@@ -86,8 +101,14 @@ public class WordController : MonoBehaviour
 
     public void Correct()
     {
-        playerCar.transform.Translate(50,0,0);
-        Debug.Log(playerCar.transform.position);
+        playerCar.transform.Translate(70,0,0);
+        Debug.Log(playerCar.transform.position.x);
+        if (playerCar.transform.position.x >= 1860)
+        {
+            GameInfo.count = false;
+            GameWonPanel.SetActive(true);
+            backgroundPanel.SetActive(false);
+        }
     }
 
     // Get the scores from the MySQL DB to display in a GUIText.

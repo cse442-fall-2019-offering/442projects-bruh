@@ -380,8 +380,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: SINCE YOU CANT READ WE SET YOUR GAME TO EASY BECAUSE YOU NEED HELP. CLICK
-    HERE
+  m_Text: SINCE YOU CANT READ WE SET YOUR GAME TO EASY AND CAR TO RED BECAUSE YOU
+    NEED HELP. CLICK HERE
 --- !u!222 &143939580
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2245,7 +2245,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: WHY DIDN'T YOU SELECT A DIFFICULTY YOU DUMBASS!
+  m_Text: WHY DIDN'T YOU SELECT A DIFFICULTY AND THEME YOU DUMBASS!
 --- !u!222 &1058279929
 CanvasRenderer:
   m_ObjectHideFlags: 0

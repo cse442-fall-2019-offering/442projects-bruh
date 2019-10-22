@@ -24,12 +24,13 @@ public class StartMenu : MonoBehaviour
     }
     public void PlayScene()
     {
-        if (GameInfo.difficulty == 0)
+        if (GameInfo.difficulty == 0 || GameInfo.Theme == 0)
         {
             playerNamePanel.SetActive(false);
             startGamePanel.SetActive(false);
             difficultyError.SetActive(true);
             GameInfo.difficulty = 100;
+            GameInfo.Theme = 100;
         }
         else
         {

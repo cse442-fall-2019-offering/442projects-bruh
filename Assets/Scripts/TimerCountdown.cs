@@ -8,15 +8,19 @@ public class TimerCountdown : MonoBehaviour
     public int timeLeft = 5; //Seconds Overall
     public int gameTimeLeft = 60;
     public Text countdown; //UI Text Object
-    public Text gameCountdown;
+    //public Text gameCountdown;
     public GameObject timePanel;
     public GameObject backgroundPanel;
     public GameObject gameOverPanel;
+    public GameObject gameWonPanel;
+    public GameObject enemyCar;
     public void  TimeStart()
     {
+        GameInfo.count = true;
         timePanel.SetActive(true);
         backgroundPanel.SetActive(false);
         gameOverPanel.SetActive(false);
+        gameWonPanel.SetActive(false);
         StartCoroutine("LoseTime");
         Time.timeScale = 1; //Just making sure that the timeScale is right
     }
@@ -31,14 +35,13 @@ public class TimerCountdown : MonoBehaviour
             countdown.text = "";
             if (gameTimeLeft != 0)
             {
-                gameCountdown.text = ("Time Left:" + gameTimeLeft); //Showing the Score on the Canvas
+                //gameCountdown.text = ("Time Left:" + gameTimeLeft); //Showing the Score on the Canvas
             }
             else
             {
-                gameCountdown.text = "Time Left:0";
+                //gameCountdown.text = "Time Left:0";
             }
         }
-        
 
     }
     //Simple Coroutine
@@ -48,7 +51,7 @@ public class TimerCountdown : MonoBehaviour
         {
             yield return new WaitForSeconds(1);
             timeLeft--;
-            if(timeLeft == 0)
+            if (timeLeft == 0)
             {
                 StopCoroutine("LoseTime");
                 timePanel.SetActive(false);
@@ -61,10 +64,11 @@ public class TimerCountdown : MonoBehaviour
     }
     IEnumerator DecTime()
     {
-        while (true)
+        while (GameInfo.count)
         {
             yield return new WaitForSeconds(1);
             gameTimeLeft--;
+            enemyCar.transform.Translate(30.5F, 0, 0);
             if (gameTimeLeft == 0)
             {
                 StopCoroutine("DecTime");

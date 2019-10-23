@@ -13,23 +13,24 @@ public class WordController : MonoBehaviour
     public string displayWordMedURL = "https://www-student.cse.buffalo.edu/CSE442-542/2019-Fall/cse-442a/displaywordmed.php";
     public string displayWordHardURL = "https://www-student.cse.buffalo.edu/CSE442-542/2019-Fall/cse-442a/displaywordhard.php";
     public GameObject wordDisplay;
+    public Sprite redCar;
+    public Sprite blueCar;
+    public Sprite greenCar;
+    public Sprite blackCar;
+    public Sprite whiteCar;
     public InputField inputField;
     public string newText;
-
     public float startTime;
     public int wordsCompleted;
-
     GameObject wpmTextBox;
     public Text textVar;
-
     void Start()
     {
        wordsCompleted = 0; // inits wordsCompleted
         wpmTextBox = GameObject.Find("wpm_var");
         textVar = wpmTextBox.GetComponent<Text>();
-
-       
     }
+    
     public void UpdateInputText()
     {
         //set newtext
@@ -40,6 +41,7 @@ public class WordController : MonoBehaviour
             inputField.text = "";
 
         }
+        
 
     }
     public void CheckWord()
@@ -50,9 +52,30 @@ public class WordController : MonoBehaviour
         }
         if (newText == GameInfo.PromptWord)
         {
-            Debug.Log(newText + " was right");
+            //Debug.Log(newText + " was right");
+            Correct();
             Change();
             updateSpeedo(IncrWPM());
+        }
+    }
+    public void CheckWordOnEnter()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+
+        }
+        else {
+            if(newText == GameInfo.PromptWord) {
+
+                //Debug.Log(newText + " was right");
+                Correct();
+                Change();
+                updateSpeedo(IncrWPM()); 
+                
+            }
+            inputField.text = "";
+            inputField.Select();
+            inputField.ActivateInputField();
         }
     }
     public void Change()
@@ -60,6 +83,17 @@ public class WordController : MonoBehaviour
         StartCoroutine(GetScores());
     }
 
+    public void Correct()
+    {
+        playerCar.transform.Translate(70,0,0);
+        Debug.Log(playerCar.transform.position.x);
+        if (playerCar.transform.position.x >= 1860)
+        {
+            GameInfo.count = false;
+            GameWonPanel.SetActive(true);
+            backgroundPanel.SetActive(false);
+        }
+    }
 
    /**
     * wpfarrel

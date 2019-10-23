@@ -21,24 +21,35 @@ public class ChangeTheme : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (GameInfo.Theme == 100)
+        {
+            myDropdown.value = 1;
+            GameInfo.Theme = 1;
+        }
         switch (myDropdown.value)
         {
             case 0:
+                GameInfo.Theme = myDropdown.value;
                 myDropdown.image.sprite = sprite0;
                 break;
             case 1:
+                GameInfo.Theme = myDropdown.value;
                 myDropdown.image.sprite = sprite1;
                 break;
             case 2:
+                GameInfo.Theme = myDropdown.value;
                 myDropdown.image.sprite = sprite2;
                 break;
             case 3:
+                GameInfo.Theme = myDropdown.value;
                 myDropdown.image.sprite = sprite3;
                 break;
             case 4:
+                GameInfo.Theme = myDropdown.value;
                 myDropdown.image.sprite = sprite4;
                 break;
             case 5:
+                GameInfo.Theme = myDropdown.value;
                 myDropdown.image.sprite = sprite5;
                 break;
 

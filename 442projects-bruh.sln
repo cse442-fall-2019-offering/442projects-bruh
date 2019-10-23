@@ -1,26 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{0AD73951-0E8C-2A05-D2A0-94E3D0001B9A}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0AD73951-0E8C-2A05-D2A0-94E3D0001B9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0AD73951-0E8C-2A05-D2A0-94E3D0001B9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0AD73951-0E8C-2A05-D2A0-94E3D0001B9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0AD73951-0E8C-2A05-D2A0-94E3D0001B9A}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-EndGlobal
-=======
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
@@ -44,38 +21,3 @@ Global
 		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
->>>>>>> issue31_carmodels
-=======
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{0AD73951-0E8C-2A05-D2A0-94E3D0001B9A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{78AAF983-A86F-27C9-13A5-C735C5C95741}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor-firstpass", "Assembly-CSharp-Editor-firstpass.csproj", "{ED05B527-61A2-0372-25C6-39F0AB20F4D9}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0AD73951-0E8C-2A05-D2A0-94E3D0001B9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0AD73951-0E8C-2A05-D2A0-94E3D0001B9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0AD73951-0E8C-2A05-D2A0-94E3D0001B9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0AD73951-0E8C-2A05-D2A0-94E3D0001B9A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{78AAF983-A86F-27C9-13A5-C735C5C95741}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{78AAF983-A86F-27C9-13A5-C735C5C95741}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{78AAF983-A86F-27C9-13A5-C735C5C95741}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{78AAF983-A86F-27C9-13A5-C735C5C95741}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ED05B527-61A2-0372-25C6-39F0AB20F4D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ED05B527-61A2-0372-25C6-39F0AB20F4D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ED05B527-61A2-0372-25C6-39F0AB20F4D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ED05B527-61A2-0372-25C6-39F0AB20F4D9}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-EndGlobal
->>>>>>> issue47_wpm

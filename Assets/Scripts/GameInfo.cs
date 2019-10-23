@@ -11,6 +11,9 @@ public static class GameInfo
     // Start is called before the first frame update
     public static int difficulty;
     public static string promptWord;
+    public static string playerName;
+    public static int theme;
+    public static bool count;
 
     // Difficulty of the game stored here
     public static int Difficulty
@@ -19,11 +22,6 @@ public static class GameInfo
         set { difficulty = value; }
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> issue47_wpm
     // Theme of the game stored here
     public static int Theme
     {
@@ -39,20 +37,11 @@ public static class GameInfo
     }
 
     // Prompted word of the game stored here
-<<<<<<< HEAD
->>>>>>> issue31_carmodels
-=======
->>>>>>> issue47_wpm
     public static string PromptWord
     {
         get { return promptWord; }
         set { promptWord = value; }
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> issue47_wpm
 
     // Entered player name stored here
     public static string PlayerName
@@ -60,6 +49,5 @@ public static class GameInfo
         get { return playerName; }
         set { playerName = value; }
     }
->>>>>>> issue31_carmodels
 
 }

@@ -1,14 +1,10 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
-<<<<<<< HEAD
-public class StartMenu : MonoBehaviour {
-=======
-/// <summary>
-/// Start menu page controls and functionality
-/// </summary>
+using UnityEngine.UI;
 
 /// <summary>
 /// Start menu page controls and functionality
@@ -29,10 +25,6 @@ public class StartMenu : MonoBehaviour
     }
 
     // Load settings screen
-<<<<<<< HEAD
->>>>>>> issue31_carmodels
-=======
->>>>>>> issue47_wpm
     public void SettingsScene()
     {
         SceneManager.LoadScene(1);
@@ -41,12 +33,6 @@ public class StartMenu : MonoBehaviour
     // Play game button pressed
     public void PlayScene()
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        SceneManager.LoadScene(3);
-=======
-=======
->>>>>>> issue47_wpm
         // Check if a difficulty and theme were selected
         if (GameInfo.difficulty == 0 || GameInfo.Theme == 0)
         {
@@ -72,7 +58,6 @@ public class StartMenu : MonoBehaviour
         playerNamePanel.SetActive(false);
         startGamePanel.SetActive(true);
         difficultyError.SetActive(false);
->>>>>>> issue31_carmodels
     }
 
     // Go to highscore page
@@ -88,11 +73,6 @@ public class StartMenu : MonoBehaviour
         Debug.Log("QUIT");
         Application.Quit();
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> issue47_wpm
 
     // Handles different input methods
     public void InputHandle()
@@ -110,5 +90,5 @@ public class StartMenu : MonoBehaviour
         }
     }
     
->>>>>>> issue31_carmodels
 }
+

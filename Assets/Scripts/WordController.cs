@@ -13,18 +13,17 @@ public class WordController : MonoBehaviour
     public string displayWordMedURL = "https://www-student.cse.buffalo.edu/CSE442-542/2019-Fall/cse-442a/displaywordmed.php";
     public string displayWordHardURL = "https://www-student.cse.buffalo.edu/CSE442-542/2019-Fall/cse-442a/displaywordhard.php";
     public GameObject wordDisplay;
+    public Sprite redCar;
+    public Sprite blueCar;
+    public Sprite greenCar;
+    public Sprite blackCar;
+    public Sprite whiteCar;
     public InputField inputField;
     public string newText;
-<<<<<<< HEAD
-=======
     public GameObject GameWonPanel;
     public GameObject backgroundPanel;
     public GameObject playerCar;
 
-<<<<<<< HEAD
-    // Called on start of game canvas
->>>>>>> issue31_carmodels
-=======
     public float startTime;
     public int wordsCompleted;
     GameObject wpmTextBox;
@@ -32,15 +31,10 @@ public class WordController : MonoBehaviour
 
 
     // Called on start of game canvas
->>>>>>> issue47_wpm
     void Start()
     {
+        inputField.enabled= false;
         
-<<<<<<< HEAD
-    }
-<<<<<<< HEAD
-=======
-=======
         switch (GameInfo.Theme)
         {
             case 1:
@@ -63,7 +57,6 @@ public class WordController : MonoBehaviour
         wpmTextBox = GameObject.Find("wpm_var");
         textVar = wpmTextBox.GetComponent<Text>();
     }
->>>>>>> issue47_wpm
 
     /// Update is called every frame, if the MonoBehaviour is enabled.
     void Update()
@@ -75,10 +68,6 @@ public class WordController : MonoBehaviour
     }
     
     // Changing the display of the input field and starting check word process if space is pressed
-<<<<<<< HEAD
->>>>>>> issue31_carmodels
-=======
->>>>>>> issue47_wpm
     public void UpdateInputText()
     {
         //set newtext
@@ -90,13 +79,6 @@ public class WordController : MonoBehaviour
             inputField.text = "";
 
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
->>>>>>> issue31_carmodels
-=======
->>>>>>> issue47_wpm
     }
 
     // Checks if inputed word matches prompted word and if so, initiates correct and change of prompted word
@@ -109,15 +91,6 @@ public class WordController : MonoBehaviour
         }
         if (newText == GameInfo.PromptWord)
         {
-<<<<<<< HEAD
-<<<<<<< HEAD
-            Debug.Log(newText + " was right");
-            Change();
-        }
-    }
-=======
-=======
->>>>>>> issue47_wpm
             Correct();
             Change();
             updateSpeedo(IncrWPM());
@@ -145,21 +118,11 @@ public class WordController : MonoBehaviour
     }
 
     // Start change word process
-<<<<<<< HEAD
->>>>>>> issue31_carmodels
-=======
->>>>>>> issue47_wpm
     public void Change()
     {
         StartCoroutine(GetScores());
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-=======
->>>>>>> issue47_wpm
     // Player has typed a word correctly and the car is pushed forward
     public void Correct()
     {
@@ -173,7 +136,6 @@ public class WordController : MonoBehaviour
             backgroundPanel.SetActive(false);
         }
     }
->>>>>>> issue31_carmodels
 
     /**
     * wpfarrel

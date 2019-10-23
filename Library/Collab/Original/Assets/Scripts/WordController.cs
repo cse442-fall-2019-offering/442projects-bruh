@@ -13,15 +13,75 @@ public class WordController : MonoBehaviour
     public string displayWordMedURL = "https://www-student.cse.buffalo.edu/CSE442-542/2019-Fall/cse-442a/displaywordmed.php";
     public string displayWordHardURL = "https://www-student.cse.buffalo.edu/CSE442-542/2019-Fall/cse-442a/displaywordhard.php";
     public GameObject wordDisplay;
+    public InputField inputField;
+    public string newText;
+
+    public float startTime;
+    public int wordsCompleted;
+
+    GameObject wpmTextBox;
+    public Text textVar;
+
     void Start()
     {
-        
+       wordsCompleted = 0; // inits wordsCompleted
+        wpmTextBox = GameObject.Find("wpm_var");
+        textVar = wpmTextBox.GetComponent<Text>();
+
+       
+    }
+    public void UpdateInputText()
+    {
+        //set newtext
+        newText = inputField.text;
+        if (Input.GetKeyDown("space"))
+        {
+            CheckWord();
+            inputField.text = "";
+
+        }
+
+    }
+    public void CheckWord()
+    {
+        if (newText.Length > 1)
+        {
+            newText = newText.Substring(0, newText.Length - 1);
+        }
+        if (newText == GameInfo.PromptWord)
+        {
+            Debug.Log(newText + " was right");
+            Change();
+            updateSpeedo(IncrWPM());
+        }
     }
     public void Change()
     {
         StartCoroutine(GetScores());
     }
 
+
+   /**
+    * wpfarrel
+    * Increments and calculates Words per minute
+    * returns float of WPM
+    */
+
+    public float IncrWPM() 
+    {
+        float timeInSec = Time.fixedTime; //starts Time Delta
+        Debug.Log("Time passed: " + timeInSec);
+        wordsCompleted++; // Increase word count for calculating average
+        Debug.Log("Words Completed: " + wordsCompleted);
+        float currWPM = wordsCompleted / (timeInSec / 60); //Calc WPM
+        Debug.Log("WPM = " + currWPM);
+        return currWPM;
+    }
+
+    public void updateSpeedo(float wpm)
+    {
+        textVar.text = wpm.ToString();  //Updates speedo text with current wpm
+    }
 
 
     // Get the scores from the MySQL DB to display in a GUIText.
@@ -98,3 +158,4 @@ public class WordController : MonoBehaviour
     }
 
 }
+

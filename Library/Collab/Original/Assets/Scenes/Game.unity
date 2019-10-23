@@ -203,6 +203,7 @@ GameObject:
   - component: {fileID: 89728126}
   - component: {fileID: 89728125}
   - component: {fileID: 89728124}
+  - component: {fileID: 89728127}
   m_Layer: 5
   m_Name: SoundButton
   m_TagString: Untagged
@@ -269,7 +270,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1068478137}
+      - m_Target: {fileID: 1808348592}
         m_MethodName: Mute
         m_Mode: 1
         m_Arguments:
@@ -319,6 +320,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 89728122}
   m_CullTransparentMesh: 0
+--- !u!114 &89728127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 89728122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7d01bc933f27143a65ab22c43e8d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 562951628}
+  ClickSound: {fileID: 8300000, guid: 57a9b346eb398418facd8362d3fc61e1, type: 3}
 --- !u!1 &169619024
 GameObject:
   m_ObjectHideFlags: 0
@@ -405,6 +420,7 @@ GameObject:
   - component: {fileID: 185531369}
   - component: {fileID: 185531368}
   - component: {fileID: 185531367}
+  - component: {fileID: 185531370}
   m_Layer: 5
   m_Name: H_button
   m_TagString: Untagged
@@ -471,7 +487,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1068478137}
+      - m_Target: {fileID: 1808348592}
         m_MethodName: HomeScene
         m_Mode: 1
         m_Arguments:
@@ -521,6 +537,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 185531365}
   m_CullTransparentMesh: 0
+--- !u!114 &185531370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185531365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7d01bc933f27143a65ab22c43e8d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 562951628}
+  ClickSound: {fileID: 8300000, guid: 57a9b346eb398418facd8362d3fc61e1, type: 3}
 --- !u!1 &191811087
 GameObject:
   m_ObjectHideFlags: 0
@@ -959,7 +989,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 443107067}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -969,7 +999,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -9.583862, y: 226}
+  m_AnchoredPosition: {x: -9.583923, y: 226}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &443107069
@@ -1012,8 +1042,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1068478136}
-        m_MethodName: UpdateInputText
+      - m_Target: {fileID: 1808348593}
+        m_MethodName: Change
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1023,7 +1053,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1068478140}
+      - m_Target: {fileID: 1808348595}
         m_MethodName: InputFieldSelect
         m_Mode: 1
         m_Arguments:
@@ -1774,174 +1804,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &1068478132
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1068478139}
-  - component: {fileID: 1068478138}
-  - component: {fileID: 1068478137}
-  - component: {fileID: 1068478136}
-  - component: {fileID: 1068478135}
-  - component: {fileID: 1068478134}
-  - component: {fileID: 1068478133}
-  - component: {fileID: 1068478140}
-  m_Layer: 0
-  m_Name: scriptManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1068478133
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1068478132}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 051789c8932077a4b8acc80d3fa6a60b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inputField: {fileID: 2073519014}
-  newText: 
-  newWord: 
---- !u!114 &1068478134
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1068478132}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6536a118d4b8d1441a63655ceed7974b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1068478135
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1068478132}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c0795c2076cf4827b0c5ff4eed690cf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mixer: {fileID: 0}
---- !u!114 &1068478136
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1068478132}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 289cae7e159f91c42b722361a25de924, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  addScoreURL: http://localhost/unity_test/addscore.php?
-  displayWordEasyURL: https://www-student.cse.buffalo.edu/CSE442-542/2019-Fall/cse-442a/displaywordeasy.php
-  displayWordMedURL: https://www-student.cse.buffalo.edu/CSE442-542/2019-Fall/cse-442a/displaywordmed.php
-  displayWordHardURL: https://www-student.cse.buffalo.edu/CSE442-542/2019-Fall/cse-442a/displaywordhard.php
-  wordDisplay: {fileID: 1645435397}
-  inputField: {fileID: 2073519014}
-  newText: 
---- !u!114 &1068478137
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1068478132}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 534cbff8d1ef01f4b8e3cee6a40468c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isMute: 0
-  inputField: {fileID: 2073519014}
-  newText: 
-  newWord: 
-  wordDisplay: {fileID: 1645435397}
---- !u!114 &1068478138
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1068478132}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!4 &1068478139
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1068478132}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1068478140
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1068478132}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63167f357812de94b81fcedd0a8decdc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inputField: {fileID: 2073519014}
 --- !u!1 &1178489020
 GameObject:
   m_ObjectHideFlags: 0
@@ -2425,7 +2287,6 @@ GameObject:
   - component: {fileID: 1645435398}
   - component: {fileID: 1645435400}
   - component: {fileID: 1645435399}
-  - component: {fileID: 1645435401}
   m_Layer: 5
   m_Name: WordText
   m_TagString: Untagged
@@ -2494,25 +2355,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1645435397}
   m_CullTransparentMesh: 0
---- !u!114 &1645435401
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1645435397}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 289cae7e159f91c42b722361a25de924, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  addScoreURL: http://localhost/unity_test/addscore.php?
-  displayWordEasyURL: https://www-student.cse.buffalo.edu/CSE442-542/2019-Fall/cse-442a/displaywordeasy.php
-  displayWordMedURL: https://www-student.cse.buffalo.edu/CSE442-542/2019-Fall/cse-442a/displaywordmed.php
-  displayWordHardURL: https://www-student.cse.buffalo.edu/CSE442-542/2019-Fall/cse-442a/displaywordhard.php
-  wordDisplay: {fileID: 1645435397}
-  inputField: {fileID: 2073519014}
-  newText: 
 --- !u!1 &1652333783
 GameObject:
   m_ObjectHideFlags: 0
@@ -2720,6 +2562,9 @@ GameObject:
   - component: {fileID: 1808348590}
   - component: {fileID: 1808348589}
   - component: {fileID: 1808348588}
+  - component: {fileID: 1808348592}
+  - component: {fileID: 1808348594}
+  - component: {fileID: 1808348593}
   - component: {fileID: 1808348595}
   m_Layer: 5
   m_Name: Canvas
@@ -2812,6 +2657,54 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1808348592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1808348587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 534cbff8d1ef01f4b8e3cee6a40468c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isMute: 0
+  inputField: {fileID: 2073519014}
+  newText: 
+  newWord: 
+  wordDisplay: {fileID: 1645435397}
+--- !u!114 &1808348593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1808348587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 289cae7e159f91c42b722361a25de924, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  addScoreURL: http://localhost/unity_test/addscore.php?
+  displayWordEasyURL: https://www-student.cse.buffalo.edu/CSE442-542/2019-Fall/cse-442a/displaywordeasy.php
+  displayWordMedURL: https://www-student.cse.buffalo.edu/CSE442-542/2019-Fall/cse-442a/displaywordmed.php
+  displayWordHardURL: https://www-student.cse.buffalo.edu/CSE442-542/2019-Fall/cse-442a/displaywordhard.php
+  wordDisplay: {fileID: 1645435397}
+  inputField: {fileID: 2073519014}
+  newText: 
+--- !u!114 &1808348594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1808348587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6536a118d4b8d1441a63655ceed7974b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1808348595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2949,8 +2842,9 @@ GameObject:
   - component: {fileID: 1999561208}
   - component: {fileID: 1999561207}
   - component: {fileID: 1999561210}
+  - component: {fileID: 1999561211}
   m_Layer: 5
-  m_Name: P_Button
+  m_Name: S_Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3015,7 +2909,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1068478134}
+      - m_Target: {fileID: 0}
         m_MethodName: pauseGame
         m_Mode: 1
         m_Arguments:
@@ -3077,6 +2971,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6536a118d4b8d1441a63655ceed7974b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1999561211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999561205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7d01bc933f27143a65ab22c43e8d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 562951628}
+  ClickSound: {fileID: 8300000, guid: 57a9b346eb398418facd8362d3fc61e1, type: 3}
 --- !u!1 &2073519012
 GameObject:
   m_ObjectHideFlags: 0
@@ -3089,7 +2997,6 @@ GameObject:
   - component: {fileID: 2073519016}
   - component: {fileID: 2073519015}
   - component: {fileID: 2073519014}
-  - component: {fileID: 2073519017}
   m_Layer: 5
   m_Name: InputField
   m_TagString: Untagged
@@ -3173,7 +3080,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1068478136}
+      - m_Target: {fileID: 1808348593}
         m_MethodName: UpdateInputText
         m_Mode: 1
         m_Arguments:
@@ -3230,19 +3137,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2073519012}
   m_CullTransparentMesh: 0
---- !u!114 &2073519017
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2073519012}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63167f357812de94b81fcedd0a8decdc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inputField: {fileID: 2073519014}
 --- !u!1 &2095686771
 GameObject:
   m_ObjectHideFlags: 0

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2019-10-21T15:12:03.981-04:00
-  initializedAtString: 2019-10-21T15:12:03.981-04:00
+  lastUpdatedAtString: 2019-10-23T15:11:37.837-04:00
+  initializedAtString: 2019-10-23T15:11:37.837-04:00
   currentGitRemote:
     name: origin
     url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
@@ -25,13 +25,13 @@ MonoBehaviour:
     token: 
   currentGitBranch:
     name: issue47_wpm
-    tracking: 
+    tracking: origin/issue47_wpm
   currentConfigBranch:
     name: issue47_wpm
     remote:
-      name: 
-      url: 
-    trackingBranch: 
+      name: origin
+      url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+    trackingBranch: issue47_wpm
   currentConfigRemote:
     name: origin
     url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git

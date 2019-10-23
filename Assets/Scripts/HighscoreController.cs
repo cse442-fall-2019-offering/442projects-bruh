@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.Networking;
+using UnityEngine.UI;
 
 public class HighscoreController : MonoBehaviour
 {
@@ -11,7 +12,15 @@ public class HighscoreController : MonoBehaviour
     private string secretKey = "mySecretKey"; // Edit this value and make sure it's the same as the one stored on the server
     public string displayHighscoreURL = "https://www-student.cse.buffalo.edu/CSE442-542/2019-Fall/cse-442a/displayhighscore.php";
     public string postHighscoreURL = "https://www-student.cse.buffalo.edu/CSE442-542/2019-Fall/cse-442a/posthighscore.php";
-    public IDictionary<string, string> scoreDict = new Dictionary<string, string>();
+    //public IDictionary<string, string> scoreDict = new Dictionary<string, string>();
+    public List<KeyValuePair<string, string>> scoreList = new List<KeyValuePair<string, string>>();
+    public Text[] names; // Array of Names
+    public Text[] values; // Array of Values
+
+    public string[] highScoreNames; // Position of Names
+    public int[] highScoreValues; // Position of Values
+    public List<KeyValuePair<string, string>> savedHighscores;
+    // Start is called before the first frame update
     void Start()
     {
 
@@ -49,11 +58,15 @@ public class HighscoreController : MonoBehaviour
             int y = 1;
             for (int i = 0; i < textArray.Count / 2; i++)
             {
-                scoreDict.Add(textArray[x], textArray[y]);
+                scoreList.Add(new KeyValuePair<string, string>(textArray[x], textArray[y]));
+                
                 x += 2;
                 y += 2;
             }
-            Debug.Log(scoreDict.Count);
+            Debug.Log(scoreList.Count);
+            GameInfo.Highscores = scoreList;
+            StartHigh();
+
             x = 1;
             y = 2;
 
@@ -92,6 +105,62 @@ public class HighscoreController : MonoBehaviour
         
         
     }
+    public void StartHigh() { 
+        savedHighscores = GameInfo.Highscores;
+       
+        // Handling Names and Values
+        highScoreNames = new string[names.Length];
+        highScoreValues = new int[values.Length];
+        for (int i = 0; i<savedHighscores.Count; i++)
+        {
+            var item = savedHighscores.ElementAt(i);
+            highScoreNames[i] = item.Key;
+            highScoreValues[i] = Int32.Parse(item.Value);
+        }
+       
+        DrawScores();
+    }
+
+    // Saves Leaderboard
+    public void SaveScores()
+{
+    for (int x = 0; x < values.Length; x++)
+    {
+        PlayerPrefs.SetString("highScoreNames" + x, highScoreNames[x]); // Setting names from appropriate list
+        PlayerPrefs.SetInt("highScoreValues" + x, highScoreValues[x]); // Setting values from appropriate list
+    }
+}
+
+// Check to See if a "new" Score is, in fact, a High Score
+public void CheckForHighScore(int _value, string _userName)
+{
+    for (int x = 0; x < values.Length; x++)
+    {
+        if (_value > highScoreValues[x]) // If a "new" High Score is greater than a current High Score
+        {
+            for (int y = values.Length - 1; y > x; y--)
+            {
+                highScoreValues[y] = highScoreValues[y - 1]; // Moves the scores from the position of the "new" High Score down
+                highScoreNames[y] = highScoreNames[y - 1]; // Moves the names from the position of the "new" High Score down
+            }
+            highScoreValues[x] = _value;
+            highScoreNames[x] = _userName;
+            DrawScores();
+            SaveScores();
+            break;
+        }
+    }
+}
+
+// Draw Names and Scores to Display
+public void DrawScores()
+{
+    for (int x = 0; x < values.Length; x++)
+    {
+        names[x].text = highScoreNames[x].ToString(); // Places names onto the screen
+        values[x].text = highScoreValues[x].ToString(); // Places values onto the screen
+    }
+}
 }
     
     

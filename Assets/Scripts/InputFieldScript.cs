@@ -22,6 +22,7 @@ public class InputFieldScript : MonoBehaviour{
 
     }
 
+    // Check input words
     public void CheckWord()
     {
         if (newText.Length > 1)

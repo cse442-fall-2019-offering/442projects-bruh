@@ -1,5 +1,7 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -14,13 +16,21 @@ public class HighScore : MonoBehaviour
 
     public string[] highScoreNames; // Position of Names
     public int[] highScoreValues; // Position of Values
-
+    public List<KeyValuePair<string, string>>savedHighscores;
     // Start is called before the first frame update
     public void Start()
     {
+        savedHighscores = GameInfo.Highscores;
+       
         // Handling Names and Values
         highScoreNames = new string[names.Length];
         highScoreValues = new int[values.Length];
+        for (int i = 0; i < savedHighscores.Count; i++)
+        {
+            var item = savedHighscores.ElementAt(i);
+            highScoreNames[i] = item.Key;
+            highScoreValues[i] = Int32.Parse(item.Value);
+        }
         for (int x = 0; x < values.Length; x++)
         {
             highScoreNames[x] = PlayerPrefs.GetString("highScoreNames" + x); // Populates list with names

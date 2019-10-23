@@ -2,10 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-/// <summary>
-/// Holds all global variables for various game status values and fields
-/// </summary>
-
 public static class GameInfo 
 {
     // Start is called before the first frame update
@@ -14,12 +10,22 @@ public static class GameInfo
     public static string playerName;
     public static int theme;
     public static bool count;
+    public static List<KeyValuePair<string, string>> savedHighscores;
 
     // Difficulty of the game stored here
     public static int Difficulty
     {
         get { return difficulty; }
         set { difficulty = value; }
+            
+    }
+
+    // List of saved highscores stored here
+    public static List<KeyValuePair<string, string>> Highscores
+    {
+        get { return savedHighscores; }
+        set { savedHighscores = value; }
+
     }
 
     // Theme of the game stored here
@@ -27,6 +33,7 @@ public static class GameInfo
     {
         get { return theme; }
         set { theme = value; }
+
     }
 
     // Count boolean of the timer stored here
@@ -34,6 +41,7 @@ public static class GameInfo
     { 
         get { return count; }
         set { count = value; }
+
     }
 
     // Prompted word of the game stored here
@@ -41,6 +49,7 @@ public static class GameInfo
     {
         get { return promptWord; }
         set { promptWord = value; }
+
     }
 
     // Entered player name stored here
@@ -48,6 +57,7 @@ public static class GameInfo
     {
         get { return playerName; }
         set { playerName = value; }
+
     }
 
 }

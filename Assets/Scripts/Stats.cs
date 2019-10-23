@@ -10,4 +10,10 @@ public class Stats : MonoBehaviour
     {
         SceneManager.LoadScene(2);
     }
+    
+    // Go to stats page from a different page
+    public void StatsScene()
+    {
+        SceneManager.LoadScene(4);
+    }
 }

@@ -29,7 +29,6 @@ public class WordController : MonoBehaviour
     GameObject wpmTextBox;
     public Text textVar;
 
-
     // Called on start of game canvas
     void Start()
     {
@@ -52,6 +51,7 @@ public class WordController : MonoBehaviour
             case 5:
                 playerCar.GetComponent<Image>().sprite = whiteCar;
                 break;
+
         }
         wordsCompleted = 0; // inits wordsCompleted
         wpmTextBox = GameObject.Find("wpm_var");
@@ -66,25 +66,22 @@ public class WordController : MonoBehaviour
             Debug.Log("Caps lock was pressed");
         }
     }
-    
+
     // Changing the display of the input field and starting check word process if space is pressed
     public void UpdateInputText()
     {
         //set newtext
         newText = inputField.text;
-        //
         if (Input.GetKeyDown("space"))
         {
             CheckWord();
             inputField.text = "";
-
         }
     }
 
     // Checks if inputed word matches prompted word and if so, initiates correct and change of prompted word
     public void CheckWord()
     {
-        newText = newText.ToLower();
         if (newText.Length > 1)
         {
             newText = newText.Substring(0, newText.Length - 1);

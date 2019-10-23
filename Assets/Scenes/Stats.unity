@@ -2311,7 +2311,6 @@ GameObject:
   - component: {fileID: 1846480505}
   - component: {fileID: 1846480504}
   - component: {fileID: 1846480509}
-  - component: {fileID: 1846480510}
   - component: {fileID: 1846480508}
   m_Layer: 5
   m_Name: Canvas
@@ -2431,14 +2430,35 @@ MonoBehaviour:
   m_GameObject: {fileID: 1846480503}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 534cbff8d1ef01f4b8e3cee6a40468c6, type: 3}
+  m_Script: {fileID: 11500000, guid: 9437accb6a613594e862f8d823ba6d94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isMute: 0
-  inputField: {fileID: 0}
-  newText: 
-  newWord: 
-  wordDisplay: {fileID: 0}
+  displayHighscoreURL: https://www-student.cse.buffalo.edu/CSE442-542/2019-Fall/cse-442a/displayhighscore.php
+  postHighscoreURL: https://www-student.cse.buffalo.edu/CSE442-542/2019-Fall/cse-442a/posthighscore.php
+  names:
+  - {fileID: 38571568}
+  - {fileID: 16067954}
+  - {fileID: 465369227}
+  - {fileID: 582691841}
+  - {fileID: 1971975838}
+  - {fileID: 655011521}
+  - {fileID: 619088999}
+  - {fileID: 326813627}
+  - {fileID: 1457139964}
+  - {fileID: 1677316658}
+  values:
+  - {fileID: 212699891}
+  - {fileID: 792086027}
+  - {fileID: 511931405}
+  - {fileID: 1590069147}
+  - {fileID: 21944443}
+  - {fileID: 413092607}
+  - {fileID: 855313057}
+  - {fileID: 1341113982}
+  - {fileID: 279770825}
+  - {fileID: 1748677820}
+  highScoreNames: []
+  highScoreValues: 
 --- !u!114 &1846480509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2481,20 +2501,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &1846480510
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1846480503}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9437accb6a613594e862f8d823ba6d94, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayHighscoreURL: https://www-student.cse.buffalo.edu/CSE442-542/2019-Fall/cse-442a/displayhighscore.php
-  postHighscoreURL: https://www-student.cse.buffalo.edu/CSE442-542/2019-Fall/cse-442a/posthighscore.php
 --- !u!1 &1971975835
 GameObject:
   m_ObjectHideFlags: 0

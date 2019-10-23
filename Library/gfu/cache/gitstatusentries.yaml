@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-10-23T15:43:09.936-04:00
-  initializedAtString: 2019-10-23T15:42:29.626-04:00
+  lastUpdatedAtString: 2019-10-23T16:38:08.564-04:00
+  initializedAtString: 2019-10-23T16:18:01.147-04:00
   entries:
   - path: 442projects-bruh
     fullPath: C:\Users\markk\bru\442projects-bruh
@@ -16461,63 +16461,39 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: brutest\Temp\__Backupscenes\1.backup
+    fullPath: C:\Users\markk\bru\brutest\Temp\__Backupscenes\1.backup
+    projectPath: Temp\__Backupscenes\1.backup
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: brutest\Temp\UnityLockfile
     fullPath: C:\Users\markk\bru\brutest\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: brutest\Temp\UnityTempFile-0b9f26e7e1b81dc4e891edbc8a0d1656
-    fullPath: C:\Users\markk\bru\brutest\Temp\UnityTempFile-0b9f26e7e1b81dc4e891edbc8a0d1656
-    projectPath: Temp\UnityTempFile-0b9f26e7e1b81dc4e891edbc8a0d1656
+  - path: brutest\Temp\UnityTempFile-213ac02d539fb864786d93996400b96b
+    fullPath: C:\Users\markk\bru\brutest\Temp\UnityTempFile-213ac02d539fb864786d93996400b96b
+    projectPath: Temp\UnityTempFile-213ac02d539fb864786d93996400b96b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: brutest\Temp\UnityTempFile-1ee7976898682534883cf0ca7c73f9cf
-    fullPath: C:\Users\markk\bru\brutest\Temp\UnityTempFile-1ee7976898682534883cf0ca7c73f9cf
-    projectPath: Temp\UnityTempFile-1ee7976898682534883cf0ca7c73f9cf
+  - path: brutest\Temp\UnityTempFile-4c3a1925c9c5cad4cb870f8afae3eb48
+    fullPath: C:\Users\markk\bru\brutest\Temp\UnityTempFile-4c3a1925c9c5cad4cb870f8afae3eb48
+    projectPath: Temp\UnityTempFile-4c3a1925c9c5cad4cb870f8afae3eb48
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: brutest\Temp\UnityTempFile-1f2f1310d72d1474cb0dc55122a0d59e
-    fullPath: C:\Users\markk\bru\brutest\Temp\UnityTempFile-1f2f1310d72d1474cb0dc55122a0d59e
-    projectPath: Temp\UnityTempFile-1f2f1310d72d1474cb0dc55122a0d59e
+  - path: brutest\Temp\UnityTempFile-77444ec0e4e8a0247a53d6781be453c7
+    fullPath: C:\Users\markk\bru\brutest\Temp\UnityTempFile-77444ec0e4e8a0247a53d6781be453c7
+    projectPath: Temp\UnityTempFile-77444ec0e4e8a0247a53d6781be453c7
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: brutest\Temp\UnityTempFile-3cec81b48b440b84ca43a99ec89ff40b
-    fullPath: C:\Users\markk\bru\brutest\Temp\UnityTempFile-3cec81b48b440b84ca43a99ec89ff40b
-    projectPath: Temp\UnityTempFile-3cec81b48b440b84ca43a99ec89ff40b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: brutest\Temp\UnityTempFile-3d48b8d51faedaa4e8e85c790a302f09
-    fullPath: C:\Users\markk\bru\brutest\Temp\UnityTempFile-3d48b8d51faedaa4e8e85c790a302f09
-    projectPath: Temp\UnityTempFile-3d48b8d51faedaa4e8e85c790a302f09
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: brutest\Temp\UnityTempFile-8fb74b47cb7c3994abd81c41d5281ea1
-    fullPath: C:\Users\markk\bru\brutest\Temp\UnityTempFile-8fb74b47cb7c3994abd81c41d5281ea1
-    projectPath: Temp\UnityTempFile-8fb74b47cb7c3994abd81c41d5281ea1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: brutest\Temp\UnityTempFile-a67870c8e4803644ba6b28dae756c03c
-    fullPath: C:\Users\markk\bru\brutest\Temp\UnityTempFile-a67870c8e4803644ba6b28dae756c03c
-    projectPath: Temp\UnityTempFile-a67870c8e4803644ba6b28dae756c03c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: brutest\Temp\UnityTempFile-c634758907957744bacb32c0e32266a8
-    fullPath: C:\Users\markk\bru\brutest\Temp\UnityTempFile-c634758907957744bacb32c0e32266a8
-    projectPath: Temp\UnityTempFile-c634758907957744bacb32c0e32266a8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: brutest\Temp\UnityTempFile-d14f7b18965ba034eb407937beb25849
-    fullPath: C:\Users\markk\bru\brutest\Temp\UnityTempFile-d14f7b18965ba034eb407937beb25849
-    projectPath: Temp\UnityTempFile-d14f7b18965ba034eb407937beb25849
+  - path: brutest\Temp\UnityTempFile-bfbd932097d8e564b8446a31ddca0203
+    fullPath: C:\Users\markk\bru\brutest\Temp\UnityTempFile-bfbd932097d8e564b8446a31ddca0203
+    projectPath: Temp\UnityTempFile-bfbd932097d8e564b8446a31ddca0203
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

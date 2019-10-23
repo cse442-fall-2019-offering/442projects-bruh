@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":1096.5950927734375,"y":545.8614501953125,"z":-14.0},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":1404.0283203125,"orthographic":true}
 =======
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":876.1197509765625,"y":516.728271484375,"z":-21.25},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":1406.732421875,"orthographic":true}
 >>>>>>> issue41_checkword
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":1133.8519287109375,"y":409.44952392578127,"z":2.9012434482574465},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":1650.105712890625,"orthographic":true}
+>>>>>>> issue31_carmodels

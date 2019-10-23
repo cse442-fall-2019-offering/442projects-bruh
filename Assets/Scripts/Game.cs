@@ -31,6 +31,7 @@ public class Game : MonoBehaviour {
         AudioListener.volume = isMute ? 0 : 1;
 
     }
+<<<<<<< HEAD
     public void UpdateInputText()
     {
         //set newtext
@@ -61,5 +62,17 @@ public class Game : MonoBehaviour {
         int index = Random.Range(0, numWords);
         newWord = allWords[index];
         wordDisplay.GetComponent<Text>().text = allWords[index];
+=======
+    
+
+    // Used to pull words from local file
+    public void PullWord()
+    {
+            string[] allWords = System.IO.File.ReadAllLines(@"Assets\Words.txt");
+            int numWords = allWords.Length;
+            int index = Random.Range(0, numWords);
+            newWord = allWords[index];
+            wordDisplay.GetComponent<Text>().text = allWords[index];
+>>>>>>> issue31_carmodels
     }
 }

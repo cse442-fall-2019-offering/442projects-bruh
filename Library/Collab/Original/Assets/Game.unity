@@ -1013,12 +1013,17 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - m_Target: {fileID: 523172825}
         m_MethodName: PullWord
 =======
       - m_Target: {fileID: 1808348593}
         m_MethodName: Change
 >>>>>>> issue45_autoword
+=======
+      - m_Target: {fileID: 523172825}
+        m_MethodName: PullWord
+>>>>>>> issue31_carmodels
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1105,6 +1110,9 @@ RectTransform:
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> issue31_carmodels
 --- !u!1 &523172824
 GameObject:
   m_ObjectHideFlags: 0
@@ -1164,8 +1172,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPaused: 0
+<<<<<<< HEAD
 =======
 >>>>>>> issue45_autoword
+=======
+>>>>>>> issue31_carmodels
 --- !u!1 &523412753
 GameObject:
   m_ObjectHideFlags: 0
@@ -2590,12 +2601,17 @@ GameObject:
   - component: {fileID: 1808348588}
   - component: {fileID: 1808348592}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 1808348593}
   - component: {fileID: 1808348594}
 =======
   - component: {fileID: 1808348594}
   - component: {fileID: 1808348593}
 >>>>>>> issue45_autoword
+=======
+  - component: {fileID: 1808348593}
+  - component: {fileID: 1808348594}
+>>>>>>> issue31_carmodels
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2704,11 +2720,14 @@ MonoBehaviour:
 =======
   dispaywordURL: https://www-student.cse.buffalo.edu/CSE442-542/2019-Fall/cse-442a/displayword.php
   isMute: 0
+<<<<<<< HEAD
   inputField: {fileID: 2073519014}
   newText: 
   newWord: 
   wordDisplay: {fileID: 1645435397}
 >>>>>>> issue45_autoword
+=======
+>>>>>>> issue31_carmodels
 --- !u!114 &1808348593
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2718,6 +2737,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1808348587}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: 051789c8932077a4b8acc80d3fa6a60b, type: 3}
   m_Name: 
@@ -2732,6 +2752,13 @@ MonoBehaviour:
   displayScoreURL: https://www-student.cse.buffalo.edu/CSE442-542/2019-Fall/cse-442a/displayword.php
   wordDisplay: {fileID: 1645435397}
 >>>>>>> issue45_autoword
+=======
+  m_Script: {fileID: 11500000, guid: 051789c8932077a4b8acc80d3fa6a60b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputField: {fileID: 2073519014}
+  newText: 
+>>>>>>> issue31_carmodels
 --- !u!114 &1808348594
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2745,9 +2772,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
+<<<<<<< HEAD
   isPaused: 0
 =======
 >>>>>>> issue45_autoword
+=======
+  isPaused: 0
+>>>>>>> issue31_carmodels
 --- !u!1 &1980580375
 GameObject:
   m_ObjectHideFlags: 0
@@ -2939,10 +2970,14 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - m_Target: {fileID: 523172827}
 =======
       - m_Target: {fileID: 0}
 >>>>>>> issue45_autoword
+=======
+      - m_Target: {fileID: 523172827}
+>>>>>>> issue31_carmodels
         m_MethodName: pauseGame
         m_Mode: 1
         m_Arguments:
@@ -2976,10 +3011,14 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Sprite: {fileID: 21300000, guid: 71f7a6da38c765644b8cef8e4a81518b, type: 3}
 =======
   m_Sprite: {fileID: 21300000, guid: 005e0c75688131c46acbb018275eb746, type: 3}
 >>>>>>> issue45_autoword
+=======
+  m_Sprite: {fileID: 21300000, guid: 71f7a6da38c765644b8cef8e4a81518b, type: 3}
+>>>>>>> issue31_carmodels
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3009,9 +3048,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
+<<<<<<< HEAD
   isPaused: 0
 =======
 >>>>>>> issue45_autoword
+=======
+  isPaused: 0
+>>>>>>> issue31_carmodels
 --- !u!1 &2073519012
 GameObject:
   m_ObjectHideFlags: 0
@@ -3050,12 +3093,17 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_AnchoredPosition: {x: 0, y: -239}
   m_SizeDelta: {x: 430.5, y: -902.2}
 =======
   m_AnchoredPosition: {x: 0, y: -181.9}
   m_SizeDelta: {x: 430.5, y: -1016.3}
 >>>>>>> issue45_autoword
+=======
+  m_AnchoredPosition: {x: 0, y: -239}
+  m_SizeDelta: {x: 430.5, y: -902.2}
+>>>>>>> issue31_carmodels
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2073519014
 MonoBehaviour:
@@ -3113,10 +3161,14 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - m_Target: {fileID: 1808348593}
 =======
       - m_Target: {fileID: 1808348592}
 >>>>>>> issue45_autoword
+=======
+      - m_Target: {fileID: 1808348593}
+>>>>>>> issue31_carmodels
         m_MethodName: UpdateInputText
         m_Mode: 1
         m_Arguments:
@@ -3150,10 +3202,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Color: {r: 1, g: 1, b: 1, a: 0}
 =======
   m_Color: {r: 1, g: 1, b: 1, a: 0.4}
 >>>>>>> issue45_autoword
+=======
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+>>>>>>> issue31_carmodels
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:

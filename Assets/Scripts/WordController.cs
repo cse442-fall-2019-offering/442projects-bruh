@@ -15,40 +15,114 @@ public class WordController : MonoBehaviour
     public GameObject wordDisplay;
     public InputField inputField;
     public string newText;
+<<<<<<< HEAD
+=======
+    public GameObject GameWonPanel;
+    public GameObject backgroundPanel;
+    public GameObject playerCar;
+
+    // Called on start of game canvas
+>>>>>>> issue31_carmodels
     void Start()
     {
         
     }
+<<<<<<< HEAD
+=======
+
+    /// Update is called every frame, if the MonoBehaviour is enabled.
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.CapsLock))
+        {
+            Debug.Log("Caps lock was pressed");
+        }
+    }
+    
+    // Changing the display of the input field and starting check word process if space is pressed
+>>>>>>> issue31_carmodels
     public void UpdateInputText()
     {
         //set newtext
         newText = inputField.text;
+        //
         if (Input.GetKeyDown("space"))
         {
             CheckWord();
             inputField.text = "";
 
         }
+<<<<<<< HEAD
 
+=======
+>>>>>>> issue31_carmodels
     }
+
+    // Checks if inputed word matches prompted word and if so, initiates correct and change of prompted word
     public void CheckWord()
     {
+        newText = newText.ToLower();
         if (newText.Length > 1)
         {
             newText = newText.Substring(0, newText.Length - 1);
         }
         if (newText == GameInfo.PromptWord)
         {
+<<<<<<< HEAD
             Debug.Log(newText + " was right");
             Change();
         }
     }
+=======
+            Correct();
+            Change();
+        }
+    }
+
+    // Exception for if enter is used to submit words; same effect as CheckWord
+    public void CheckWordOnEnter()
+    {
+        newText = newText.ToLower();
+        if (Input.GetMouseButtonDown(0))
+        {
+
+        }
+        else {
+            if(newText == GameInfo.PromptWord) {
+                Correct();
+                Change();
+                
+            }
+            inputField.text = "";
+            inputField.Select();
+            inputField.ActivateInputField();
+        }
+    }
+
+    // Start change word process
+>>>>>>> issue31_carmodels
     public void Change()
     {
         StartCoroutine(GetScores());
     }
 
+<<<<<<< HEAD
 
+=======
+    // Player has typed a word correctly and the car is pushed forward
+    public void Correct()
+    {
+        playerCar.transform.Translate(70,0,0);
+        // Check if player has reached end of the road
+        // stop timer and bring up game won panel
+        if (playerCar.transform.position.x >= 1860)
+        {
+            GameInfo.count = false;
+            GameWonPanel.SetActive(true);
+            backgroundPanel.SetActive(false);
+        }
+    }
+>>>>>>> issue31_carmodels
 
     // Get the scores from the MySQL DB to display in a GUIText.
     // remember to use StartCoroutine when calling this function!

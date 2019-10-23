@@ -6,7 +6,11 @@ using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Button))]
 public class Game : MonoBehaviour {
+<<<<<<< HEAD:Assets/Game.cs
 
+=======
+    //public string dispaywordURL = "https://www-student.cse.buffalo.edu/CSE442-542/2019-Fall/cse-442a/displayword.php";
+>>>>>>> issue45_autoword:Assets/Scripts/Game.cs
     public bool isMute = false;
     public InputField inputField;
     public string newText;
@@ -35,6 +39,7 @@ public class Game : MonoBehaviour {
         {
             CheckWord();
             inputField.text = "";
+
         }
 
     }
@@ -44,7 +49,7 @@ public class Game : MonoBehaviour {
         {
             newText = newText.Substring(0, newText.Length - 1);
         }
-        if (newText == newWord)
+        if (newText == GameInfo.PromptWord)
         {
             Debug.Log(newText + " was right");
         }

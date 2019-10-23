@@ -19,14 +19,14 @@ public class WordController : MonoBehaviour
     public float startTime;
     public int wordsCompleted;
 
-    GameObject wpm_textBox;
-    public Text text_var;
+    GameObject wpmTextBox;
+    public Text textVar;
 
     void Start()
     {
        wordsCompleted = 0; // inits wordsCompleted
-       wpm_textBox = GameObject.Find("wpm_var");
-       text_var = wpm_textBox.GetComponent<Text>();
+        wpmTextBox = GameObject.Find("wpm_var");
+        textVar = wpmTextBox.GetComponent<Text>();
 
        
     }
@@ -69,18 +69,18 @@ public class WordController : MonoBehaviour
 
     public float IncrWPM() 
     {
-        float timeInSec = Time.fixedTime;
+        float timeInSec = Time.fixedTime; //starts Time Delta
         Debug.Log("Time passed: " + timeInSec);
-        wordsCompleted++;
+        wordsCompleted++; // Increase word count for calculating average
         Debug.Log("Words Completed: " + wordsCompleted);
-        float currWPM = wordsCompleted / (timeInSec / 60);
+        float currWPM = wordsCompleted / (timeInSec / 60); //Calc WPM
         Debug.Log("WPM = " + currWPM);
         return currWPM;
     }
 
     public void updateSpeedo(float wpm)
     {
-        text_var.text = wpm.ToString();
+        textVar.text = wpm.ToString();  //Updates speedo text with current wpm
     }
 
 

@@ -22,11 +22,6 @@ public class Game : MonoBehaviour {
     {
         SceneManager.LoadScene(1);
     }
-    public void QuitPress()
-    {
-        Debug.Log("QUIT");
-        Application.Quit();
-    }
     public void Mute()
     {
         isMute = !isMute;
@@ -43,6 +38,11 @@ public class Game : MonoBehaviour {
             inputField.text = "";
 
         }
+        if (ScoreScript.scoreValue <= 130)
+        {
+            ScoreScript.scoreValue += 5;
+        }
+
 
     }
     public void CheckWord()

@@ -13,12 +13,42 @@ public class WordController : MonoBehaviour
     public string displayWordMedURL = "https://www-student.cse.buffalo.edu/CSE442-542/2019-Fall/cse-442a/displaywordmed.php";
     public string displayWordHardURL = "https://www-student.cse.buffalo.edu/CSE442-542/2019-Fall/cse-442a/displaywordhard.php";
     public GameObject wordDisplay;
+    public Sprite redCar;
+    public Sprite blueCar;
+    public Sprite greenCar;
+    public Sprite blackCar;
+    public Sprite whiteCar;
     public InputField inputField;
     public string newText;
+    public GameObject GameWonPanel;
+    public GameObject backgroundPanel;
+    public GameObject playerCar;
+
     void Start()
     {
+        inputField.enabled= false;
         
+        switch (GameInfo.Theme)
+        {
+            case 1:
+                playerCar.GetComponent <Image>().sprite = redCar;
+                break;
+            case 2:
+                playerCar.GetComponent<Image>().sprite = blueCar;
+                break;
+            case 3:
+                playerCar.GetComponent<Image>().sprite = greenCar;
+                break;
+            case 4:
+                playerCar.GetComponent<Image>().sprite = blackCar;
+                break;
+            case 5:
+                playerCar.GetComponent<Image>().sprite = whiteCar;
+                break;
+
+        }
     }
+    
     public void UpdateInputText()
     {
         //set newtext
@@ -29,6 +59,7 @@ public class WordController : MonoBehaviour
             inputField.text = "";
 
         }
+        
 
     }
     public void CheckWord()
@@ -39,8 +70,28 @@ public class WordController : MonoBehaviour
         }
         if (newText == GameInfo.PromptWord)
         {
-            Debug.Log(newText + " was right");
+            //Debug.Log(newText + " was right");
+            Correct();
             Change();
+        }
+    }
+    public void CheckWordOnEnter()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+
+        }
+        else {
+            if(newText == GameInfo.PromptWord) {
+
+                //Debug.Log(newText + " was right");
+                Correct();
+                Change();
+                
+            }
+            inputField.text = "";
+            inputField.Select();
+            inputField.ActivateInputField();
         }
     }
     public void Change()
@@ -48,7 +99,17 @@ public class WordController : MonoBehaviour
         StartCoroutine(GetScores());
     }
 
-
+    public void Correct()
+    {
+        playerCar.transform.Translate(70,0,0);
+        Debug.Log(playerCar.transform.position.x);
+        if (playerCar.transform.position.x >= 1860)
+        {
+            GameInfo.count = false;
+            GameWonPanel.SetActive(true);
+            backgroundPanel.SetActive(false);
+        }
+    }
 
     // Get the scores from the MySQL DB to display in a GUIText.
     // remember to use StartCoroutine when calling this function!

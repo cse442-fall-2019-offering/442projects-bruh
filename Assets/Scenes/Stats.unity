@@ -3446,6 +3446,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isMute: 0
+  inputField: {fileID: 0}
+  newText: 
+  newWord: 
+  wordDisplay: {fileID: 0}
 --- !u!114 &1766244164
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3623,6 +3627,7 @@ GameObject:
   - component: {fileID: 1846480505}
   - component: {fileID: 1846480504}
   - component: {fileID: 1846480509}
+  - component: {fileID: 1846480510}
   - component: {fileID: 1846480508}
   m_Layer: 5
   m_Name: Canvas
@@ -3749,6 +3754,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isMute: 0
+  inputField: {fileID: 0}
+  newText: 
+  newWord: 
+  wordDisplay: {fileID: 0}
 --- !u!114 &1846480509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3791,6 +3800,20 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &1846480510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1846480503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9437accb6a613594e862f8d823ba6d94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  displayHighscoreURL: https://www-student.cse.buffalo.edu/CSE442-542/2019-Fall/cse-442a/displayhighscore.php
+  postHighscoreURL: https://www-student.cse.buffalo.edu/CSE442-542/2019-Fall/cse-442a/posthighscore.php
 --- !u!1 &1942618707
 GameObject:
   m_ObjectHideFlags: 0

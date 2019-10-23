@@ -20,7 +20,10 @@ public static class GameInfo
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> issue47_wpm
     // Theme of the game stored here
     public static int Theme
     {
@@ -36,14 +39,20 @@ public static class GameInfo
     }
 
     // Prompted word of the game stored here
+<<<<<<< HEAD
 >>>>>>> issue31_carmodels
+=======
+>>>>>>> issue47_wpm
     public static string PromptWord
     {
         get { return promptWord; }
         set { promptWord = value; }
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> issue47_wpm
 
     // Entered player name stored here
     public static string PlayerName

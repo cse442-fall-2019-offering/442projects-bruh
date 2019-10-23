@@ -32,6 +32,7 @@ public class Game : MonoBehaviour {
 
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     public void UpdateInputText()
     {
         //set newtext
@@ -63,6 +64,8 @@ public class Game : MonoBehaviour {
         newWord = allWords[index];
         wordDisplay.GetComponent<Text>().text = allWords[index];
 =======
+=======
+>>>>>>> issue47_wpm
     
 
     // Used to pull words from local file
@@ -73,6 +76,9 @@ public class Game : MonoBehaviour {
             int index = Random.Range(0, numWords);
             newWord = allWords[index];
             wordDisplay.GetComponent<Text>().text = allWords[index];
+<<<<<<< HEAD
 >>>>>>> issue31_carmodels
+=======
+>>>>>>> issue47_wpm
     }
 }

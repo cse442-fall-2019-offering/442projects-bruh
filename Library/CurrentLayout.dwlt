@@ -23,6 +23,7 @@ MonoBehaviour:
   m_RootView: {fileID: 6}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_MinSize: {x: 950, y: 548}
 =======
   m_MinSize: {x: 950, y: 374}
@@ -30,6 +31,9 @@ MonoBehaviour:
 =======
   m_MinSize: {x: 950, y: 548}
 >>>>>>> issue45_autoword
+=======
+  m_MinSize: {x: 950, y: 398}
+>>>>>>> issue47_wpm
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -55,6 +59,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_MinSize: {x: 681, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
@@ -77,6 +82,12 @@ MonoBehaviour:
   vertical: 0
   controlID: 68
 >>>>>>> issue31_carmodels
+=======
+  m_MinSize: {x: 681, y: 348}
+  m_MaxSize: {x: 12006, y: 8048}
+  vertical: 0
+  controlID: 49
+>>>>>>> issue47_wpm
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -94,12 +105,16 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> issue31_carmodels
+=======
+>>>>>>> issue47_wpm
     x: 1531
     y: 0
     width: 389
     height: 947
+<<<<<<< HEAD
   m_MinSize: {x: 277, y: 74}
   m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 14}
@@ -115,6 +130,11 @@ MonoBehaviour:
 >>>>>>> issue45_autoword
 =======
 >>>>>>> issue31_carmodels
+=======
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 14}
+>>>>>>> issue47_wpm
   m_Panes:
   - {fileID: 14}
   m_Selected: 0
@@ -138,6 +158,7 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 379
     height: 573
   m_MinSize: {x: 200, y: 200}
@@ -151,12 +172,17 @@ MonoBehaviour:
   m_ActualView: {fileID: 16}
 >>>>>>> issue45_autoword
 =======
+=======
+>>>>>>> issue47_wpm
     width: 379
     height: 573
   m_MinSize: {x: 202, y: 224}
   m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 15}
+<<<<<<< HEAD
 >>>>>>> issue31_carmodels
+=======
+>>>>>>> issue47_wpm
   m_Panes:
   - {fileID: 15}
   m_Selected: 0
@@ -177,6 +203,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     y: 573
@@ -214,6 +241,19 @@ MonoBehaviour:
   m_Selected: 1
   m_LastSelected: 0
 >>>>>>> issue41_checkword
+=======
+    y: 573
+    width: 1531
+    height: 374
+  m_MinSize: {x: 102, y: 124}
+  m_MaxSize: {x: 4002, y: 4024}
+  m_ActualView: {fileID: 18}
+  m_Panes:
+  - {fileID: 13}
+  - {fileID: 18}
+  m_Selected: 1
+  m_LastSelected: 0
+>>>>>>> issue47_wpm
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -238,8 +278,11 @@ MonoBehaviour:
     height: 997
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> issue31_carmodels
+=======
+>>>>>>> issue47_wpm
   m_MinSize: {x: 950, y: 300}
 =======
   m_MinSize: {x: 950, y: 548}
@@ -309,6 +352,7 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1531
     height: 947
 <<<<<<< HEAD
@@ -338,6 +382,14 @@ MonoBehaviour:
   vertical: 1
   controlID: 69
 >>>>>>> issue31_carmodels
+=======
+    width: 1531
+    height: 947
+  m_MinSize: {x: 406, y: 348}
+  m_MaxSize: {x: 8006, y: 8048}
+  vertical: 1
+  controlID: 50
+>>>>>>> issue47_wpm
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -359,6 +411,7 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1531
     height: 573
   m_MinSize: {x: 404, y: 224}
@@ -378,13 +431,19 @@ MonoBehaviour:
   controlID: 47
 >>>>>>> issue45_autoword
 =======
+=======
+>>>>>>> issue47_wpm
     width: 1531
     height: 573
   m_MinSize: {x: 406, y: 224}
   m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
+<<<<<<< HEAD
   controlID: 70
 >>>>>>> issue31_carmodels
+=======
+  controlID: 51
+>>>>>>> issue47_wpm
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -400,6 +459,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -420,12 +480,26 @@ MonoBehaviour:
   m_MinSize: {x: 204, y: 224}
   m_MaxSize: {x: 4004, y: 4024}
   m_ActualView: {fileID: 16}
+=======
+    x: 379
+    y: 0
+    width: 1152
+    height: 573
+  m_MinSize: {x: 204, y: 224}
+  m_MaxSize: {x: 4004, y: 4024}
+  m_ActualView: {fileID: 17}
+>>>>>>> issue47_wpm
   m_Panes:
   - {fileID: 16}
   - {fileID: 17}
   - {fileID: 12}
+<<<<<<< HEAD
   m_Selected: 0
   m_LastSelected: 1
+=======
+  m_Selected: 1
+  m_LastSelected: 0
+>>>>>>> issue47_wpm
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -447,10 +521,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 379
     y: 73
     width: 1148
     height: 553
+=======
+    x: 468
+    y: 181
+    width: 973
+    height: 501
+>>>>>>> issue47_wpm
   m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &13
 MonoBehaviour:
@@ -476,6 +557,7 @@ MonoBehaviour:
     x: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 646
     width: 1529
     height: 354
@@ -489,6 +571,11 @@ MonoBehaviour:
     width: 1529
     height: 354
 >>>>>>> issue31_carmodels
+=======
+    y: 646
+    width: 1529
+    height: 354
+>>>>>>> issue47_wpm
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -507,6 +594,7 @@ MonoBehaviour:
   m_StartGridSize: 64
   m_LastFolders:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - Assets
 <<<<<<< HEAD
   m_LastFoldersGridSize: -1
@@ -519,10 +607,16 @@ MonoBehaviour:
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\markk\bru\brutest
 >>>>>>> issue31_carmodels
+=======
+  - Assets/Scripts
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: C:\Users\markk\bru\442projects-bruh
+>>>>>>> issue47_wpm
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -544,6 +638,11 @@ MonoBehaviour:
     m_LastClickedID: 2896
     m_ExpandedIDs: 00000000a409000000ca9a3b
 >>>>>>> issue31_carmodels
+=======
+    m_SelectedIDs: 64310000
+    m_LastClickedID: 12644
+    m_ExpandedIDs: 00000000ae2f0000b630000000ca9a3b
+>>>>>>> issue47_wpm
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -574,6 +673,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000642e0000
 =======
     m_ExpandedIDs: 000000009e090000
@@ -584,6 +684,9 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: 00000000a4090000
 >>>>>>> issue31_carmodels
+=======
+    m_ExpandedIDs: 00000000ae2f0000b6300000
+>>>>>>> issue47_wpm
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -608,6 +711,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
+<<<<<<< HEAD
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
 <<<<<<< HEAD
@@ -621,6 +725,12 @@ MonoBehaviour:
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
 >>>>>>> issue31_carmodels
+=======
+    m_SelectedInstanceIDs: cc090000
+    m_LastClickedInstanceID: 2508
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c6230000
+>>>>>>> issue47_wpm
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -637,10 +747,14 @@ MonoBehaviour:
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_ClientGUIView: {fileID: 0}
 =======
       m_ClientGUIView: {fileID: 5}
 >>>>>>> issue31_carmodels
+=======
+      m_ClientGUIView: {fileID: 0}
+>>>>>>> issue47_wpm
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -674,6 +788,7 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1531
     y: 73
     width: 387
@@ -687,6 +802,11 @@ MonoBehaviour:
     y: 73
     width: 387
 >>>>>>> issue31_carmodels
+=======
+    x: 1531
+    y: 73
+    width: 387
+>>>>>>> issue47_wpm
     height: 927
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
@@ -723,6 +843,7 @@ MonoBehaviour:
     y: 73
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 377
     height: 553
 =======
@@ -733,10 +854,15 @@ MonoBehaviour:
     width: 377
     height: 553
 >>>>>>> issue31_carmodels
+=======
+    width: 377
+    height: 553
+>>>>>>> issue47_wpm
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
       m_SelectedIDs: 
       m_LastClickedID: 0
@@ -754,6 +880,11 @@ MonoBehaviour:
       m_LastClickedID: 0
       m_ExpandedIDs: 4a61ffffdab1ffff94d1ffffb4f0ffffe4f0ffff58f2ffffe2f8ffff24faffffd6fbffff460d00005c0d0000cc0d0000b8300000ce30000048310000324800005a4800008848000090480000f8480000
 >>>>>>> issue31_carmodels
+=======
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: dceaffff7cebffffcaebffff5af0ffffacf3ffffbef3ffffd0f3ffffecf3ffff00f4ffff18f4ffff5ef4ffff76f4fffffef4ffff524b0000ec4b0000444c0000
+>>>>>>> issue47_wpm
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -776,7 +907,11 @@ MonoBehaviour:
     m_LockTracker:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
+<<<<<<< HEAD
   m_WindowGUID: 199a424aae3ded74bab4f415060493e3
+=======
+  m_WindowGUID: 61707d8debe912f43a9f2ec1a0bfa5c5
+>>>>>>> issue47_wpm
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -793,18 +928,23 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: 0}
+    m_Image: {fileID: 2318424515335265636, guid: 0000000000000000d000000000000000,
+      type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> issue31_carmodels
+=======
+>>>>>>> issue47_wpm
     x: 379
     y: 73
     width: 1148
     height: 553
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     x: 507
@@ -816,11 +956,16 @@ MonoBehaviour:
 >>>>>>> issue31_carmodels
   m_PersistentViewDataDictionary: {fileID: 0}
   m_WindowGUID: 95e7f660e73acfb46a299e2118e5ecdd
+=======
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_WindowGUID: 0ea3ee4d0aec5904498204f250b17f0e
+>>>>>>> issue47_wpm
   m_SceneLighting: 1
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -842,6 +987,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 1072.743, y: 509.19125, z: 7.25}
 >>>>>>> issue31_carmodels
+=======
+    m_Target: {x: 997.56055, y: 520.9295, z: -14.75}
+    speed: 2
+    m_Value: {x: 997.56055, y: 520.9295, z: -14.75}
+>>>>>>> issue47_wpm
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -876,6 +1026,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: 1404.0283
     speed: 2
     m_Value: 1404.0283
@@ -894,6 +1045,11 @@ MonoBehaviour:
     speed: 2
     m_Value: 1214.1914
 >>>>>>> issue31_carmodels
+=======
+    m_Target: 1506.8221
+    speed: 2
+    m_Value: 1506.8221
+>>>>>>> issue47_wpm
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -928,12 +1084,16 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> issue31_carmodels
+=======
+>>>>>>> issue47_wpm
     x: 379
     y: 73
     width: 1148
     height: 553
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     x: 507
@@ -943,6 +1103,8 @@ MonoBehaviour:
 >>>>>>> issue45_autoword
 =======
 >>>>>>> issue31_carmodels
+=======
+>>>>>>> issue47_wpm
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
@@ -977,12 +1139,16 @@ MonoBehaviour:
       y: 17
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> issue31_carmodels
+=======
+>>>>>>> issue47_wpm
       width: 1148
       height: 536
     m_Scale: {x: 0.49629632, y: 0.4962963}
     m_Translation: {x: 574, y: 268}
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
       width: 717
@@ -992,6 +1158,8 @@ MonoBehaviour:
 >>>>>>> issue45_autoword
 =======
 >>>>>>> issue31_carmodels
+=======
+>>>>>>> issue47_wpm
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -1000,12 +1168,16 @@ MonoBehaviour:
       serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> issue31_carmodels
+=======
+>>>>>>> issue47_wpm
       x: -1156.5671
       y: -540
       width: 2313.1343
       height: 1080
+<<<<<<< HEAD
     m_MinimalGUI: 1
   m_defaultScale: 0.4962963
   m_TargetTexture: {fileID: 0}
@@ -1025,6 +1197,13 @@ MonoBehaviour:
 >>>>>>> issue45_autoword
 =======
 >>>>>>> issue31_carmodels
+=======
+    m_MinimalGUI: 1
+  m_defaultScale: 0.4962963
+  m_TargetTexture: {fileID: 0}
+  m_CurrentColorSpace: 0
+  m_LastWindowPixelSize: {x: 1148, y: 553}
+>>>>>>> issue47_wpm
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -1053,6 +1232,7 @@ MonoBehaviour:
     x: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 646
     width: 1529
     height: 354
@@ -1066,4 +1246,9 @@ MonoBehaviour:
     width: 1529
     height: 354
 >>>>>>> issue31_carmodels
+=======
+    y: 646
+    width: 1529
+    height: 354
+>>>>>>> issue47_wpm
   m_PersistentViewDataDictionary: {fileID: 0}

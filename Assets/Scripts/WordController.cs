@@ -21,14 +21,49 @@ public class WordController : MonoBehaviour
     public GameObject backgroundPanel;
     public GameObject playerCar;
 
+<<<<<<< HEAD
     // Called on start of game canvas
 >>>>>>> issue31_carmodels
+=======
+    public float startTime;
+    public int wordsCompleted;
+    GameObject wpmTextBox;
+    public Text textVar;
+
+
+    // Called on start of game canvas
+>>>>>>> issue47_wpm
     void Start()
     {
         
+<<<<<<< HEAD
     }
 <<<<<<< HEAD
 =======
+=======
+        switch (GameInfo.Theme)
+        {
+            case 1:
+                playerCar.GetComponent <Image>().sprite = redCar;
+                break;
+            case 2:
+                playerCar.GetComponent<Image>().sprite = blueCar;
+                break;
+            case 3:
+                playerCar.GetComponent<Image>().sprite = greenCar;
+                break;
+            case 4:
+                playerCar.GetComponent<Image>().sprite = blackCar;
+                break;
+            case 5:
+                playerCar.GetComponent<Image>().sprite = whiteCar;
+                break;
+        }
+        wordsCompleted = 0; // inits wordsCompleted
+        wpmTextBox = GameObject.Find("wpm_var");
+        textVar = wpmTextBox.GetComponent<Text>();
+    }
+>>>>>>> issue47_wpm
 
     /// Update is called every frame, if the MonoBehaviour is enabled.
     void Update()
@@ -40,7 +75,10 @@ public class WordController : MonoBehaviour
     }
     
     // Changing the display of the input field and starting check word process if space is pressed
+<<<<<<< HEAD
 >>>>>>> issue31_carmodels
+=======
+>>>>>>> issue47_wpm
     public void UpdateInputText()
     {
         //set newtext
@@ -53,9 +91,12 @@ public class WordController : MonoBehaviour
 
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> issue31_carmodels
+=======
+>>>>>>> issue47_wpm
     }
 
     // Checks if inputed word matches prompted word and if so, initiates correct and change of prompted word
@@ -69,13 +110,17 @@ public class WordController : MonoBehaviour
         if (newText == GameInfo.PromptWord)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             Debug.Log(newText + " was right");
             Change();
         }
     }
 =======
+=======
+>>>>>>> issue47_wpm
             Correct();
             Change();
+            updateSpeedo(IncrWPM());
         }
     }
 
@@ -85,13 +130,13 @@ public class WordController : MonoBehaviour
         newText = newText.ToLower();
         if (Input.GetMouseButtonDown(0))
         {
-
+            // DO NOTHING
         }
         else {
             if(newText == GameInfo.PromptWord) {
                 Correct();
                 Change();
-                
+                updateSpeedo(IncrWPM());
             }
             inputField.text = "";
             inputField.Select();
@@ -100,15 +145,21 @@ public class WordController : MonoBehaviour
     }
 
     // Start change word process
+<<<<<<< HEAD
 >>>>>>> issue31_carmodels
+=======
+>>>>>>> issue47_wpm
     public void Change()
     {
         StartCoroutine(GetScores());
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> issue47_wpm
     // Player has typed a word correctly and the car is pushed forward
     public void Correct()
     {
@@ -123,6 +174,27 @@ public class WordController : MonoBehaviour
         }
     }
 >>>>>>> issue31_carmodels
+
+    /**
+    * wpfarrel
+    * Increments and calculates Words per minute
+    * returns float of WPM
+    */
+    public float IncrWPM()
+    {
+        float timeInSec = Time.fixedTime; //starts Time Delta
+        Debug.Log("Time passed: " + timeInSec);
+        wordsCompleted++; // Increase word count for calculating average
+        Debug.Log("Words Completed: " + wordsCompleted);
+        float currWPM = wordsCompleted / (timeInSec / 60); //Calc WPM
+        Debug.Log("WPM = " + currWPM);
+        return currWPM;
+    }
+
+    public void updateSpeedo(float wpm)
+    {
+        textVar.text = wpm.ToString();  //Updates speedo text with current wpm
+    }
 
     // Get the scores from the MySQL DB to display in a GUIText.
     // remember to use StartCoroutine when calling this function!

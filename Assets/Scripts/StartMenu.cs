@@ -10,6 +10,10 @@ public class StartMenu : MonoBehaviour {
 /// Start menu page controls and functionality
 /// </summary>
 
+/// <summary>
+/// Start menu page controls and functionality
+/// </summary>
+
 public class StartMenu : MonoBehaviour
 {
     public GameObject playerNamePanel;
@@ -25,7 +29,10 @@ public class StartMenu : MonoBehaviour
     }
 
     // Load settings screen
+<<<<<<< HEAD
 >>>>>>> issue31_carmodels
+=======
+>>>>>>> issue47_wpm
     public void SettingsScene()
     {
         SceneManager.LoadScene(1);
@@ -35,8 +42,11 @@ public class StartMenu : MonoBehaviour
     public void PlayScene()
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         SceneManager.LoadScene(3);
 =======
+=======
+>>>>>>> issue47_wpm
         // Check if a difficulty and theme were selected
         if (GameInfo.difficulty == 0 || GameInfo.Theme == 0)
         {
@@ -79,7 +89,10 @@ public class StartMenu : MonoBehaviour
         Application.Quit();
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> issue47_wpm
 
     // Handles different input methods
     public void InputHandle()

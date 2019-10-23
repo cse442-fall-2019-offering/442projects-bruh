@@ -45,6 +45,7 @@ public class TimerCountdown : MonoBehaviour
 
     }
     //Simple Coroutine
+    // Used to wait for countdown
     IEnumerator LoseTime()
     {
         while (true)
@@ -62,6 +63,8 @@ public class TimerCountdown : MonoBehaviour
         }
         StartCoroutine("DecTime");
     }
+
+    // Waits every second decrement time left and move enemy car 
     IEnumerator DecTime()
     {
         while (GameInfo.count)

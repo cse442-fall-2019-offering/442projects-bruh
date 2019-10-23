@@ -88,6 +88,8 @@ public class HighscoreController : MonoBehaviour
             // show the highscores
             Debug.Log(hs_post.downloadHandler.text);
         }
+
+        
         
     }
 }

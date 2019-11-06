@@ -27,12 +27,15 @@ public class WordController : MonoBehaviour
     public float startTime;
     public int wordsCompleted;
     GameObject wpmTextBox;
+
+    public float currentWPM;
     public Text textVar;
 
 
     // Called on start of game canvas
     void Start()
     {
+        Debug.Log("GAME OBJECT NAME IS: " + gameObject.name);
         inputField.enabled= false;
         
         switch (GameInfo.Theme)
@@ -150,12 +153,18 @@ public class WordController : MonoBehaviour
         Debug.Log("Words Completed: " + wordsCompleted);
         float currWPM = wordsCompleted / (timeInSec / 60); //Calc WPM
         Debug.Log("WPM = " + currWPM);
+        currentWPM = currWPM;
         return currWPM;
     }
 
     public void updateSpeedo(float wpm)
     {
         textVar.text = wpm.ToString();  //Updates speedo text with current wpm
+    }
+
+    public float AccessWPM()
+    {
+        return currentWPM;
     }
 
     // Get the scores from the MySQL DB to display in a GUIText.

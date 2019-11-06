@@ -86,11 +86,16 @@ public class WordController : MonoBehaviour
         {
             newText = newText.Substring(0, newText.Length - 1);
         }
+        if (newText != GameInfo.PromptWord)
+        {
+            ScoreScript.scoreValue -= 10;
+        }
         if (newText == GameInfo.PromptWord)
         {
             Correct();
             Change();
             updateSpeedo(IncrWPM());
+            ScoreScript.scoreValue += 50;
         }
     }
 
@@ -107,6 +112,7 @@ public class WordController : MonoBehaviour
                 Correct();
                 Change();
                 updateSpeedo(IncrWPM());
+                ScoreScript.scoreValue += 50;
             }
             inputField.text = "";
             inputField.Select();

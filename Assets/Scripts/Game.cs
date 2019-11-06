@@ -22,49 +22,26 @@ public class Game : MonoBehaviour {
     {
         SceneManager.LoadScene(1);
     }
+    public void QuitPress()
+    {
+        Debug.Log("QUIT");
+        Application.Quit();
+    }
     public void Mute()
     {
         isMute = !isMute;
         AudioListener.volume = isMute ? 0 : 1;
 
     }
-    public void UpdateInputText()
-    {
-        //set newtext
-        newText = inputField.text;
-        if (Input.GetKeyDown("space"))
-        {
-            CheckWord();
-            inputField.text = "";
+    
 
-        }
-        if (ScoreScript.scoreValue <= 130)
-        {
-            ScoreScript.scoreValue += 5;
-        }
-
-
-    }
-    public void CheckWord()
-    {
-        if (newText.Length > 1)
-        {
-            newText = newText.Substring(0, newText.Length - 1);
-        }
-        if (newText == GameInfo.PromptWord)
-        {
-            Debug.Log(newText + " was right");
-        }
-    }
-
+    // Used to pull words from local file
     public void PullWord()
     {
-        
             string[] allWords = System.IO.File.ReadAllLines(@"Assets\Words.txt");
             int numWords = allWords.Length;
             int index = Random.Range(0, numWords);
             newWord = allWords[index];
             wordDisplay.GetComponent<Text>().text = allWords[index];
-        
     }
 }

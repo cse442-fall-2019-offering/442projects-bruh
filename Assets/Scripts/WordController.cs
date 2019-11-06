@@ -13,12 +13,61 @@ public class WordController : MonoBehaviour
     public string displayWordMedURL = "https://www-student.cse.buffalo.edu/CSE442-542/2019-Fall/cse-442a/displaywordmed.php";
     public string displayWordHardURL = "https://www-student.cse.buffalo.edu/CSE442-542/2019-Fall/cse-442a/displaywordhard.php";
     public GameObject wordDisplay;
+    public Sprite redCar;
+    public Sprite blueCar;
+    public Sprite greenCar;
+    public Sprite blackCar;
+    public Sprite whiteCar;
     public InputField inputField;
     public string newText;
+    public GameObject GameWonPanel;
+    public GameObject backgroundPanel;
+    public GameObject playerCar;
+
+    public float startTime;
+    public int wordsCompleted;
+    GameObject wpmTextBox;
+    public Text textVar;
+
+    // Called on start of game canvas
     void Start()
     {
+        inputField.enabled= false;
         
+        switch (GameInfo.Theme)
+        {
+            case 1:
+                playerCar.GetComponent <Image>().sprite = redCar;
+                break;
+            case 2:
+                playerCar.GetComponent<Image>().sprite = blueCar;
+                break;
+            case 3:
+                playerCar.GetComponent<Image>().sprite = greenCar;
+                break;
+            case 4:
+                playerCar.GetComponent<Image>().sprite = blackCar;
+                break;
+            case 5:
+                playerCar.GetComponent<Image>().sprite = whiteCar;
+                break;
+
+        }
+        wordsCompleted = 0; // inits wordsCompleted
+        wpmTextBox = GameObject.Find("wpm_var");
+        textVar = wpmTextBox.GetComponent<Text>();
     }
+
+    /// Update is called every frame, if the MonoBehaviour is enabled.
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.CapsLock))
+        {
+            Debug.Log("Caps lock was pressed");
+        }
+    }
+
+    // Changing the display of the input field and starting check word process if space is pressed
     public void UpdateInputText()
     {
         //set newtext
@@ -27,28 +76,100 @@ public class WordController : MonoBehaviour
         {
             CheckWord();
             inputField.text = "";
-
         }
-
     }
+
+    // Checks if inputed word matches prompted word and if so, initiates correct and change of prompted word
     public void CheckWord()
     {
+        newText = newText.ToLower();
         if (newText.Length > 1)
         {
             newText = newText.Substring(0, newText.Length - 1);
+            if (newText != GameInfo.PromptWord)
+            {
+                ScoreScript.scoreValue -= 10;
+                GameInfo.ScoreValue = ScoreScript.scoreValue;
+            }
+            else
+            {
+                Correct();
+                Change();
+                updateSpeedo(IncrWPM());
+                ScoreScript.scoreValue += 50;
+                GameInfo.ScoreValue = ScoreScript.scoreValue;
+            }
         }
-        if (newText == GameInfo.PromptWord)
+        
+    }
+
+    // Exception for if enter is used to submit words; same effect as CheckWord
+    public void CheckWordOnEnter()
+    {
+        newText = newText.ToLower();
+        if (Input.GetMouseButtonDown(0))
         {
-            Debug.Log(newText + " was right");
-            Change();
+            // DO NOTHING
+        }
+        else {
+            if (newText != GameInfo.PromptWord)
+            {
+                ScoreScript.scoreValue -= 10;
+                GameInfo.ScoreValue = ScoreScript.scoreValue;
+            }
+            else {
+                Correct();
+                Change();
+                updateSpeedo(IncrWPM());
+                ScoreScript.scoreValue += 50;
+                GameInfo.ScoreValue = ScoreScript.scoreValue;
+            }
+            inputField.text = "";
+            inputField.Select();
+            inputField.ActivateInputField();
         }
     }
+
+    // Start change word process
     public void Change()
     {
         StartCoroutine(GetScores());
     }
 
+    // Player has typed a word correctly and the car is pushed forward
+    public void Correct()
+    {
+        playerCar.transform.Translate(70,0,0);
+        // Check if player has reached end of the road
+        // stop timer and bring up game won panel
+        if (playerCar.transform.position.x >= 1860)
+        {
+            GameInfo.count = false;
+            GameWonPanel.SetActive(true);
+            backgroundPanel.SetActive(false);
+        }
+    }
 
+    /**
+    * wpfarrel
+    * Increments and calculates Words per minute
+    * returns float of WPM
+    */
+    public float IncrWPM()
+    {
+        float timeInSec = Time.fixedTime; //starts Time Delta
+        Debug.Log("Time passed: " + timeInSec);
+        wordsCompleted++; // Increase word count for calculating average
+        Debug.Log("Words Completed: " + wordsCompleted);
+        float currWPM = wordsCompleted / (timeInSec / 60); //Calc WPM
+        Debug.Log("WPM = " + currWPM);
+        return currWPM;
+    }
+
+    public void updateSpeedo(float wpm)
+    {
+        textVar.text = wpm.ToString();  //Updates speedo text with current wpm
+    }
 
     // Get the scores from the MySQL DB to display in a GUIText.
     // remember to use StartCoroutine when calling this function!

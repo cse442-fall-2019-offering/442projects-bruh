@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-11-06T14:52:10.442-05:00
-  initializedAtString: 2019-11-06T14:18:08.550-05:00
+  lastUpdatedAtString: 2019-11-06T16:35:49.383-05:00
+  initializedAtString: 2019-11-06T15:19:55.652-05:00
   entries:
   - path: .vs\442projects-bruh\v15\.suo
     fullPath: C:\Users\carmela\Downloads\442projects-bruh\.vs\442projects-bruh\v15\.suo
@@ -40,33 +40,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assembly-CSharp.csproj
-    fullPath: C:\Users\carmela\Downloads\442projects-bruh\Assembly-CSharp.csproj
-    projectPath: Assembly-CSharp.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assembly-CSharp-Editor-firstpass.csproj
-    fullPath: C:\Users\carmela\Downloads\442projects-bruh\Assembly-CSharp-Editor-firstpass.csproj
-    projectPath: Assembly-CSharp-Editor-firstpass.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assembly-CSharp-firstpass.csproj
-    fullPath: C:\Users\carmela\Downloads\442projects-bruh\Assembly-CSharp-firstpass.csproj
-    projectPath: Assembly-CSharp-firstpass.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\GameInfo.cs
-    fullPath: C:\Users\carmela\Downloads\442projects-bruh\Assets\Scripts\GameInfo.cs
-    projectPath: Assets\Scripts\GameInfo.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\HighscoreController.cs
-    fullPath: C:\Users\carmela\Downloads\442projects-bruh\Assets\Scripts\HighscoreController.cs
-    projectPath: Assets\Scripts\HighscoreController.cs
+  - path: Assets\Scripts\ScoreScript.cs
+    fullPath: C:\Users\carmela\Downloads\442projects-bruh\Assets\Scripts\ScoreScript.cs
+    projectPath: Assets\Scripts\ScoreScript.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -88,6 +64,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\CurrentLayout.dwlt
+    fullPath: C:\Users\carmela\Downloads\442projects-bruh\Library\CurrentLayout.dwlt
+    projectPath: Library\CurrentLayout.dwlt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\EditorInstance.json
     fullPath: C:\Users\carmela\Downloads\442projects-bruh\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
@@ -98,14 +80,20 @@ MonoBehaviour:
     fullPath: C:\Users\carmela\Downloads\442projects-bruh\Library\gfu\cache\branches.yaml
     projectPath: Library\gfu\cache\branches.yaml
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\gfu\cache\gitlocks.yaml
     fullPath: C:\Users\carmela\Downloads\442projects-bruh\Library\gfu\cache\gitlocks.yaml
     projectPath: Library\gfu\cache\gitlocks.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\gfu\cache\gitlog.yaml
+    fullPath: C:\Users\carmela\Downloads\442projects-bruh\Library\gfu\cache\gitlog.yaml
+    projectPath: Library\gfu\cache\gitlog.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\gfu\cache\gitstatusentries.yaml
     fullPath: C:\Users\carmela\Downloads\442projects-bruh\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
@@ -130,15 +118,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\62\6291f422d82713045bcbfdc0b4147416
-    fullPath: C:\Users\carmela\Downloads\442projects-bruh\Library\metadata\62\6291f422d82713045bcbfdc0b4147416
-    projectPath: Library\metadata\62\6291f422d82713045bcbfdc0b4147416
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\94\9437accb6a613594e862f8d823ba6d94
-    fullPath: C:\Users\carmela\Downloads\442projects-bruh\Library\metadata\94\9437accb6a613594e862f8d823ba6d94
-    projectPath: Library\metadata\94\9437accb6a613594e862f8d823ba6d94
+  - path: Library\metadata\89\89a9c825e3069854c9a9475d1ff586ce
+    fullPath: C:\Users\carmela\Downloads\442projects-bruh\Library\metadata\89\89a9c825e3069854c9a9475d1ff586ce
+    projectPath: Library\metadata\89\89a9c825e3069854c9a9475d1ff586ce
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -154,90 +136,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    fullPath: C:\Users\carmela\Downloads\442projects-bruh\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
-    fullPath: C:\Users\carmela\Downloads\442projects-bruh\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-    fullPath: C:\Users\carmela\Downloads\442projects-bruh\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp-firstpass.pdb
-    fullPath: C:\Users\carmela\Downloads\442projects-bruh\Library\ScriptAssemblies\Assembly-CSharp-firstpass.pdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-firstpass.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-    fullPath: C:\Users\carmela\Downloads\442projects-bruh\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-    projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
-    fullPath: C:\Users\carmela\Downloads\442projects-bruh\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
-    projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    fullPath: C:\Users\carmela\Downloads\442projects-bruh\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
-    fullPath: C:\Users\carmela\Downloads\442projects-bruh\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
-    fullPath: C:\Users\carmela\Downloads\442projects-bruh\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
-    fullPath: C:\Users\carmela\Downloads\442projects-bruh\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    fullPath: C:\Users\carmela\Downloads\442projects-bruh\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    fullPath: C:\Users\carmela\Downloads\442projects-bruh\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
-    fullPath: C:\Users\carmela\Downloads\442projects-bruh\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
-    fullPath: C:\Users\carmela\Downloads\442projects-bruh\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
     fullPath: C:\Users\carmela\Downloads\442projects-bruh\Library\shadercompiler-UnityShaderCompiler.exe0.log
     projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
@@ -250,24 +148,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    fullPath: C:\Users\carmela\Downloads\442projects-bruh\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp.csproj.FileListAbsolute.txt
-    fullPath: C:\Users\carmela\Downloads\442projects-bruh\obj\Debug\Assembly-CSharp.csproj.FileListAbsolute.txt
-    projectPath: obj\Debug\Assembly-CSharp.csproj.FileListAbsolute.txt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    fullPath: C:\Users\carmela\Downloads\442projects-bruh\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: obj\Debug\Assembly-CSharp.dll
     fullPath: C:\Users\carmela\Downloads\442projects-bruh\obj\Debug\Assembly-CSharp.dll
     projectPath: obj\Debug\Assembly-CSharp.dll
@@ -277,84 +157,6 @@ MonoBehaviour:
   - path: obj\Debug\Assembly-CSharp.pdb
     fullPath: C:\Users\carmela\Downloads\442projects-bruh\obj\Debug\Assembly-CSharp.pdb
     projectPath: obj\Debug\Assembly-CSharp.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-    fullPath: C:\Users\carmela\Downloads\442projects-bruh\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.FileListAbsolute.txt
-    fullPath: C:\Users\carmela\Downloads\442projects-bruh\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.FileListAbsolute.txt
-    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.FileListAbsolute.txt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    fullPath: C:\Users\carmela\Downloads\442projects-bruh\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.dll
-    fullPath: C:\Users\carmela\Downloads\442projects-bruh\obj\Debug\Assembly-CSharp-Editor-firstpass.dll
-    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.pdb
-    fullPath: C:\Users\carmela\Downloads\442projects-bruh\obj\Debug\Assembly-CSharp-Editor-firstpass.pdb
-    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp-firstpass.csproj.CoreCompileInputs.cache
-    fullPath: C:\Users\carmela\Downloads\442projects-bruh\obj\Debug\Assembly-CSharp-firstpass.csproj.CoreCompileInputs.cache
-    projectPath: obj\Debug\Assembly-CSharp-firstpass.csproj.CoreCompileInputs.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp-firstpass.csproj.FileListAbsolute.txt
-    fullPath: C:\Users\carmela\Downloads\442projects-bruh\obj\Debug\Assembly-CSharp-firstpass.csproj.FileListAbsolute.txt
-    projectPath: obj\Debug\Assembly-CSharp-firstpass.csproj.FileListAbsolute.txt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp-firstpass.csprojAssemblyReference.cache
-    fullPath: C:\Users\carmela\Downloads\442projects-bruh\obj\Debug\Assembly-CSharp-firstpass.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp-firstpass.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp-firstpass.dll
-    fullPath: C:\Users\carmela\Downloads\442projects-bruh\obj\Debug\Assembly-CSharp-firstpass.dll
-    projectPath: obj\Debug\Assembly-CSharp-firstpass.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp-firstpass.pdb
-    fullPath: C:\Users\carmela\Downloads\442projects-bruh\obj\Debug\Assembly-CSharp-firstpass.pdb
-    projectPath: obj\Debug\Assembly-CSharp-firstpass.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: ProjectSettings\QualitySettings.asset
-    fullPath: C:\Users\carmela\Downloads\442projects-bruh\ProjectSettings\QualitySettings.asset
-    projectPath: ProjectSettings\QualitySettings.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: ProjectSettings\TimeManager.asset
-    fullPath: C:\Users\carmela\Downloads\442projects-bruh\ProjectSettings\TimeManager.asset
-    projectPath: ProjectSettings\TimeManager.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: ProjectSettings\UnityConnectSettings.asset
-    fullPath: C:\Users\carmela\Downloads\442projects-bruh\ProjectSettings\UnityConnectSettings.asset
-    projectPath: ProjectSettings\UnityConnectSettings.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -2038,27 +1840,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-0ceed729ac0107e478af478f47893044
-    fullPath: C:\Users\carmela\Downloads\442projects-bruh\Temp\UnityTempFile-0ceed729ac0107e478af478f47893044
-    projectPath: Temp\UnityTempFile-0ceed729ac0107e478af478f47893044
+  - path: Temp\UnityTempFile-0e3064c49641600458437a58931a5fd7
+    fullPath: C:\Users\carmela\Downloads\442projects-bruh\Temp\UnityTempFile-0e3064c49641600458437a58931a5fd7
+    projectPath: Temp\UnityTempFile-0e3064c49641600458437a58931a5fd7
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-62a11f4037b2b0f498dbc5f76c512962
-    fullPath: C:\Users\carmela\Downloads\442projects-bruh\Temp\UnityTempFile-62a11f4037b2b0f498dbc5f76c512962
-    projectPath: Temp\UnityTempFile-62a11f4037b2b0f498dbc5f76c512962
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-e3f28a3eac2cfab429320bf76110a285
-    fullPath: C:\Users\carmela\Downloads\442projects-bruh\Temp\UnityTempFile-e3f28a3eac2cfab429320bf76110a285
-    projectPath: Temp\UnityTempFile-e3f28a3eac2cfab429320bf76110a285
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-e5810dd940191524fa24b2fefc764825
-    fullPath: C:\Users\carmela\Downloads\442projects-bruh\Temp\UnityTempFile-e5810dd940191524fa24b2fefc764825
-    projectPath: Temp\UnityTempFile-e5810dd940191524fa24b2fefc764825
+  - path: Temp\UnityTempFile-444a414409b209940885b6bc2c9c8869
+    fullPath: C:\Users\carmela\Downloads\442projects-bruh\Temp\UnityTempFile-444a414409b209940885b6bc2c9c8869
+    projectPath: Temp\UnityTempFile-444a414409b209940885b6bc2c9c8869
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

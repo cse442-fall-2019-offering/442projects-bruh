@@ -10,6 +10,7 @@ public static class GameInfo
     public static string playerName;
     public static int theme;
     public static bool count;
+    public static int scoreValue;
     public static List<KeyValuePair<string, string>> savedHighscores;
 
     // Difficulty of the game stored here
@@ -58,6 +59,13 @@ public static class GameInfo
         get { return playerName; }
         set { playerName = value; }
 
+    }
+
+    // Final Score Value stored here
+    public static int ScoreValue
+    {
+        get { return scoreValue; }
+        set { scoreValue = value; }
     }
 
 }

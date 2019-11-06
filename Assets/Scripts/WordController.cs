@@ -82,21 +82,25 @@ public class WordController : MonoBehaviour
     // Checks if inputed word matches prompted word and if so, initiates correct and change of prompted word
     public void CheckWord()
     {
+        newText = newText.ToLower();
         if (newText.Length > 1)
         {
             newText = newText.Substring(0, newText.Length - 1);
+            if (newText != GameInfo.PromptWord)
+            {
+                ScoreScript.scoreValue -= 10;
+                GameInfo.ScoreValue = ScoreScript.scoreValue;
+            }
+            else
+            {
+                Correct();
+                Change();
+                updateSpeedo(IncrWPM());
+                ScoreScript.scoreValue += 50;
+                GameInfo.ScoreValue = ScoreScript.scoreValue;
+            }
         }
-        if (newText != GameInfo.PromptWord)
-        {
-            ScoreScript.scoreValue -= 10;
-        }
-        if (newText == GameInfo.PromptWord)
-        {
-            Correct();
-            Change();
-            updateSpeedo(IncrWPM());
-            ScoreScript.scoreValue += 50;
-        }
+        
     }
 
     // Exception for if enter is used to submit words; same effect as CheckWord
@@ -108,11 +112,17 @@ public class WordController : MonoBehaviour
             // DO NOTHING
         }
         else {
-            if(newText == GameInfo.PromptWord) {
+            if (newText != GameInfo.PromptWord)
+            {
+                ScoreScript.scoreValue -= 10;
+                GameInfo.ScoreValue = ScoreScript.scoreValue;
+            }
+            else {
                 Correct();
                 Change();
                 updateSpeedo(IncrWPM());
                 ScoreScript.scoreValue += 50;
+                GameInfo.ScoreValue = ScoreScript.scoreValue;
             }
             inputField.text = "";
             inputField.Select();

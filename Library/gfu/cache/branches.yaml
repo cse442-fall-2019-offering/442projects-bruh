@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
+<<<<<<< HEAD
   lastUpdatedAtString: 2019-11-06T15:00:13.374-05:00
   initializedAtString: 2019-11-06T14:58:54.160-05:00
   localBranches:
@@ -28,6 +29,21 @@ MonoBehaviour:
     tracking: origin/issue38_cleanUp
   - name: issue57_pauseMenu
     tracking: origin/issue57_pauseMenu
+=======
+  lastUpdatedAtString: 2019-11-06T15:40:40.959-05:00
+  initializedAtString: 2019-11-06T15:31:44.506-05:00
+  localBranches:
+  - name: dev
+    tracking: origin/dev
+  - name: issue27_finalscore
+    tracking: origin/issue27_finalscore
+  - name: issue44_scorecounter
+    tracking: origin/issue44_scorecounter
+  - name: issue56_scoringsystem
+    tracking: origin/issue56_scoringsystem
+  - name: master
+    tracking: origin/master
+>>>>>>> dev
   remoteBranches:
   - name: origin/dev
     tracking: '[None]'
@@ -69,8 +85,17 @@ MonoBehaviour:
     tracking: '[None]'
   - name: origin/issue54_UIscheme
     tracking: '[None]'
+<<<<<<< HEAD
   - name: origin/issue57_pauseMenu
     tracking: '[None]'
+=======
+  - name: origin/issue56_scoringsystem
+    tracking: '[None]'
+  - name: origin/issue57_pauseMenu
+    tracking: '[None]'
+  - name: origin/issue58_wpm_speedo
+    tracking: '[None]'
+>>>>>>> dev
   - name: origin/issues16_gauges
     tracking: '[None]'
   - name: origin/issue_48_highscoreimplement
@@ -88,17 +113,25 @@ MonoBehaviour:
   localConfigBranches:
     keys:
     - dev
+<<<<<<< HEAD
     - issue17_inputfield
     - issue30_disableKey
     - issue36_pause
     - issue38_cleanUp
     - issue57_pauseMenu
+=======
+    - issue27_finalscore
+    - issue44_scorecounter
+    - issue56_scoringsystem
+    - master
+>>>>>>> dev
     values:
     - name: dev
       remote:
         name: origin
         url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
       trackingBranch: dev
+<<<<<<< HEAD
     - name: issue17_inputfield
       remote:
         name: origin
@@ -124,6 +157,28 @@ MonoBehaviour:
         name: origin
         url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
       trackingBranch: issue57_pauseMenu
+=======
+    - name: issue27_finalscore
+      remote:
+        name: origin
+        url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+      trackingBranch: issue27_finalscore
+    - name: issue44_scorecounter
+      remote:
+        name: origin
+        url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+      trackingBranch: issue44_scorecounter
+    - name: issue56_scoringsystem
+      remote:
+        name: origin
+        url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+      trackingBranch: issue56_scoringsystem
+    - name: master
+      remote:
+        name: origin
+        url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+      trackingBranch: master
+>>>>>>> dev
   remoteConfigBranches:
     keys:
     - origin
@@ -149,7 +204,13 @@ MonoBehaviour:
       - issue45_autoword
       - issue47_wpm
       - issue54_UIscheme
+<<<<<<< HEAD
       - issue57_pauseMenu
+=======
+      - issue56_scoringsystem
+      - issue57_pauseMenu
+      - issue58_wpm_speedo
+>>>>>>> dev
       - issues16_gauges
       - issue_48_highscoreimplement
       - master
@@ -255,11 +316,27 @@ MonoBehaviour:
           name: origin
           url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
         trackingBranch: 
+<<<<<<< HEAD
+=======
+      - name: issue56_scoringsystem
+        remote:
+          name: origin
+          url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+        trackingBranch: 
+>>>>>>> dev
       - name: issue57_pauseMenu
         remote:
           name: origin
           url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
         trackingBranch: 
+<<<<<<< HEAD
+=======
+      - name: issue58_wpm_speedo
+        remote:
+          name: origin
+          url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+        trackingBranch: 
+>>>>>>> dev
       - name: issues16_gauges
         remote:
           name: origin

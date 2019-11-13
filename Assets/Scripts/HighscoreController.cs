@@ -37,7 +37,11 @@ public class HighscoreController : MonoBehaviour
     
     IEnumerator GetHighscores()
     {
+<<<<<<< HEAD
         yield return StartCoroutine(PostHighscores(GameInfo.PlayerName, 500));
+=======
+        yield return StartCoroutine(PostHighscores(GameInfo.PlayerName, GameInfo.ScoreValue));
+>>>>>>> dev
         UnityWebRequest www = UnityWebRequest.Get(displayHighscoreURL);
         yield return www.SendWebRequest();
         if (www.isNetworkError || www.isHttpError)

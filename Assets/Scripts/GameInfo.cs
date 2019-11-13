@@ -11,6 +11,7 @@ public static class GameInfo
     public static int theme;
     public static bool count;
     public static int scoreValue;
+    public static int timeRemain;
     public static List<KeyValuePair<string, string>> savedHighscores;
 
     // Difficulty of the game stored here
@@ -66,6 +67,12 @@ public static class GameInfo
     {
         get { return scoreValue; }
         set { scoreValue = value; }
+    }
+
+    public static int TimeRemaining
+    {
+        get { return timeRemain; }
+        set { timeRemain = value; }
     }
 
 }

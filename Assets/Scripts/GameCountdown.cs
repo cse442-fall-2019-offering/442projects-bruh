@@ -6,6 +6,7 @@ using System.Threading;
 public class GameCountdown : MonoBehaviour
 {
     public int timeLeft = 60; //Seconds Overall
+    public static int timeRemain = 0; //Remaining Time after game
     //public Text countdown; //UI Text Object
     public GameObject GameOverPanel;
     public GameObject backgroundPanel;
@@ -33,6 +34,7 @@ public class GameCountdown : MonoBehaviour
         {
             yield return new WaitForSeconds(1);
             timeLeft--;
+            timeRemain = timeLeft;
             if (timeLeft == 0)
             {
                 StopCoroutine("DecTime");

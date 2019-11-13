@@ -88,43 +88,16 @@ public class WordController : MonoBehaviour
             newText = newText.Substring(0, newText.Length - 1);
             if (newText != GameInfo.PromptWord)
             {
-                if (GameInfo.Difficulty == 1)
-                {
-                    ScoreScript.scoreValue -= 10;
-                    GameInfo.ScoreValue = ScoreScript.scoreValue;
-                }
-                if (GameInfo.Difficulty == 2)
-                {
-                    ScoreScript.scoreValue -= 15;
-                    GameInfo.ScoreValue = ScoreScript.scoreValue;
-                }
-                if (GameInfo.Difficulty == 3)
-                {
-                    ScoreScript.scoreValue -= 20;
-                    GameInfo.ScoreValue = ScoreScript.scoreValue;
-                }
-                
+                ScoreScript.scoreValue -= 10;
+                GameInfo.ScoreValue = ScoreScript.scoreValue;
             }
             else
             {
                 Correct();
                 Change();
                 updateSpeedo(IncrWPM());
-                if (GameInfo.Difficulty == 1)
-                {
-                    ScoreScript.scoreValue += 50;
-                    GameInfo.ScoreValue = ScoreScript.scoreValue;
-                }
-                if (GameInfo.Difficulty == 2)
-                {
-                    ScoreScript.scoreValue += 75;
-                    GameInfo.ScoreValue = ScoreScript.scoreValue;
-                }
-                if (GameInfo.Difficulty == 3)
-                {
-                    ScoreScript.scoreValue += 100;
-                    GameInfo.ScoreValue = ScoreScript.scoreValue;
-                }
+                ScoreScript.scoreValue += 50;
+                GameInfo.ScoreValue = ScoreScript.scoreValue;
             }
         }
         
@@ -141,41 +114,15 @@ public class WordController : MonoBehaviour
         else {
             if (newText != GameInfo.PromptWord)
             {
-                if (GameInfo.Difficulty == 1)
-                {
-                    ScoreScript.scoreValue -= 10;
-                    GameInfo.ScoreValue = ScoreScript.scoreValue;
-                }
-                if (GameInfo.Difficulty == 2)
-                {
-                    ScoreScript.scoreValue -= 15;
-                    GameInfo.ScoreValue = ScoreScript.scoreValue;
-                }
-                if (GameInfo.Difficulty == 3)
-                {
-                    ScoreScript.scoreValue -= 20;
-                    GameInfo.ScoreValue = ScoreScript.scoreValue;
-                }
+                ScoreScript.scoreValue -= 10;
+                GameInfo.ScoreValue = ScoreScript.scoreValue;
             }
             else {
                 Correct();
                 Change();
                 updateSpeedo(IncrWPM());
-                if (GameInfo.Difficulty == 1)
-                {
-                    ScoreScript.scoreValue += 50;
-                    GameInfo.ScoreValue = ScoreScript.scoreValue;
-                }
-                if (GameInfo.Difficulty == 2)
-                {
-                    ScoreScript.scoreValue += 75;
-                    GameInfo.ScoreValue = ScoreScript.scoreValue;
-                }
-                if (GameInfo.Difficulty == 3)
-                {
-                    ScoreScript.scoreValue += 100;
-                    GameInfo.ScoreValue = ScoreScript.scoreValue;
-                }
+                ScoreScript.scoreValue += 50;
+                GameInfo.ScoreValue = ScoreScript.scoreValue;
             }
             inputField.text = "";
             inputField.Select();

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-11-13T13:29:08.757-05:00
-  initializedAtString: 2019-11-13T13:26:16.280-05:00
+  lastUpdatedAtString: 2019-11-13T16:49:36.298-05:00
+  initializedAtString: 2019-11-13T16:22:23.970-05:00
   entries:
   - path: 442projects-bruh
     fullPath: C:\Users\markk\bru\442projects-bruh
@@ -142,21 +142,31 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: brutest\Assets\Audio\Sounds\DragonForce - Through The Fire And Flames -
-      Official Instrumental.wav
-    fullPath: C:\Users\markk\bru\brutest\Assets\Audio\Sounds\DragonForce - Through
-      The Fire And Flames - Official Instrumental.wav
-    projectPath: Assets\Audio\Sounds\DragonForce - Through The Fire And Flames - Official
-      Instrumental.wav
+  - path: brutest\Assets\Audio\Sounds\Metal Guitar Stuff - Departure.mp3
+    fullPath: C:\Users\markk\bru\brutest\Assets\Audio\Sounds\Metal Guitar Stuff -
+      Departure.mp3
+    projectPath: Assets\Audio\Sounds\Metal Guitar Stuff - Departure.mp3
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: brutest\Assets\Audio\Sounds\DragonForce - Through The Fire And Flames -
-      Official Instrumental.wav.meta
-    fullPath: C:\Users\markk\bru\brutest\Assets\Audio\Sounds\DragonForce - Through
-      The Fire And Flames - Official Instrumental.wav.meta
-    projectPath: Assets\Audio\Sounds\DragonForce - Through The Fire And Flames - Official
-      Instrumental.wav.meta
+  - path: brutest\Assets\Audio\Sounds\Metal Guitar Stuff - Departure.mp3.meta
+    fullPath: C:\Users\markk\bru\brutest\Assets\Audio\Sounds\Metal Guitar Stuff -
+      Departure.mp3.meta
+    projectPath: Assets\Audio\Sounds\Metal Guitar Stuff - Departure.mp3.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: brutest\Assets\Audio\Sounds\Original Song - OBSTACLES  Metal (1).mp3
+    fullPath: C:\Users\markk\bru\brutest\Assets\Audio\Sounds\Original Song - OBSTACLES  Metal
+      (1).mp3
+    projectPath: Assets\Audio\Sounds\Original Song - OBSTACLES  Metal (1).mp3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: brutest\Assets\Audio\Sounds\Original Song - OBSTACLES  Metal (1).mp3.meta
+    fullPath: C:\Users\markk\bru\brutest\Assets\Audio\Sounds\Original Song - OBSTACLES  Metal
+      (1).mp3.meta
+    projectPath: Assets\Audio\Sounds\Original Song - OBSTACLES  Metal (1).mp3.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -322,6 +332,18 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: brutest\Assets\Images\finger_logo_2.png
+    fullPath: C:\Users\markk\bru\brutest\Assets\Images\finger_logo_2.png
+    projectPath: Assets\Images\finger_logo_2.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: brutest\Assets\Images\finger_logo_2.png.meta
+    fullPath: C:\Users\markk\bru\brutest\Assets\Images\finger_logo_2.png.meta
+    projectPath: Assets\Images\finger_logo_2.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: brutest\Assets\Images\ForwardLeft.PNG
     fullPath: C:\Users\markk\bru\brutest\Assets\Images\ForwardLeft.PNG
     projectPath: Assets\Images\ForwardLeft.PNG
@@ -454,6 +476,18 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: brutest\Assets\Images\pausescreenbackground.jpg
+    fullPath: C:\Users\markk\bru\brutest\Assets\Images\pausescreenbackground.jpg
+    projectPath: Assets\Images\pausescreenbackground.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: brutest\Assets\Images\pausescreenbackground.jpg.meta
+    fullPath: C:\Users\markk\bru\brutest\Assets\Images\pausescreenbackground.jpg.meta
+    projectPath: Assets\Images\pausescreenbackground.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: brutest\Assets\Images\player_black.png
     fullPath: C:\Users\markk\bru\brutest\Assets\Images\player_black.png
     projectPath: Assets\Images\player_black.png
@@ -535,6 +569,42 @@ MonoBehaviour:
   - path: brutest\Assets\Images\red carc.png.meta
     fullPath: C:\Users\markk\bru\brutest\Assets\Images\red carc.png.meta
     projectPath: Assets\Images\red carc.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: brutest\Assets\Images\redplaybutton.png
+    fullPath: C:\Users\markk\bru\brutest\Assets\Images\redplaybutton.png
+    projectPath: Assets\Images\redplaybutton.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: brutest\Assets\Images\redplaybutton.png.meta
+    fullPath: C:\Users\markk\bru\brutest\Assets\Images\redplaybutton.png.meta
+    projectPath: Assets\Images\redplaybutton.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: brutest\Assets\Images\redplaytransparant.jpg
+    fullPath: C:\Users\markk\bru\brutest\Assets\Images\redplaytransparant.jpg
+    projectPath: Assets\Images\redplaytransparant.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: brutest\Assets\Images\redplaytransparant.jpg.meta
+    fullPath: C:\Users\markk\bru\brutest\Assets\Images\redplaytransparant.jpg.meta
+    projectPath: Assets\Images\redplaytransparant.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: brutest\Assets\Images\redtransparant.png
+    fullPath: C:\Users\markk\bru\brutest\Assets\Images\redtransparant.png
+    projectPath: Assets\Images\redtransparant.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: brutest\Assets\Images\redtransparant.png.meta
+    fullPath: C:\Users\markk\bru\brutest\Assets\Images\redtransparant.png.meta
+    projectPath: Assets\Images\redtransparant.png.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -2404,6 +2474,24 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: brutest\Library\metadata\03\03486eaed6073bb49a704baae5e6dd45
+    fullPath: C:\Users\markk\bru\brutest\Library\metadata\03\03486eaed6073bb49a704baae5e6dd45
+    projectPath: Library\metadata\03\03486eaed6073bb49a704baae5e6dd45
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: brutest\Library\metadata\03\03486eaed6073bb49a704baae5e6dd45.info
+    fullPath: C:\Users\markk\bru\brutest\Library\metadata\03\03486eaed6073bb49a704baae5e6dd45.info
+    projectPath: Library\metadata\03\03486eaed6073bb49a704baae5e6dd45.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: brutest\Library\metadata\03\03486eaed6073bb49a704baae5e6dd45.resource
+    fullPath: C:\Users\markk\bru\brutest\Library\metadata\03\03486eaed6073bb49a704baae5e6dd45.resource
+    projectPath: Library\metadata\03\03486eaed6073bb49a704baae5e6dd45.resource
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: brutest\Library\metadata\03\036d03e26977243fa9a2d7af48e51e08
     fullPath: C:\Users\markk\bru\brutest\Library\metadata\03\036d03e26977243fa9a2d7af48e51e08
     projectPath: Library\metadata\03\036d03e26977243fa9a2d7af48e51e08
@@ -2437,6 +2525,24 @@ MonoBehaviour:
   - path: brutest\Library\metadata\03\03ffb9844f8d40e8a2f59dd2aff561eb.info
     fullPath: C:\Users\markk\bru\brutest\Library\metadata\03\03ffb9844f8d40e8a2f59dd2aff561eb.info
     projectPath: Library\metadata\03\03ffb9844f8d40e8a2f59dd2aff561eb.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: brutest\Library\metadata\05\05058275a366efc4ab3ea497a16b3b07
+    fullPath: C:\Users\markk\bru\brutest\Library\metadata\05\05058275a366efc4ab3ea497a16b3b07
+    projectPath: Library\metadata\05\05058275a366efc4ab3ea497a16b3b07
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: brutest\Library\metadata\05\05058275a366efc4ab3ea497a16b3b07.info
+    fullPath: C:\Users\markk\bru\brutest\Library\metadata\05\05058275a366efc4ab3ea497a16b3b07.info
+    projectPath: Library\metadata\05\05058275a366efc4ab3ea497a16b3b07.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: brutest\Library\metadata\05\05058275a366efc4ab3ea497a16b3b07.resource
+    fullPath: C:\Users\markk\bru\brutest\Library\metadata\05\05058275a366efc4ab3ea497a16b3b07.resource
+    projectPath: Library\metadata\05\05058275a366efc4ab3ea497a16b3b07.resource
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -4564,6 +4670,18 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: brutest\Library\metadata\47\47a2e9d701123d546b874108298148b3
+    fullPath: C:\Users\markk\bru\brutest\Library\metadata\47\47a2e9d701123d546b874108298148b3
+    projectPath: Library\metadata\47\47a2e9d701123d546b874108298148b3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: brutest\Library\metadata\47\47a2e9d701123d546b874108298148b3.info
+    fullPath: C:\Users\markk\bru\brutest\Library\metadata\47\47a2e9d701123d546b874108298148b3.info
+    projectPath: Library\metadata\47\47a2e9d701123d546b874108298148b3.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: brutest\Library\metadata\48\48986928cc2a449dbaecdd1654bc9bf6
     fullPath: C:\Users\markk\bru\brutest\Library\metadata\48\48986928cc2a449dbaecdd1654bc9bf6
     projectPath: Library\metadata\48\48986928cc2a449dbaecdd1654bc9bf6
@@ -6586,6 +6704,18 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: brutest\Library\metadata\85\8534285dcd0afb7409fbed9fb148f07f
+    fullPath: C:\Users\markk\bru\brutest\Library\metadata\85\8534285dcd0afb7409fbed9fb148f07f
+    projectPath: Library\metadata\85\8534285dcd0afb7409fbed9fb148f07f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: brutest\Library\metadata\85\8534285dcd0afb7409fbed9fb148f07f.info
+    fullPath: C:\Users\markk\bru\brutest\Library\metadata\85\8534285dcd0afb7409fbed9fb148f07f.info
+    projectPath: Library\metadata\85\8534285dcd0afb7409fbed9fb148f07f.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: brutest\Library\metadata\85\85dba6b2d7204a7f9a1f976eb0a6b4d2
     fullPath: C:\Users\markk\bru\brutest\Library\metadata\85\85dba6b2d7204a7f9a1f976eb0a6b4d2
     projectPath: Library\metadata\85\85dba6b2d7204a7f9a1f976eb0a6b4d2
@@ -7111,6 +7241,18 @@ MonoBehaviour:
   - path: brutest\Library\metadata\92\92a378669877c05c6071d0fed687bb95.info
     fullPath: C:\Users\markk\bru\brutest\Library\metadata\92\92a378669877c05c6071d0fed687bb95.info
     projectPath: Library\metadata\92\92a378669877c05c6071d0fed687bb95.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: brutest\Library\metadata\93\930808d4ba5cc844dacdba31e36bc17a
+    fullPath: C:\Users\markk\bru\brutest\Library\metadata\93\930808d4ba5cc844dacdba31e36bc17a
+    projectPath: Library\metadata\93\930808d4ba5cc844dacdba31e36bc17a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: brutest\Library\metadata\93\930808d4ba5cc844dacdba31e36bc17a.info
+    fullPath: C:\Users\markk\bru\brutest\Library\metadata\93\930808d4ba5cc844dacdba31e36bc17a.info
+    projectPath: Library\metadata\93\930808d4ba5cc844dacdba31e36bc17a.info
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -7879,24 +8021,6 @@ MonoBehaviour:
   - path: brutest\Library\metadata\ac\acc34040a66fe4170bc8885268860cfe.info
     fullPath: C:\Users\markk\bru\brutest\Library\metadata\ac\acc34040a66fe4170bc8885268860cfe.info
     projectPath: Library\metadata\ac\acc34040a66fe4170bc8885268860cfe.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: brutest\Library\metadata\ad\ad59e76348b024e45abbdf0404feb60b
-    fullPath: C:\Users\markk\bru\brutest\Library\metadata\ad\ad59e76348b024e45abbdf0404feb60b
-    projectPath: Library\metadata\ad\ad59e76348b024e45abbdf0404feb60b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: brutest\Library\metadata\ad\ad59e76348b024e45abbdf0404feb60b.info
-    fullPath: C:\Users\markk\bru\brutest\Library\metadata\ad\ad59e76348b024e45abbdf0404feb60b.info
-    projectPath: Library\metadata\ad\ad59e76348b024e45abbdf0404feb60b.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: brutest\Library\metadata\ad\ad59e76348b024e45abbdf0404feb60b.resource
-    fullPath: C:\Users\markk\bru\brutest\Library\metadata\ad\ad59e76348b024e45abbdf0404feb60b.resource
-    projectPath: Library\metadata\ad\ad59e76348b024e45abbdf0404feb60b.resource
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -9088,6 +9212,18 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: brutest\Library\metadata\d6\d6a6bbde6530fd549beb04741a5903e5
+    fullPath: C:\Users\markk\bru\brutest\Library\metadata\d6\d6a6bbde6530fd549beb04741a5903e5
+    projectPath: Library\metadata\d6\d6a6bbde6530fd549beb04741a5903e5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: brutest\Library\metadata\d6\d6a6bbde6530fd549beb04741a5903e5.info
+    fullPath: C:\Users\markk\bru\brutest\Library\metadata\d6\d6a6bbde6530fd549beb04741a5903e5.info
+    projectPath: Library\metadata\d6\d6a6bbde6530fd549beb04741a5903e5.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: brutest\Library\metadata\d6\d6a708dbb74414a6dbd60e07d9513c1c
     fullPath: C:\Users\markk\bru\brutest\Library\metadata\d6\d6a708dbb74414a6dbd60e07d9513c1c
     projectPath: Library\metadata\d6\d6a708dbb74414a6dbd60e07d9513c1c
@@ -10045,6 +10181,18 @@ MonoBehaviour:
   - path: brutest\Library\metadata\f7\f74142ec8a4cd4fb1b0ff6cf5c3075af.info
     fullPath: C:\Users\markk\bru\brutest\Library\metadata\f7\f74142ec8a4cd4fb1b0ff6cf5c3075af.info
     projectPath: Library\metadata\f7\f74142ec8a4cd4fb1b0ff6cf5c3075af.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: brutest\Library\metadata\f7\f747016d01bd8eb4a9ca9ec3391336ed
+    fullPath: C:\Users\markk\bru\brutest\Library\metadata\f7\f747016d01bd8eb4a9ca9ec3391336ed
+    projectPath: Library\metadata\f7\f747016d01bd8eb4a9ca9ec3391336ed
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: brutest\Library\metadata\f7\f747016d01bd8eb4a9ca9ec3391336ed.info
+    fullPath: C:\Users\markk\bru\brutest\Library\metadata\f7\f747016d01bd8eb4a9ca9ec3391336ed.info
+    projectPath: Library\metadata\f7\f747016d01bd8eb4a9ca9ec3391336ed.info
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -16593,15 +16741,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: brutest\Temp\UnityLockfile
-    fullPath: C:\Users\markk\bru\brutest\Temp\UnityLockfile
-    projectPath: Temp\UnityLockfile
+  - path: brutest\Temp\__Backupscenes\0.backup
+    fullPath: C:\Users\markk\bru\brutest\Temp\__Backupscenes\0.backup
+    projectPath: Temp\__Backupscenes\0.backup
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: brutest\Temp\UnityTempFile-2c9dcb1728f81264bb78ffce80251084
-    fullPath: C:\Users\markk\bru\brutest\Temp\UnityTempFile-2c9dcb1728f81264bb78ffce80251084
-    projectPath: Temp\UnityTempFile-2c9dcb1728f81264bb78ffce80251084
+  - path: brutest\Temp\UnityLockfile
+    fullPath: C:\Users\markk\bru\brutest\Temp\UnityLockfile
+    projectPath: Temp\UnityLockfile
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

@@ -13,33 +13,2116 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
+<<<<<<< HEAD
+  lastUpdatedAtString: 2019-11-13T15:46:57.825-05:00
+  initializedAtString: 2019-11-13T15:27:46.510-05:00
+  entries:
+  - path: .vs\442projects-bruh\v15\.suo
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\.vs\442projects-bruh\v15\.suo
+    projectPath: .vs\442projects-bruh\v15\.suo
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: .vs\442projects-bruh\v15\Server\sqlite3\db.lock
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\.vs\442projects-bruh\v15\Server\sqlite3\db.lock
+    projectPath: .vs\442projects-bruh\v15\Server\sqlite3\db.lock
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: .vs\442projects-bruh\v15\Server\sqlite3\storage.ide
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\.vs\442projects-bruh\v15\Server\sqlite3\storage.ide
+    projectPath: .vs\442projects-bruh\v15\Server\sqlite3\storage.ide
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: .vs\442projects-bruh\v15\Server\sqlite3\storage.ide-shm
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\.vs\442projects-bruh\v15\Server\sqlite3\storage.ide-shm
+    projectPath: .vs\442projects-bruh\v15\Server\sqlite3\storage.ide-shm
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: .vs\442projects-bruh\v15\Server\sqlite3\storage.ide-wal
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\.vs\442projects-bruh\v15\Server\sqlite3\storage.ide-wal
+    projectPath: .vs\442projects-bruh\v15\Server\sqlite3\storage.ide-wal
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: 442projects-bruh.sln
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\442projects-bruh.sln
+=======
   lastUpdatedAtString: 2019-11-13T15:49:58.736-05:00
   initializedAtString: 2019-11-13T15:40:03.904-05:00
   entries:
   - path: 442projects-bruh.sln
     fullPath: D:\Documents\CSE442\442projects-bruh\442projects-bruh.sln
+>>>>>>> dev
     projectPath: 442projects-bruh.sln
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Assembly-CSharp.csproj
+<<<<<<< HEAD
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Assembly-CSharp.csproj
+=======
     fullPath: D:\Documents\CSE442\442projects-bruh\Assembly-CSharp.csproj
+>>>>>>> dev
     projectPath: Assembly-CSharp.csproj
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Assembly-CSharp-Editor-firstpass.csproj
+<<<<<<< HEAD
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Assembly-CSharp-Editor-firstpass.csproj
+=======
     fullPath: D:\Documents\CSE442\442projects-bruh\Assembly-CSharp-Editor-firstpass.csproj
+>>>>>>> dev
     projectPath: Assembly-CSharp-Editor-firstpass.csproj
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Assembly-CSharp-firstpass.csproj
+<<<<<<< HEAD
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Assembly-CSharp-firstpass.csproj
+=======
     fullPath: D:\Documents\CSE442\442projects-bruh\Assembly-CSharp-firstpass.csproj
+>>>>>>> dev
     projectPath: Assembly-CSharp-firstpass.csproj
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+<<<<<<< HEAD
+  - path: Assets\Scripts\WordController.cs
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Assets\Scripts\WordController.cs
+    projectPath: Assets\Scripts\WordController.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\assetDatabase3
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Library\assetDatabase3
+    projectPath: Library\assetDatabase3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Collab\CollabSnapshot_47081a36-643e-4f6f-895a-2d8542ad10b6.txt
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Library\Collab\CollabSnapshot_47081a36-643e-4f6f-895a-2d8542ad10b6.txt
+    projectPath: Library\Collab\CollabSnapshot_47081a36-643e-4f6f-895a-2d8542ad10b6.txt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\EditorInstance.json
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Library\EditorInstance.json
+    projectPath: Library\EditorInstance.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\gfu\cache\gitlocks.yaml
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\gfu\cache\gitstatusentries.yaml
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Library\gfu\cache\gitstatusentries.yaml
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Library\gfu\cache\gittrackingstatus.yaml
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\28\289cae7e159f91c42b722361a25de924
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Library\metadata\28\289cae7e159f91c42b722361a25de924
+    projectPath: Library\metadata\28\289cae7e159f91c42b722361a25de924
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\8f\8f586378b4e144a9851e7b34d9b748ee.info
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Library\metadata\8f\8f586378b4e144a9851e7b34d9b748ee.info
+    projectPath: Library\metadata\8f\8f586378b4e144a9851e7b34d9b748ee.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Library\ScriptAssemblies\Assembly-CSharp.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Library\ScriptAssemblies\Assembly-CSharp.pdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Assembly-CSharp-firstpass.pdb
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Library\ScriptAssemblies\Assembly-CSharp-firstpass.pdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-firstpass.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\StateCache\Hierarchy\199a42-mainStage.json
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Library\StateCache\Hierarchy\199a42-mainStage.json
+    projectPath: Library\StateCache\Hierarchy\199a42-mainStage.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\Assembly-CSharp.csproj.CopyComplete
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\obj\Debug\Assembly-CSharp.csproj.CopyComplete
+    projectPath: obj\Debug\Assembly-CSharp.csproj.CopyComplete
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\Assembly-CSharp.csproj.FileListAbsolute.txt
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\obj\Debug\Assembly-CSharp.csproj.FileListAbsolute.txt
+    projectPath: obj\Debug\Assembly-CSharp.csproj.FileListAbsolute.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\Assembly-CSharp.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\obj\Debug\Assembly-CSharp.dll
+    projectPath: obj\Debug\Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj\Debug\Assembly-CSharp.pdb
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\obj\Debug\Assembly-CSharp.pdb
+    projectPath: obj\Debug\Assembly-CSharp.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CopyComplete
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CopyComplete
+    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CopyComplete
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.FileListAbsolute.txt
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.FileListAbsolute.txt
+    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.FileListAbsolute.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\obj\Debug\Assembly-CSharp-Editor-firstpass.dll
+    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.pdb
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\obj\Debug\Assembly-CSharp-Editor-firstpass.pdb
+    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj\Debug\Assembly-CSharp-firstpass.csproj.CopyComplete
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\obj\Debug\Assembly-CSharp-firstpass.csproj.CopyComplete
+    projectPath: obj\Debug\Assembly-CSharp-firstpass.csproj.CopyComplete
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj\Debug\Assembly-CSharp-firstpass.csproj.CoreCompileInputs.cache
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\obj\Debug\Assembly-CSharp-firstpass.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp-firstpass.csproj.CoreCompileInputs.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\Assembly-CSharp-firstpass.csproj.FileListAbsolute.txt
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\obj\Debug\Assembly-CSharp-firstpass.csproj.FileListAbsolute.txt
+    projectPath: obj\Debug\Assembly-CSharp-firstpass.csproj.FileListAbsolute.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj\Debug\Assembly-CSharp-firstpass.csprojAssemblyReference.cache
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\obj\Debug\Assembly-CSharp-firstpass.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp-firstpass.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\Assembly-CSharp-firstpass.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\obj\Debug\Assembly-CSharp-firstpass.dll
+    projectPath: obj\Debug\Assembly-CSharp-firstpass.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj\Debug\Assembly-CSharp-firstpass.pdb
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\obj\Debug\Assembly-CSharp-firstpass.pdb
+    projectPath: obj\Debug\Assembly-CSharp-firstpass.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\QualitySettings.asset
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\ProjectSettings\QualitySettings.asset
+    projectPath: ProjectSettings\QualitySettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: ProjectSettings\UnityConnectSettings.asset
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\ProjectSettings\UnityConnectSettings.asset
+    projectPath: ProjectSettings\UnityConnectSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\__Backupscenes\0.backup
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\__Backupscenes\0.backup
+    projectPath: Temp\__Backupscenes\0.backup
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Assembly-CSharp.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\Assembly-CSharp.dll
+    projectPath: Temp\bin\Debug\Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Assembly-CSharp.pdb
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\Assembly-CSharp.pdb
+    projectPath: Temp\bin\Debug\Assembly-CSharp.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Assembly-CSharp-Editor-firstpass.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\Assembly-CSharp-Editor-firstpass.dll
+    projectPath: Temp\bin\Debug\Assembly-CSharp-Editor-firstpass.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Assembly-CSharp-Editor-firstpass.pdb
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\Assembly-CSharp-Editor-firstpass.pdb
+    projectPath: Temp\bin\Debug\Assembly-CSharp-Editor-firstpass.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Assembly-CSharp-firstpass.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\Assembly-CSharp-firstpass.dll
+    projectPath: Temp\bin\Debug\Assembly-CSharp-firstpass.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+    projectPath: Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Boo.Lang.Compiler.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\Boo.Lang.Compiler.dll
+    projectPath: Temp\bin\Debug\Boo.Lang.Compiler.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Boo.Lang.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\Boo.Lang.dll
+    projectPath: Temp\bin\Debug\Boo.Lang.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Boo.Lang.Parser.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\Boo.Lang.Parser.dll
+    projectPath: Temp\bin\Debug\Boo.Lang.Parser.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Boo.Lang.PatternMatching.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\Boo.Lang.PatternMatching.dll
+    projectPath: Temp\bin\Debug\Boo.Lang.PatternMatching.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Boo.Lang.Useful.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\Boo.Lang.Useful.dll
+    projectPath: Temp\bin\Debug\Boo.Lang.Useful.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\ExCSS.Unity.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\ExCSS.Unity.dll
+    projectPath: Temp\bin\Debug\ExCSS.Unity.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\GitHub.Api.45.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\GitHub.Api.45.dll
+    projectPath: Temp\bin\Debug\GitHub.Api.45.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\GitHub.Logging.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\GitHub.Logging.dll
+    projectPath: Temp\bin\Debug\GitHub.Logging.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\GitHub.Unity.45.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\GitHub.Unity.45.dll
+    projectPath: Temp\bin\Debug\GitHub.Unity.45.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\GitHub.UnityShim.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\GitHub.UnityShim.dll
+    projectPath: Temp\bin\Debug\GitHub.UnityShim.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Microsoft.CSharp.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\Microsoft.CSharp.dll
+    projectPath: Temp\bin\Debug\Microsoft.CSharp.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Microsoft.Win32.Primitives.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\Microsoft.Win32.Primitives.dll
+    projectPath: Temp\bin\Debug\Microsoft.Win32.Primitives.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Mono.Posix.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\Mono.Posix.dll
+    projectPath: Temp\bin\Debug\Mono.Posix.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\mscorlib.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\mscorlib.dll
+    projectPath: Temp\bin\Debug\mscorlib.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\netstandard.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\netstandard.dll
+    projectPath: Temp\bin\Debug\netstandard.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\nunit.framework.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\nunit.framework.dll
+    projectPath: Temp\bin\Debug\nunit.framework.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\nunit.framework.xml
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\nunit.framework.xml
+    projectPath: Temp\bin\Debug\nunit.framework.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\sfw.net.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\sfw.net.dll
+    projectPath: Temp\bin\Debug\sfw.net.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\SyntaxTree.VisualStudio.Unity.Bridge.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\SyntaxTree.VisualStudio.Unity.Bridge.dll
+    projectPath: Temp\bin\Debug\SyntaxTree.VisualStudio.Unity.Bridge.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\SyntaxTree.VisualStudio.Unity.Messaging.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\SyntaxTree.VisualStudio.Unity.Messaging.dll
+    projectPath: Temp\bin\Debug\SyntaxTree.VisualStudio.Unity.Messaging.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.AppContext.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.AppContext.dll
+    projectPath: Temp\bin\Debug\System.AppContext.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Collections.Concurrent.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Collections.Concurrent.dll
+    projectPath: Temp\bin\Debug\System.Collections.Concurrent.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Collections.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Collections.dll
+    projectPath: Temp\bin\Debug\System.Collections.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Collections.NonGeneric.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Collections.NonGeneric.dll
+    projectPath: Temp\bin\Debug\System.Collections.NonGeneric.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Collections.Specialized.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Collections.Specialized.dll
+    projectPath: Temp\bin\Debug\System.Collections.Specialized.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.ComponentModel.Annotations.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.ComponentModel.Annotations.dll
+    projectPath: Temp\bin\Debug\System.ComponentModel.Annotations.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.ComponentModel.Composition.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.ComponentModel.Composition.dll
+    projectPath: Temp\bin\Debug\System.ComponentModel.Composition.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.ComponentModel.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.ComponentModel.dll
+    projectPath: Temp\bin\Debug\System.ComponentModel.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+    projectPath: Temp\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.ComponentModel.Primitives.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.ComponentModel.Primitives.dll
+    projectPath: Temp\bin\Debug\System.ComponentModel.Primitives.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.ComponentModel.TypeConverter.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.ComponentModel.TypeConverter.dll
+    projectPath: Temp\bin\Debug\System.ComponentModel.TypeConverter.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Console.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Console.dll
+    projectPath: Temp\bin\Debug\System.Console.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Core.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Core.dll
+    projectPath: Temp\bin\Debug\System.Core.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Data.Common.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Data.Common.dll
+    projectPath: Temp\bin\Debug\System.Data.Common.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Data.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Data.dll
+    projectPath: Temp\bin\Debug\System.Data.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Diagnostics.Contracts.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Diagnostics.Contracts.dll
+    projectPath: Temp\bin\Debug\System.Diagnostics.Contracts.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Diagnostics.Debug.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Diagnostics.Debug.dll
+    projectPath: Temp\bin\Debug\System.Diagnostics.Debug.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+    projectPath: Temp\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Diagnostics.Process.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Diagnostics.Process.dll
+    projectPath: Temp\bin\Debug\System.Diagnostics.Process.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Diagnostics.StackTrace.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Diagnostics.StackTrace.dll
+    projectPath: Temp\bin\Debug\System.Diagnostics.StackTrace.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+    projectPath: Temp\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Diagnostics.Tools.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Diagnostics.Tools.dll
+    projectPath: Temp\bin\Debug\System.Diagnostics.Tools.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Diagnostics.TraceSource.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Diagnostics.TraceSource.dll
+    projectPath: Temp\bin\Debug\System.Diagnostics.TraceSource.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Diagnostics.Tracing.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Diagnostics.Tracing.dll
+    projectPath: Temp\bin\Debug\System.Diagnostics.Tracing.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.dll
+    projectPath: Temp\bin\Debug\System.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Drawing.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Drawing.dll
+    projectPath: Temp\bin\Debug\System.Drawing.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Drawing.Primitives.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Drawing.Primitives.dll
+    projectPath: Temp\bin\Debug\System.Drawing.Primitives.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Dynamic.Runtime.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Dynamic.Runtime.dll
+    projectPath: Temp\bin\Debug\System.Dynamic.Runtime.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Globalization.Calendars.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Globalization.Calendars.dll
+    projectPath: Temp\bin\Debug\System.Globalization.Calendars.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Globalization.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Globalization.dll
+    projectPath: Temp\bin\Debug\System.Globalization.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Globalization.Extensions.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Globalization.Extensions.dll
+    projectPath: Temp\bin\Debug\System.Globalization.Extensions.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.IO.Compression.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.IO.Compression.dll
+    projectPath: Temp\bin\Debug\System.IO.Compression.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.IO.Compression.FileSystem.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.IO.Compression.FileSystem.dll
+    projectPath: Temp\bin\Debug\System.IO.Compression.FileSystem.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.IO.Compression.ZipFile.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.IO.Compression.ZipFile.dll
+    projectPath: Temp\bin\Debug\System.IO.Compression.ZipFile.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.IO.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.IO.dll
+    projectPath: Temp\bin\Debug\System.IO.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.IO.FileSystem.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.IO.FileSystem.dll
+    projectPath: Temp\bin\Debug\System.IO.FileSystem.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+    projectPath: Temp\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.IO.FileSystem.Primitives.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.IO.FileSystem.Primitives.dll
+    projectPath: Temp\bin\Debug\System.IO.FileSystem.Primitives.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.IO.FileSystem.Watcher.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.IO.FileSystem.Watcher.dll
+    projectPath: Temp\bin\Debug\System.IO.FileSystem.Watcher.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.IO.IsolatedStorage.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.IO.IsolatedStorage.dll
+    projectPath: Temp\bin\Debug\System.IO.IsolatedStorage.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.IO.MemoryMappedFiles.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.IO.MemoryMappedFiles.dll
+    projectPath: Temp\bin\Debug\System.IO.MemoryMappedFiles.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.IO.Pipes.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.IO.Pipes.dll
+    projectPath: Temp\bin\Debug\System.IO.Pipes.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+    projectPath: Temp\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Linq.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Linq.dll
+    projectPath: Temp\bin\Debug\System.Linq.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Linq.Expressions.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Linq.Expressions.dll
+    projectPath: Temp\bin\Debug\System.Linq.Expressions.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Linq.Parallel.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Linq.Parallel.dll
+    projectPath: Temp\bin\Debug\System.Linq.Parallel.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Linq.Queryable.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Linq.Queryable.dll
+    projectPath: Temp\bin\Debug\System.Linq.Queryable.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Net.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Net.dll
+    projectPath: Temp\bin\Debug\System.Net.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Net.Http.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Net.Http.dll
+    projectPath: Temp\bin\Debug\System.Net.Http.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Net.Http.Rtc.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Net.Http.Rtc.dll
+    projectPath: Temp\bin\Debug\System.Net.Http.Rtc.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Net.NameResolution.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Net.NameResolution.dll
+    projectPath: Temp\bin\Debug\System.Net.NameResolution.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Net.NetworkInformation.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Net.NetworkInformation.dll
+    projectPath: Temp\bin\Debug\System.Net.NetworkInformation.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Net.Ping.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Net.Ping.dll
+    projectPath: Temp\bin\Debug\System.Net.Ping.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Net.Primitives.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Net.Primitives.dll
+    projectPath: Temp\bin\Debug\System.Net.Primitives.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Net.Requests.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Net.Requests.dll
+    projectPath: Temp\bin\Debug\System.Net.Requests.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Net.Security.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Net.Security.dll
+    projectPath: Temp\bin\Debug\System.Net.Security.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Net.Sockets.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Net.Sockets.dll
+    projectPath: Temp\bin\Debug\System.Net.Sockets.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Net.WebHeaderCollection.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Net.WebHeaderCollection.dll
+    projectPath: Temp\bin\Debug\System.Net.WebHeaderCollection.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Net.WebSockets.Client.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Net.WebSockets.Client.dll
+    projectPath: Temp\bin\Debug\System.Net.WebSockets.Client.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Net.WebSockets.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Net.WebSockets.dll
+    projectPath: Temp\bin\Debug\System.Net.WebSockets.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Numerics.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Numerics.dll
+    projectPath: Temp\bin\Debug\System.Numerics.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Numerics.Vectors.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Numerics.Vectors.dll
+    projectPath: Temp\bin\Debug\System.Numerics.Vectors.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.ObjectModel.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.ObjectModel.dll
+    projectPath: Temp\bin\Debug\System.ObjectModel.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Reflection.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Reflection.dll
+    projectPath: Temp\bin\Debug\System.Reflection.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Reflection.Emit.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Reflection.Emit.dll
+    projectPath: Temp\bin\Debug\System.Reflection.Emit.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Reflection.Emit.ILGeneration.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Reflection.Emit.ILGeneration.dll
+    projectPath: Temp\bin\Debug\System.Reflection.Emit.ILGeneration.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Reflection.Emit.Lightweight.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Reflection.Emit.Lightweight.dll
+    projectPath: Temp\bin\Debug\System.Reflection.Emit.Lightweight.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Reflection.Extensions.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Reflection.Extensions.dll
+    projectPath: Temp\bin\Debug\System.Reflection.Extensions.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Reflection.Primitives.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Reflection.Primitives.dll
+    projectPath: Temp\bin\Debug\System.Reflection.Primitives.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Resources.Reader.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Resources.Reader.dll
+    projectPath: Temp\bin\Debug\System.Resources.Reader.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Resources.ResourceManager.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Resources.ResourceManager.dll
+    projectPath: Temp\bin\Debug\System.Resources.ResourceManager.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Resources.Writer.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Resources.Writer.dll
+    projectPath: Temp\bin\Debug\System.Resources.Writer.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+    projectPath: Temp\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Runtime.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Runtime.dll
+    projectPath: Temp\bin\Debug\System.Runtime.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Runtime.Extensions.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Runtime.Extensions.dll
+    projectPath: Temp\bin\Debug\System.Runtime.Extensions.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Runtime.Handles.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Runtime.Handles.dll
+    projectPath: Temp\bin\Debug\System.Runtime.Handles.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Runtime.InteropServices.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Runtime.InteropServices.dll
+    projectPath: Temp\bin\Debug\System.Runtime.InteropServices.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+    projectPath: Temp\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
+    projectPath: Temp\bin\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Runtime.Numerics.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Runtime.Numerics.dll
+    projectPath: Temp\bin\Debug\System.Runtime.Numerics.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Runtime.Serialization.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Runtime.Serialization.dll
+    projectPath: Temp\bin\Debug\System.Runtime.Serialization.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Runtime.Serialization.Formatters.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Runtime.Serialization.Formatters.dll
+    projectPath: Temp\bin\Debug\System.Runtime.Serialization.Formatters.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Runtime.Serialization.Json.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Runtime.Serialization.Json.dll
+    projectPath: Temp\bin\Debug\System.Runtime.Serialization.Json.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Runtime.Serialization.Primitives.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Runtime.Serialization.Primitives.dll
+    projectPath: Temp\bin\Debug\System.Runtime.Serialization.Primitives.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Runtime.Serialization.Xml.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Runtime.Serialization.Xml.dll
+    projectPath: Temp\bin\Debug\System.Runtime.Serialization.Xml.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Security.Claims.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Security.Claims.dll
+    projectPath: Temp\bin\Debug\System.Security.Claims.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Security.Cryptography.Algorithms.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Security.Cryptography.Algorithms.dll
+    projectPath: Temp\bin\Debug\System.Security.Cryptography.Algorithms.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Security.Cryptography.Csp.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Security.Cryptography.Csp.dll
+    projectPath: Temp\bin\Debug\System.Security.Cryptography.Csp.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Security.Cryptography.Encoding.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Security.Cryptography.Encoding.dll
+    projectPath: Temp\bin\Debug\System.Security.Cryptography.Encoding.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Security.Cryptography.Primitives.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Security.Cryptography.Primitives.dll
+    projectPath: Temp\bin\Debug\System.Security.Cryptography.Primitives.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+    projectPath: Temp\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Security.Principal.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Security.Principal.dll
+    projectPath: Temp\bin\Debug\System.Security.Principal.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Security.SecureString.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Security.SecureString.dll
+    projectPath: Temp\bin\Debug\System.Security.SecureString.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.ServiceModel.Duplex.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.ServiceModel.Duplex.dll
+    projectPath: Temp\bin\Debug\System.ServiceModel.Duplex.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.ServiceModel.Http.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.ServiceModel.Http.dll
+    projectPath: Temp\bin\Debug\System.ServiceModel.Http.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.ServiceModel.NetTcp.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.ServiceModel.NetTcp.dll
+    projectPath: Temp\bin\Debug\System.ServiceModel.NetTcp.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.ServiceModel.Primitives.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.ServiceModel.Primitives.dll
+    projectPath: Temp\bin\Debug\System.ServiceModel.Primitives.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.ServiceModel.Security.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.ServiceModel.Security.dll
+    projectPath: Temp\bin\Debug\System.ServiceModel.Security.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.ServiceModel.Web.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.ServiceModel.Web.dll
+    projectPath: Temp\bin\Debug\System.ServiceModel.Web.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Text.Encoding.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Text.Encoding.dll
+    projectPath: Temp\bin\Debug\System.Text.Encoding.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Text.Encoding.Extensions.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Text.Encoding.Extensions.dll
+    projectPath: Temp\bin\Debug\System.Text.Encoding.Extensions.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Text.RegularExpressions.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Text.RegularExpressions.dll
+    projectPath: Temp\bin\Debug\System.Text.RegularExpressions.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Threading.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Threading.dll
+    projectPath: Temp\bin\Debug\System.Threading.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Threading.Overlapped.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Threading.Overlapped.dll
+    projectPath: Temp\bin\Debug\System.Threading.Overlapped.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Threading.Tasks.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Threading.Tasks.dll
+    projectPath: Temp\bin\Debug\System.Threading.Tasks.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Threading.Tasks.Parallel.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Threading.Tasks.Parallel.dll
+    projectPath: Temp\bin\Debug\System.Threading.Tasks.Parallel.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Threading.Thread.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Threading.Thread.dll
+    projectPath: Temp\bin\Debug\System.Threading.Thread.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Threading.ThreadPool.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Threading.ThreadPool.dll
+    projectPath: Temp\bin\Debug\System.Threading.ThreadPool.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Threading.Timer.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Threading.Timer.dll
+    projectPath: Temp\bin\Debug\System.Threading.Timer.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Transactions.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Transactions.dll
+    projectPath: Temp\bin\Debug\System.Transactions.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.ValueTuple.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.ValueTuple.dll
+    projectPath: Temp\bin\Debug\System.ValueTuple.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Web.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Web.dll
+    projectPath: Temp\bin\Debug\System.Web.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Windows.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Windows.dll
+    projectPath: Temp\bin\Debug\System.Windows.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Xml.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Xml.dll
+    projectPath: Temp\bin\Debug\System.Xml.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Xml.Linq.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Xml.Linq.dll
+    projectPath: Temp\bin\Debug\System.Xml.Linq.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Xml.ReaderWriter.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Xml.ReaderWriter.dll
+    projectPath: Temp\bin\Debug\System.Xml.ReaderWriter.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Xml.Serialization.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Xml.Serialization.dll
+    projectPath: Temp\bin\Debug\System.Xml.Serialization.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Xml.XDocument.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Xml.XDocument.dll
+    projectPath: Temp\bin\Debug\System.Xml.XDocument.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Xml.XmlDocument.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Xml.XmlDocument.dll
+    projectPath: Temp\bin\Debug\System.Xml.XmlDocument.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Xml.XmlSerializer.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Xml.XmlSerializer.dll
+    projectPath: Temp\bin\Debug\System.Xml.XmlSerializer.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Xml.XPath.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Xml.XPath.dll
+    projectPath: Temp\bin\Debug\System.Xml.XPath.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Xml.XPath.XDocument.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\System.Xml.XPath.XDocument.dll
+    projectPath: Temp\bin\Debug\System.Xml.XPath.XDocument.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Unity.Analytics.DataPrivacy.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\Unity.Analytics.DataPrivacy.dll
+    projectPath: Temp\bin\Debug\Unity.Analytics.DataPrivacy.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Unity.Analytics.DataPrivacy.pdb
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\Unity.Analytics.DataPrivacy.pdb
+    projectPath: Temp\bin\Debug\Unity.Analytics.DataPrivacy.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Unity.Analytics.Editor.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\Unity.Analytics.Editor.dll
+    projectPath: Temp\bin\Debug\Unity.Analytics.Editor.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Unity.Analytics.StandardEvents.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\Unity.Analytics.StandardEvents.dll
+    projectPath: Temp\bin\Debug\Unity.Analytics.StandardEvents.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Unity.Analytics.Tracker.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\Unity.Analytics.Tracker.dll
+    projectPath: Temp\bin\Debug\Unity.Analytics.Tracker.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Unity.Cecil.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\Unity.Cecil.dll
+    projectPath: Temp\bin\Debug\Unity.Cecil.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Unity.Cecil.Mdb.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\Unity.Cecil.Mdb.dll
+    projectPath: Temp\bin\Debug\Unity.Cecil.Mdb.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Unity.Cecil.Pdb.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\Unity.Cecil.Pdb.dll
+    projectPath: Temp\bin\Debug\Unity.Cecil.Pdb.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Unity.CecilTools.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\Unity.CecilTools.dll
+    projectPath: Temp\bin\Debug\Unity.CecilTools.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Unity.CollabProxy.Editor.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\Unity.CollabProxy.Editor.dll
+    projectPath: Temp\bin\Debug\Unity.CollabProxy.Editor.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Unity.CollabProxy.Editor.pdb
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\Unity.CollabProxy.Editor.pdb
+    projectPath: Temp\bin\Debug\Unity.CollabProxy.Editor.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Unity.DataContract.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\Unity.DataContract.dll
+    projectPath: Temp\bin\Debug\Unity.DataContract.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Unity.IvyParser.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\Unity.IvyParser.dll
+    projectPath: Temp\bin\Debug\Unity.IvyParser.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Unity.Legacy.NRefactory.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\Unity.Legacy.NRefactory.dll
+    projectPath: Temp\bin\Debug\Unity.Legacy.NRefactory.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Unity.Locator.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\Unity.Locator.dll
+    projectPath: Temp\bin\Debug\Unity.Locator.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Unity.PackageManagerUI.Editor.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\Unity.PackageManagerUI.Editor.dll
+    projectPath: Temp\bin\Debug\Unity.PackageManagerUI.Editor.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Unity.PackageManagerUI.Editor.pdb
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\Unity.PackageManagerUI.Editor.pdb
+    projectPath: Temp\bin\Debug\Unity.PackageManagerUI.Editor.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Unity.SerializationLogic.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\Unity.SerializationLogic.dll
+    projectPath: Temp\bin\Debug\Unity.SerializationLogic.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Unity.TextMeshPro.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\Unity.TextMeshPro.dll
+    projectPath: Temp\bin\Debug\Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Unity.TextMeshPro.Editor.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\Unity.TextMeshPro.Editor.dll
+    projectPath: Temp\bin\Debug\Unity.TextMeshPro.Editor.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Unity.TextMeshPro.Editor.pdb
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\Unity.TextMeshPro.Editor.pdb
+    projectPath: Temp\bin\Debug\Unity.TextMeshPro.Editor.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Unity.TextMeshPro.pdb
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\Unity.TextMeshPro.pdb
+    projectPath: Temp\bin\Debug\Unity.TextMeshPro.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Unity.UNetWeaver.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\Unity.UNetWeaver.dll
+    projectPath: Temp\bin\Debug\Unity.UNetWeaver.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEditor.Advertisements.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEditor.Advertisements.dll
+    projectPath: Temp\bin\Debug\UnityEditor.Advertisements.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEditor.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEditor.dll
+    projectPath: Temp\bin\Debug\UnityEditor.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEditor.GoogleAudioSpatializer.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEditor.GoogleAudioSpatializer.dll
+    projectPath: Temp\bin\Debug\UnityEditor.GoogleAudioSpatializer.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEditor.Graphs.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEditor.Graphs.dll
+    projectPath: Temp\bin\Debug\UnityEditor.Graphs.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
+    projectPath: Temp\bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEditor.Networking.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEditor.Networking.dll
+    projectPath: Temp\bin\Debug\UnityEditor.Networking.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEditor.Purchasing.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEditor.Purchasing.dll
+    projectPath: Temp\bin\Debug\UnityEditor.Purchasing.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEditor.SpatialTracking.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEditor.SpatialTracking.dll
+    projectPath: Temp\bin\Debug\UnityEditor.SpatialTracking.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEditor.TestRunner.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEditor.TestRunner.dll
+    projectPath: Temp\bin\Debug\UnityEditor.TestRunner.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEditor.Timeline.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEditor.Timeline.dll
+    projectPath: Temp\bin\Debug\UnityEditor.Timeline.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEditor.UI.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEditor.UI.dll
+    projectPath: Temp\bin\Debug\UnityEditor.UI.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEditor.VR.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEditor.VR.dll
+    projectPath: Temp\bin\Debug\UnityEditor.VR.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEditor.WindowsStandalone.Extensions.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEditor.WindowsStandalone.Extensions.dll
+    projectPath: Temp\bin\Debug\UnityEditor.WindowsStandalone.Extensions.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEditor.xml
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEditor.xml
+    projectPath: Temp\bin\Debug\UnityEditor.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.AccessibilityModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.AccessibilityModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.AccessibilityModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.AIModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.AIModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.AIModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.AnimationModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.AnimationModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.AnimationModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.AnimationModule.xml
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.AnimationModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.AnimationModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.ARModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.ARModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.ARModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.AssetBundleModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.AssetBundleModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.AssetBundleModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.AssetBundleModule.xml
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.AssetBundleModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.AssetBundleModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.AudioModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.AudioModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.AudioModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.AudioModule.xml
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.AudioModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.AudioModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.BaselibModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.BaselibModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.BaselibModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.ClothModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.ClothModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.ClothModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.ClusterInputModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.ClusterInputModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.ClusterInputModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.ClusterInputModule.xml
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.ClusterInputModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.ClusterInputModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.ClusterRendererModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.ClusterRendererModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.ClusterRendererModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.CoreModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.CoreModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.CoreModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.CoreModule.xml
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.CoreModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.CoreModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.CrashReportingModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.CrashReportingModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.CrashReportingModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.DirectorModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.DirectorModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.DirectorModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.dll
+    projectPath: Temp\bin\Debug\UnityEngine.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.FileSystemHttpModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.FileSystemHttpModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.FileSystemHttpModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.GameCenterModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.GameCenterModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.GameCenterModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.dll
+    projectPath: Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.GridModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.GridModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.GridModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.GridModule.xml
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.GridModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.GridModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.HotReloadModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.HotReloadModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.HotReloadModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.ImageConversionModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.ImageConversionModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.ImageConversionModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.ImageConversionModule.xml
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.ImageConversionModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.ImageConversionModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.IMGUIModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.IMGUIModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.IMGUIModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.IMGUIModule.xml
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.IMGUIModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.IMGUIModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.InputModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.InputModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.InputModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.InputModule.xml
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.InputModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.InputModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.JSONSerializeModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.JSONSerializeModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.JSONSerializeModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.JSONSerializeModule.xml
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.JSONSerializeModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.JSONSerializeModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.LocalizationModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.LocalizationModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.LocalizationModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.Networking.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.Networking.dll
+    projectPath: Temp\bin\Debug\UnityEngine.Networking.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.ParticleSystemModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.ParticleSystemModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.ParticleSystemModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.PerformanceReportingModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.PerformanceReportingModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.PerformanceReportingModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.Physics2DModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.Physics2DModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.Physics2DModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.Physics2DModule.xml
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.Physics2DModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.Physics2DModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.PhysicsModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.PhysicsModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.PhysicsModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.PhysicsModule.xml
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.PhysicsModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.PhysicsModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.ProfilerModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.ProfilerModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.ProfilerModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.ScreenCaptureModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.ScreenCaptureModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.ScreenCaptureModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.SharedInternalsModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.SharedInternalsModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.SharedInternalsModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.SharedInternalsModule.xml
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.SharedInternalsModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.SharedInternalsModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.SpatialTracking.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.SpatialTracking.dll
+    projectPath: Temp\bin\Debug\UnityEngine.SpatialTracking.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.SpatialTrackingModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.SpatialTrackingModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.SpatialTrackingModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.SpriteMaskModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.SpriteMaskModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.SpriteMaskModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.SpriteShapeModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.SpriteShapeModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.SpriteShapeModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.StreamingModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.StreamingModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.StreamingModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.StyleSheetsModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.StyleSheetsModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.StyleSheetsModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.StyleSheetsModule.xml
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.StyleSheetsModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.StyleSheetsModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.SubstanceModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.SubstanceModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.SubstanceModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.TerrainModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.TerrainModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.TerrainModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.TerrainModule.xml
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.TerrainModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.TerrainModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.TerrainPhysicsModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.TerrainPhysicsModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.TerrainPhysicsModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.TestRunner.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.TestRunner.dll
+    projectPath: Temp\bin\Debug\UnityEngine.TestRunner.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.TextCoreModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.TextCoreModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.TextCoreModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.TextRenderingModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.TextRenderingModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.TextRenderingModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.TextRenderingModule.xml
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.TextRenderingModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.TextRenderingModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.TilemapModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.TilemapModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.TilemapModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.Timeline.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.Timeline.dll
+    projectPath: Temp\bin\Debug\UnityEngine.Timeline.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.TimelineModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.TimelineModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.TimelineModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.TLSModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.TLSModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.TLSModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.UI.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.UI.dll
+    projectPath: Temp\bin\Debug\UnityEngine.UI.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.UIElementsModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.UIElementsModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.UIElementsModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.UIModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.UIModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.UIModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.UmbraModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.UmbraModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.UmbraModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.UNETModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.UNETModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.UNETModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.UNETModule.xml
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.UNETModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.UNETModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.xml
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.UnityConnectModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.UnityConnectModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.UnityConnectModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.UnityConnectModule.xml
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.UnityConnectModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.UnityConnectModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.UnityTestProtocolModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.UnityTestProtocolModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.UnityTestProtocolModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.xml
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.xml
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.UnityWebRequestModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.UnityWebRequestModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.UnityWebRequestModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.UnityWebRequestModule.xml
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.UnityWebRequestModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.UnityWebRequestModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.UnityWebRequestTextureModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.UnityWebRequestTextureModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.UnityWebRequestTextureModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.UnityWebRequestWWWModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.UnityWebRequestWWWModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.UnityWebRequestWWWModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.VehiclesModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.VehiclesModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.VehiclesModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.VFXModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.VFXModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.VFXModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.VideoModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.VideoModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.VideoModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.VideoModule.xml
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.VideoModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.VideoModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.VRModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.VRModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.VRModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.WindModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.WindModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.WindModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.XRModule.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.XRModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.XRModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.XRModule.xml
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityEngine.XRModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.XRModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityScript.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityScript.dll
+    projectPath: Temp\bin\Debug\UnityScript.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityScript.Lang.dll
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\bin\Debug\UnityScript.Lang.dll
+    projectPath: Temp\bin\Debug\UnityScript.Lang.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityLockfile
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\UnityLockfile
+    projectPath: Temp\UnityLockfile
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-123c5afce75fa4d499de4b32282a0913
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\UnityTempFile-123c5afce75fa4d499de4b32282a0913
+    projectPath: Temp\UnityTempFile-123c5afce75fa4d499de4b32282a0913
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-144c912bf2544924f92cb70de60de3ce
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\UnityTempFile-144c912bf2544924f92cb70de60de3ce
+    projectPath: Temp\UnityTempFile-144c912bf2544924f92cb70de60de3ce
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-23f92b9ee3d1ac54a9d52f7449d1d093
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\UnityTempFile-23f92b9ee3d1ac54a9d52f7449d1d093
+    projectPath: Temp\UnityTempFile-23f92b9ee3d1ac54a9d52f7449d1d093
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-3240e387e8b694e46918605ec731ad4d
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\UnityTempFile-3240e387e8b694e46918605ec731ad4d
+    projectPath: Temp\UnityTempFile-3240e387e8b694e46918605ec731ad4d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-5f97b7a7915159d41b8751885d7c708e
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\UnityTempFile-5f97b7a7915159d41b8751885d7c708e
+    projectPath: Temp\UnityTempFile-5f97b7a7915159d41b8751885d7c708e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-9f3af6b920e23f64e89eede86873eb1c
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\UnityTempFile-9f3af6b920e23f64e89eede86873eb1c
+    projectPath: Temp\UnityTempFile-9f3af6b920e23f64e89eede86873eb1c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-ba5a4797c1e7acc49bc91a6845a9c5e7
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\UnityTempFile-ba5a4797c1e7acc49bc91a6845a9c5e7
+    projectPath: Temp\UnityTempFile-ba5a4797c1e7acc49bc91a6845a9c5e7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-bb6f1ddbf46c5064e873e5f7f47e9054
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\UnityTempFile-bb6f1ddbf46c5064e873e5f7f47e9054
+    projectPath: Temp\UnityTempFile-bb6f1ddbf46c5064e873e5f7f47e9054
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-c0d420afbfc0694418ea8cc5d1f8ff09
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\UnityTempFile-c0d420afbfc0694418ea8cc5d1f8ff09
+    projectPath: Temp\UnityTempFile-c0d420afbfc0694418ea8cc5d1f8ff09
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-c4146bd82c0ad1e4f91ddcb592ad304e
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\UnityTempFile-c4146bd82c0ad1e4f91ddcb592ad304e
+    projectPath: Temp\UnityTempFile-c4146bd82c0ad1e4f91ddcb592ad304e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-f7150d7c9a1e39544994e7992625eb62
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\UnityTempFile-f7150d7c9a1e39544994e7992625eb62
+    projectPath: Temp\UnityTempFile-f7150d7c9a1e39544994e7992625eb62
+=======
   - path: Assets\Audio.meta
     fullPath: D:\Documents\CSE442\442projects-bruh\Assets\Audio.meta
     projectPath: Assets\Audio.meta
@@ -436,6 +2519,7 @@ MonoBehaviour:
   - path: Temp\UnityTempFile-e700bcf2626398e4092ac7187290b8f0
     fullPath: D:\Documents\CSE442\442projects-bruh\Temp\UnityTempFile-e700bcf2626398e4092ac7187290b8f0
     projectPath: Temp\UnityTempFile-e700bcf2626398e4092ac7187290b8f0
+>>>>>>> dev
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

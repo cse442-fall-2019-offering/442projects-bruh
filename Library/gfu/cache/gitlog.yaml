@@ -13,9 +13,878 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2019-11-13T12:14:39.216-05:00
-  initializedAtString: 2019-11-13T12:02:24.855-05:00
+  lastUpdatedAtString: 2019-11-13T15:33:58.268-05:00
+  initializedAtString: 2019-11-13T15:33:58.268-05:00
   log:
+  - commitID: 1e2fd082f5d45267bc893efa24ba354386bb8f8d
+    mergeA: 208baf12072bbe2b14f4cf7269eeb5cddae2efef
+    mergeB: b0f8191756d0ac0910763cd15ae2edc8247d5d8b
+    authorName: Jacob
+    authorEmail: jakesterc30@gmail.com
+    commitEmail: jakesterc30@gmail.com
+    commitName: Jacob
+    summary: Merge branch 'dev' into issue57_pauseMenu
+    description: 
+    timeString: 2019-11-13T15:28:02.000-05:00
+    commitTimeString: 2019-11-13T15:28:02.000-05:00
+    changes: []
+  - commitID: 208baf12072bbe2b14f4cf7269eeb5cddae2efef
+    mergeA: 
+    mergeB: 
+    authorName: Jacob
+    authorEmail: jakesterc30@gmail.com
+    commitEmail: jakesterc30@gmail.com
+    commitName: Jacob
+    summary: Added restart,resume,and return to home buttons to pause menu, also added
+      background picture.
+    description: 
+    timeString: 2019-11-13T14:38:06.000-05:00
+    commitTimeString: 2019-11-13T14:38:06.000-05:00
+    changes:
+    - path: 442projects-bruh.sln
+      fullPath: D:\Documents\CSE442\442projects-bruh\442projects-bruh.sln
+      projectPath: 442projects-bruh.sln
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assembly-CSharp-Editor-firstpass.csproj
+      fullPath: D:\Documents\CSE442\442projects-bruh\Assembly-CSharp-Editor-firstpass.csproj
+      projectPath: Assembly-CSharp-Editor-firstpass.csproj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assembly-CSharp-firstpass.csproj
+      fullPath: D:\Documents\CSE442\442projects-bruh\Assembly-CSharp-firstpass.csproj
+      projectPath: Assembly-CSharp-firstpass.csproj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assembly-CSharp.csproj
+      fullPath: D:\Documents\CSE442\442projects-bruh\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Images\pausescreenbackground.jpg
+      fullPath: D:\Documents\CSE442\442projects-bruh\Assets\Images\pausescreenbackground.jpg
+      projectPath: Assets\Images\pausescreenbackground.jpg
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Images\pausescreenbackground.jpg.meta
+      fullPath: D:\Documents\CSE442\442projects-bruh\Assets\Images\pausescreenbackground.jpg.meta
+      projectPath: Assets\Images\pausescreenbackground.jpg.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Images\redplaybutton.png
+      fullPath: D:\Documents\CSE442\442projects-bruh\Assets\Images\redplaybutton.png
+      projectPath: Assets\Images\redplaybutton.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Images\redplaybutton.png.meta
+      fullPath: D:\Documents\CSE442\442projects-bruh\Assets\Images\redplaybutton.png.meta
+      projectPath: Assets\Images\redplaybutton.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Images\redplaytransparant.jpg
+      fullPath: D:\Documents\CSE442\442projects-bruh\Assets\Images\redplaytransparant.jpg
+      projectPath: Assets\Images\redplaytransparant.jpg
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Images\redplaytransparant.jpg.meta
+      fullPath: D:\Documents\CSE442\442projects-bruh\Assets\Images\redplaytransparant.jpg.meta
+      projectPath: Assets\Images\redplaytransparant.jpg.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Images\redtransparant.png
+      fullPath: D:\Documents\CSE442\442projects-bruh\Assets\Images\redtransparant.png
+      projectPath: Assets\Images\redtransparant.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Images\redtransparant.png.meta
+      fullPath: D:\Documents\CSE442\442projects-bruh\Assets\Images\redtransparant.png.meta
+      projectPath: Assets\Images\redtransparant.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\Game.unity
+      fullPath: D:\Documents\CSE442\442projects-bruh\Assets\Scenes\Game.unity
+      projectPath: Assets\Scenes\Game.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\HighscoreController.cs
+      fullPath: D:\Documents\CSE442\442projects-bruh\Assets\Scripts\HighscoreController.cs
+      projectPath: Assets\Scripts\HighscoreController.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\PauseScript.cs
+      fullPath: D:\Documents\CSE442\442projects-bruh\Assets\Scripts\PauseScript.cs
+      projectPath: Assets\Scripts\PauseScript.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF.asset
+      fullPath: D:\Documents\CSE442\442projects-bruh\Assets\TextMesh Pro\Resources\Fonts
+        & Materials\LiberationSans SDF.asset
+      projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+        SDF.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\Collab\CollabSnapshot_47081a36-643e-4f6f-895a-2d8542ad10b6.txt
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\CollabSnapshot_47081a36-643e-4f6f-895a-2d8542ad10b6.txt
+      projectPath: Library\Collab\CollabSnapshot_47081a36-643e-4f6f-895a-2d8542ad10b6.txt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\CurrentLayout.dwlt
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\CurrentLayout.dwlt
+      projectPath: Library\CurrentLayout.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\InspectorExpandedItems.asset
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\InspectorExpandedItems.asset
+      projectPath: Library\InspectorExpandedItems.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+      projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\Hierarchy\f97bf2-mainStage.json
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\StateCache\Hierarchy\f97bf2-mainStage.json
+      projectPath: Library\StateCache\Hierarchy\f97bf2-mainStage.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\StateCache\SceneView\59afb5-mainStage.json
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\StateCache\SceneView\59afb5-mainStage.json
+      projectPath: Library\StateCache\SceneView\59afb5-mainStage.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\assetDatabase3
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\47\47a2e9d701123d546b874108298148b3
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\47\47a2e9d701123d546b874108298148b3
+      projectPath: Library\metadata\47\47a2e9d701123d546b874108298148b3
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\47\47a2e9d701123d546b874108298148b3.info
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\47\47a2e9d701123d546b874108298148b3.info
+      projectPath: Library\metadata\47\47a2e9d701123d546b874108298148b3.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\65\6536a118d4b8d1441a63655ceed7974b
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\65\6536a118d4b8d1441a63655ceed7974b
+      projectPath: Library\metadata\65\6536a118d4b8d1441a63655ceed7974b
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\85\8534285dcd0afb7409fbed9fb148f07f
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\85\8534285dcd0afb7409fbed9fb148f07f
+      projectPath: Library\metadata\85\8534285dcd0afb7409fbed9fb148f07f
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\85\8534285dcd0afb7409fbed9fb148f07f.info
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\85\8534285dcd0afb7409fbed9fb148f07f.info
+      projectPath: Library\metadata\85\8534285dcd0afb7409fbed9fb148f07f.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\8f\8f586378b4e144a9851e7b34d9b748ee.info
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\8f\8f586378b4e144a9851e7b34d9b748ee.info
+      projectPath: Library\metadata\8f\8f586378b4e144a9851e7b34d9b748ee.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\93\930808d4ba5cc844dacdba31e36bc17a
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\93\930808d4ba5cc844dacdba31e36bc17a
+      projectPath: Library\metadata\93\930808d4ba5cc844dacdba31e36bc17a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\93\930808d4ba5cc844dacdba31e36bc17a.info
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\93\930808d4ba5cc844dacdba31e36bc17a.info
+      projectPath: Library\metadata\93\930808d4ba5cc844dacdba31e36bc17a.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\94\9437accb6a613594e862f8d823ba6d94
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\94\9437accb6a613594e862f8d823ba6d94
+      projectPath: Library\metadata\94\9437accb6a613594e862f8d823ba6d94
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\f7\f747016d01bd8eb4a9ca9ec3391336ed
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\f7\f747016d01bd8eb4a9ca9ec3391336ed
+      projectPath: Library\metadata\f7\f747016d01bd8eb4a9ca9ec3391336ed
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\f7\f747016d01bd8eb4a9ca9ec3391336ed.info
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\f7\f747016d01bd8eb4a9ca9ec3391336ed.info
+      projectPath: Library\metadata\f7\f747016d01bd8eb4a9ca9ec3391336ed.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: b0f8191756d0ac0910763cd15ae2edc8247d5d8b
+    mergeA: 
+    mergeB: 
+    authorName: Mark
+    authorEmail: markkayu@buffalo.edu
+    commitEmail: markkayu@buffalo.edu
+    commitName: Mark
+    summary: Sprint 3; Updated game from Unity Collab
+    description: 
+    timeString: 2019-11-13T13:42:52.000-05:00
+    commitTimeString: 2019-11-13T13:42:52.000-05:00
+    changes:
+    - path: .vs\442projects-bruh\v15\.suo
+      fullPath: D:\Documents\CSE442\442projects-bruh\.vs\442projects-bruh\v15\.suo
+      projectPath: .vs\442projects-bruh\v15\.suo
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: .vs\442projects-bruh\v15\Server\sqlite3\db.lock
+      fullPath: D:\Documents\CSE442\442projects-bruh\.vs\442projects-bruh\v15\Server\sqlite3\db.lock
+      projectPath: .vs\442projects-bruh\v15\Server\sqlite3\db.lock
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: .vs\442projects-bruh\v15\Server\sqlite3\storage.ide
+      fullPath: D:\Documents\CSE442\442projects-bruh\.vs\442projects-bruh\v15\Server\sqlite3\storage.ide
+      projectPath: .vs\442projects-bruh\v15\Server\sqlite3\storage.ide
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: .vs\442projects-bruh\v15\Server\sqlite3\storage.ide-shm
+      fullPath: D:\Documents\CSE442\442projects-bruh\.vs\442projects-bruh\v15\Server\sqlite3\storage.ide-shm
+      projectPath: .vs\442projects-bruh\v15\Server\sqlite3\storage.ide-shm
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: .vs\442projects-bruh\v15\Server\sqlite3\storage.ide-wal
+      fullPath: D:\Documents\CSE442\442projects-bruh\.vs\442projects-bruh\v15\Server\sqlite3\storage.ide-wal
+      projectPath: .vs\442projects-bruh\v15\Server\sqlite3\storage.ide-wal
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: 442projects-bruh.sln
+      fullPath: D:\Documents\CSE442\442projects-bruh\442projects-bruh.sln
+      projectPath: 442projects-bruh.sln
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assembly-CSharp-Editor-firstpass.csproj
+      fullPath: D:\Documents\CSE442\442projects-bruh\Assembly-CSharp-Editor-firstpass.csproj
+      projectPath: Assembly-CSharp-Editor-firstpass.csproj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assembly-CSharp-firstpass.csproj
+      fullPath: D:\Documents\CSE442\442projects-bruh\Assembly-CSharp-firstpass.csproj
+      projectPath: Assembly-CSharp-firstpass.csproj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assembly-CSharp.csproj
+      fullPath: D:\Documents\CSE442\442projects-bruh\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Images\ray_back.jpeg
+      fullPath: D:\Documents\CSE442\442projects-bruh\Assets\Images\ray_back.jpeg
+      projectPath: Assets\Images\ray_back.jpeg
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Images\ray_back.jpeg.meta
+      fullPath: D:\Documents\CSE442\442projects-bruh\Assets\Images\ray_back.jpeg.meta
+      projectPath: Assets\Images\ray_back.jpeg.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Images\sexy-girl-wallpaper-thumb.jpg
+      fullPath: D:\Documents\CSE442\442projects-bruh\Assets\Images\sexy-girl-wallpaper-thumb.jpg
+      projectPath: Assets\Images\sexy-girl-wallpaper-thumb.jpg
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Images\sexy-girl-wallpaper-thumb.jpg.meta
+      fullPath: D:\Documents\CSE442\442projects-bruh\Assets\Images\sexy-girl-wallpaper-thumb.jpg.meta
+      projectPath: Assets\Images\sexy-girl-wallpaper-thumb.jpg.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\Game.unity
+      fullPath: D:\Documents\CSE442\442projects-bruh\Assets\Scenes\Game.unity
+      projectPath: Assets\Scenes\Game.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\Start.unity
+      fullPath: D:\Documents\CSE442\442projects-bruh\Assets\Scenes\Start.unity
+      projectPath: Assets\Scenes\Start.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\Stats.unity
+      fullPath: D:\Documents\CSE442\442projects-bruh\Assets\Scenes\Stats.unity
+      projectPath: Assets\Scenes\Stats.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\ScoreScript.cs
+      fullPath: D:\Documents\CSE442\442projects-bruh\Assets\Scripts\ScoreScript.cs
+      projectPath: Assets\Scripts\ScoreScript.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\WordController.cs
+      fullPath: D:\Documents\CSE442\442projects-bruh\Assets\Scripts\WordController.cs
+      projectPath: Assets\Scripts\WordController.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF.asset
+      fullPath: D:\Documents\CSE442\442projects-bruh\Assets\TextMesh Pro\Resources\Fonts
+        & Materials\LiberationSans SDF.asset
+      projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+        SDF.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\Collab\CollabSnapshot_47081a36-643e-4f6f-895a-2d8542ad10b6.txt
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\CollabSnapshot_47081a36-643e-4f6f-895a-2d8542ad10b6.txt
+      projectPath: Library\Collab\CollabSnapshot_47081a36-643e-4f6f-895a-2d8542ad10b6.txt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\CurrentLayout.dwlt
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\CurrentLayout.dwlt
+      projectPath: Library\CurrentLayout.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\InspectorExpandedItems.asset
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\InspectorExpandedItems.asset
+      projectPath: Library\InspectorExpandedItems.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp-firstpass.pdb
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Assembly-CSharp-firstpass.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-firstpass.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+      projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
+      projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+      projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
+      projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ShaderCache\0\03b0f48d34e00992d2094715fb3afa84.bin
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\ShaderCache\0\03b0f48d34e00992d2094715fb3afa84.bin
+      projectPath: Library\ShaderCache\0\03b0f48d34e00992d2094715fb3afa84.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\0\0c6d22a8f1bfbf047d020830dd6c5b4e.bin
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\ShaderCache\0\0c6d22a8f1bfbf047d020830dd6c5b4e.bin
+      projectPath: Library\ShaderCache\0\0c6d22a8f1bfbf047d020830dd6c5b4e.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\1\154b4d06af9b0b4944b5207150373e64.bin
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\ShaderCache\1\154b4d06af9b0b4944b5207150373e64.bin
+      projectPath: Library\ShaderCache\1\154b4d06af9b0b4944b5207150373e64.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\1\1ee8cd1a5a2bdaf3432ce92003b42983.bin
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\ShaderCache\1\1ee8cd1a5a2bdaf3432ce92003b42983.bin
+      projectPath: Library\ShaderCache\1\1ee8cd1a5a2bdaf3432ce92003b42983.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\2\2342a991db8d7299ab6f2879d7e6ff92.bin
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\ShaderCache\2\2342a991db8d7299ab6f2879d7e6ff92.bin
+      projectPath: Library\ShaderCache\2\2342a991db8d7299ab6f2879d7e6ff92.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\2\2b7732347a59d29043787198c6758c4e.bin
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\ShaderCache\2\2b7732347a59d29043787198c6758c4e.bin
+      projectPath: Library\ShaderCache\2\2b7732347a59d29043787198c6758c4e.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\3\39a6a28d980d3ca42248ec13046c89b9.bin
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\ShaderCache\3\39a6a28d980d3ca42248ec13046c89b9.bin
+      projectPath: Library\ShaderCache\3\39a6a28d980d3ca42248ec13046c89b9.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\6\6b338927cb898693b4ecd44cf1319eea.bin
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\ShaderCache\6\6b338927cb898693b4ecd44cf1319eea.bin
+      projectPath: Library\ShaderCache\6\6b338927cb898693b4ecd44cf1319eea.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\7\7582f779a33383eb9314499ff7e0b739.bin
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\ShaderCache\7\7582f779a33383eb9314499ff7e0b739.bin
+      projectPath: Library\ShaderCache\7\7582f779a33383eb9314499ff7e0b739.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\8\8e2ae1348ea30f5b743103bba4ed345c.bin
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\ShaderCache\8\8e2ae1348ea30f5b743103bba4ed345c.bin
+      projectPath: Library\ShaderCache\8\8e2ae1348ea30f5b743103bba4ed345c.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\c\c1886f09b156ace96d2146bd2d1537d0.bin
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\ShaderCache\c\c1886f09b156ace96d2146bd2d1537d0.bin
+      projectPath: Library\ShaderCache\c\c1886f09b156ace96d2146bd2d1537d0.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\c\ce0f1933661a6b9eb7ff0d417e0f5757.bin
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\ShaderCache\c\ce0f1933661a6b9eb7ff0d417e0f5757.bin
+      projectPath: Library\ShaderCache\c\ce0f1933661a6b9eb7ff0d417e0f5757.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\f\f8dc5be829b0e716f82d5582e993a280.bin
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\ShaderCache\f\f8dc5be829b0e716f82d5582e993a280.bin
+      projectPath: Library\ShaderCache\f\f8dc5be829b0e716f82d5582e993a280.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\f\fa2371b7da738837e428f6447c919a9f.bin
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\ShaderCache\f\fa2371b7da738837e428f6447c919a9f.bin
+      projectPath: Library\ShaderCache\f\fa2371b7da738837e428f6447c919a9f.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\StateCache\SceneView\95e7f6-mainStage.json
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\StateCache\SceneView\95e7f6-mainStage.json
+      projectPath: Library\StateCache\SceneView\95e7f6-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\assetDatabase3
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\expandedItems
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\expandedItems
+      projectPath: Library\expandedItems
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\0f\0f156055f253d7040803f9e47fbfd126.info
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\0f\0f156055f253d7040803f9e47fbfd126.info
+      projectPath: Library\metadata\0f\0f156055f253d7040803f9e47fbfd126.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\28\289cae7e159f91c42b722361a25de924
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\28\289cae7e159f91c42b722361a25de924
+      projectPath: Library\metadata\28\289cae7e159f91c42b722361a25de924
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\32\32b87e2715c57f44a9aa6afa9b67ac42.info
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\32\32b87e2715c57f44a9aa6afa9b67ac42.info
+      projectPath: Library\metadata\32\32b87e2715c57f44a9aa6afa9b67ac42.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\4f\4f67284556370c84ab63b1adec87ffd5
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\4f\4f67284556370c84ab63b1adec87ffd5
+      projectPath: Library\metadata\4f\4f67284556370c84ab63b1adec87ffd5
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\4f\4f67284556370c84ab63b1adec87ffd5.info
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\4f\4f67284556370c84ab63b1adec87ffd5.info
+      projectPath: Library\metadata\4f\4f67284556370c84ab63b1adec87ffd5.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\6b\6b0d803173f011a4c8603f431162c484
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\6b\6b0d803173f011a4c8603f431162c484
+      projectPath: Library\metadata\6b\6b0d803173f011a4c8603f431162c484
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\6b\6b0d803173f011a4c8603f431162c484.info
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\6b\6b0d803173f011a4c8603f431162c484.info
+      projectPath: Library\metadata\6b\6b0d803173f011a4c8603f431162c484.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\89\89a9c825e3069854c9a9475d1ff586ce
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\89\89a9c825e3069854c9a9475d1ff586ce
+      projectPath: Library\metadata\89\89a9c825e3069854c9a9475d1ff586ce
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\8f\8f586378b4e144a9851e7b34d9b748ee.info
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\8f\8f586378b4e144a9851e7b34d9b748ee.info
+      projectPath: Library\metadata\8f\8f586378b4e144a9851e7b34d9b748ee.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: D:\Documents\CSE442\442projects-bruh\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CopyComplete
+      fullPath: D:\Documents\CSE442\442projects-bruh\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CopyComplete
+      projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CopyComplete
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+      fullPath: D:\Documents\CSE442\442projects-bruh\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+      projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.FileListAbsolute.txt
+      fullPath: D:\Documents\CSE442\442projects-bruh\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.FileListAbsolute.txt
+      projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.FileListAbsolute.txt
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      fullPath: D:\Documents\CSE442\442projects-bruh\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp-Editor-firstpass.dll
+      fullPath: D:\Documents\CSE442\442projects-bruh\obj\Debug\Assembly-CSharp-Editor-firstpass.dll
+      projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp-Editor-firstpass.pdb
+      fullPath: D:\Documents\CSE442\442projects-bruh\obj\Debug\Assembly-CSharp-Editor-firstpass.pdb
+      projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.pdb
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp-firstpass.csproj.CopyComplete
+      fullPath: D:\Documents\CSE442\442projects-bruh\obj\Debug\Assembly-CSharp-firstpass.csproj.CopyComplete
+      projectPath: obj\Debug\Assembly-CSharp-firstpass.csproj.CopyComplete
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp-firstpass.csproj.CoreCompileInputs.cache
+      fullPath: D:\Documents\CSE442\442projects-bruh\obj\Debug\Assembly-CSharp-firstpass.csproj.CoreCompileInputs.cache
+      projectPath: obj\Debug\Assembly-CSharp-firstpass.csproj.CoreCompileInputs.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp-firstpass.csproj.FileListAbsolute.txt
+      fullPath: D:\Documents\CSE442\442projects-bruh\obj\Debug\Assembly-CSharp-firstpass.csproj.FileListAbsolute.txt
+      projectPath: obj\Debug\Assembly-CSharp-firstpass.csproj.FileListAbsolute.txt
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp-firstpass.csprojAssemblyReference.cache
+      fullPath: D:\Documents\CSE442\442projects-bruh\obj\Debug\Assembly-CSharp-firstpass.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp-firstpass.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp-firstpass.dll
+      fullPath: D:\Documents\CSE442\442projects-bruh\obj\Debug\Assembly-CSharp-firstpass.dll
+      projectPath: obj\Debug\Assembly-CSharp-firstpass.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp-firstpass.pdb
+      fullPath: D:\Documents\CSE442\442projects-bruh\obj\Debug\Assembly-CSharp-firstpass.pdb
+      projectPath: obj\Debug\Assembly-CSharp-firstpass.pdb
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp.csproj.CopyComplete
+      fullPath: D:\Documents\CSE442\442projects-bruh\obj\Debug\Assembly-CSharp.csproj.CopyComplete
+      projectPath: obj\Debug\Assembly-CSharp.csproj.CopyComplete
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      fullPath: D:\Documents\CSE442\442projects-bruh\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp.csproj.FileListAbsolute.txt
+      fullPath: D:\Documents\CSE442\442projects-bruh\obj\Debug\Assembly-CSharp.csproj.FileListAbsolute.txt
+      projectPath: obj\Debug\Assembly-CSharp.csproj.FileListAbsolute.txt
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      fullPath: D:\Documents\CSE442\442projects-bruh\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp.dll
+      fullPath: D:\Documents\CSE442\442projects-bruh\obj\Debug\Assembly-CSharp.dll
+      projectPath: obj\Debug\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp.pdb
+      fullPath: D:\Documents\CSE442\442projects-bruh\obj\Debug\Assembly-CSharp.pdb
+      projectPath: obj\Debug\Assembly-CSharp.pdb
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
   - commitID: 59b36d2034431a7a39259a389ed19d0dcfaae2ea
     mergeA: 07e0eef2caaf24d8bf40c7225dbc431865dbb037
     mergeB: 22d4d3e8c0b0c380d2fb2c65f3bff7a59f780b95

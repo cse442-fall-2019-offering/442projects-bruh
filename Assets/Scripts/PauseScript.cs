@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Threading;
-
+using UnityEngine.SceneManagement;
 /// <summary>
 ///  Controls pause functionality
 /// </summary>
@@ -14,6 +14,7 @@ public class PauseScript : MonoBehaviour {
     public GameObject gameOverPanel;
     public GameObject gameWonPanel;
 	public GameObject pausePanel;
+	public Scene gameScene;
 	public static bool isPaused = false;
 	
     // Pauses or resumes game based on if game is paused (isPaused)
@@ -34,5 +35,9 @@ public class PauseScript : MonoBehaviour {
 			backgroundPanel.SetActive(false);
 			timePanel.SetActive(false);			//Disables the other panels/game elements other than the pause panel
 		}
+	}
+
+	public void restartGame(){
+		SceneManager.LoadScene(3);
 	}
 }

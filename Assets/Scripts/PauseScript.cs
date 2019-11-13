@@ -38,6 +38,8 @@ public class PauseScript : MonoBehaviour {
 	}
 
 	public void restartGame(){
-		SceneManager.LoadScene(3);
+        ScoreScript.scoreValue = 0;
+        GameInfo.ScoreValue = 0;
+        SceneManager.LoadScene(3);
 	}
 }

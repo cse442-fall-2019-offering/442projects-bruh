@@ -32,7 +32,6 @@ public class WordController : MonoBehaviour
     public float currentWPM;
     public Text textVar;
 
-
     // Called on start of game canvas
     void Start()
     {
@@ -57,6 +56,7 @@ public class WordController : MonoBehaviour
             case 5:
                 playerCar.GetComponent<Image>().sprite = whiteCar;
                 break;
+
         }
         wordsCompleted = 0; // inits wordsCompleted
         wpmTextBox = GameObject.Find("wpm_var");
@@ -71,18 +71,16 @@ public class WordController : MonoBehaviour
             Debug.Log("Caps lock was pressed");
         }
     }
-    
+
     // Changing the display of the input field and starting check word process if space is pressed
     public void UpdateInputText()
     {
         //set newtext
         newText = inputField.text;
-        //
         if (Input.GetKeyDown("space"))
         {
             CheckWord();
             inputField.text = "";
-
         }
     }
 
@@ -93,13 +91,49 @@ public class WordController : MonoBehaviour
         if (newText.Length > 1)
         {
             newText = newText.Substring(0, newText.Length - 1);
+            if (newText != GameInfo.PromptWord)
+            {
+                if (GameInfo.Difficulty == 1)
+                {
+                    ScoreScript.scoreValue -= 10;
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
+                if (GameInfo.Difficulty == 2)
+                {
+                    ScoreScript.scoreValue -= 15;
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
+                if (GameInfo.Difficulty == 3)
+                {
+                    ScoreScript.scoreValue -= 20;
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
+            }
+            else
+            {
+                if (GameInfo.Difficulty == 1)
+                {
+                    ScoreScript.scoreValue += 50;
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
+                if (GameInfo.Difficulty == 2)
+                {
+                    ScoreScript.scoreValue += 75;
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
+                if (GameInfo.Difficulty == 3)
+                {
+                    ScoreScript.scoreValue += 100;
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
+                Correct();
+                Change();
+                updateSpeedo(IncrWPM());
+
+
+            }
         }
-        if (newText == GameInfo.PromptWord)
-        {
-            Correct();
-            Change();
-            updateSpeedo(IncrWPM());
-        }
+        
     }
 
     // Exception for if enter is used to submit words; same effect as CheckWord
@@ -111,7 +145,40 @@ public class WordController : MonoBehaviour
             // DO NOTHING
         }
         else {
-            if(newText == GameInfo.PromptWord) {
+            if (newText != GameInfo.PromptWord)
+            {
+                if (GameInfo.Difficulty == 1)
+                {
+                    ScoreScript.scoreValue -= 10;
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
+                if (GameInfo.Difficulty == 2)
+                {
+                    ScoreScript.scoreValue -= 15;
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
+                if (GameInfo.Difficulty == 3)
+                {
+                    ScoreScript.scoreValue -= 20;
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
+            }
+            else {
+                if (GameInfo.Difficulty == 1)
+                {
+                    ScoreScript.scoreValue += 50;
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
+                if (GameInfo.Difficulty == 2)
+                {
+                    ScoreScript.scoreValue += 75;
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
+                if (GameInfo.Difficulty == 3)
+                {
+                    ScoreScript.scoreValue += 100;
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
                 Correct();
                 Change();
                 updateSpeedo(IncrWPM());
@@ -136,6 +203,21 @@ public class WordController : MonoBehaviour
         // stop timer and bring up game won panel
         if (playerCar.transform.position.x >= 1860)
         {
+            if (GameInfo.Difficulty == 1)
+            {
+                ScoreScript.scoreValue = ScoreScript.scoreValue + (GameInfo.TimeRemaining * 5);  // Adds Time Remaining Modifier to Final Score
+                GameInfo.ScoreValue = ScoreScript.scoreValue;
+            }
+            if (GameInfo.Difficulty == 2)
+            {
+                ScoreScript.scoreValue = ScoreScript.scoreValue + (GameInfo.TimeRemaining * 10);  // Adds Time Remaining Modifier to Final Score
+                GameInfo.ScoreValue = ScoreScript.scoreValue;
+            }
+            if (GameInfo.Difficulty == 3)
+            {
+                ScoreScript.scoreValue = ScoreScript.scoreValue + (GameInfo.TimeRemaining * 20);  // Adds Time Remaining Modifier to Final Score
+                GameInfo.ScoreValue = ScoreScript.scoreValue;
+            }
             GameInfo.count = false;
             GameWonPanel.SetActive(true);
             backgroundPanel.SetActive(false);

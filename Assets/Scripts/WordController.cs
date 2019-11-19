@@ -113,17 +113,17 @@ public class WordController : MonoBehaviour
             {
                 if (GameInfo.Difficulty == 1)
                 {
-                    ScoreScript.scoreValue += 50;
+                    ScoreScript.scoreValue += 50 * (int)Math.Round(currentWPM);
                     GameInfo.ScoreValue = ScoreScript.scoreValue;
                 }
                 if (GameInfo.Difficulty == 2)
                 {
-                    ScoreScript.scoreValue += 75;
+                    ScoreScript.scoreValue += 75 * (int)Math.Round(currentWPM);
                     GameInfo.ScoreValue = ScoreScript.scoreValue;
                 }
                 if (GameInfo.Difficulty == 3)
                 {
-                    ScoreScript.scoreValue += 100;
+                    ScoreScript.scoreValue += 100 * (int)Math.Round(currentWPM);
                     GameInfo.ScoreValue = ScoreScript.scoreValue;
                 }
                 Correct();
@@ -166,17 +166,19 @@ public class WordController : MonoBehaviour
             else {
                 if (GameInfo.Difficulty == 1)
                 {
-                    ScoreScript.scoreValue += 50;
+                    ScoreScript.scoreValue += 50 * (int)Math.Round(currentWPM);
+                    Debug.Log(AccessWPM());
+                    Debug.Log("Current Score: " + ScoreScript.scoreValue);
                     GameInfo.ScoreValue = ScoreScript.scoreValue;
                 }
                 if (GameInfo.Difficulty == 2)
                 {
-                    ScoreScript.scoreValue += 75;
+                    ScoreScript.scoreValue += 75 * (int)Math.Round(currentWPM);
                     GameInfo.ScoreValue = ScoreScript.scoreValue;
                 }
                 if (GameInfo.Difficulty == 3)
                 {
-                    ScoreScript.scoreValue += 100;
+                    ScoreScript.scoreValue += 100 * (int)Math.Round(currentWPM);
                     GameInfo.ScoreValue = ScoreScript.scoreValue;
                 }
                 Correct();

@@ -13,402 +13,108 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-11-13T16:16:30.888-05:00
-  initializedAtString: 2019-11-13T16:09:10.778-05:00
+  lastUpdatedAtString: 2019-11-13T17:13:29.042-05:00
+  initializedAtString: 2019-11-13T17:12:14.220-05:00
   entries:
   - path: 442projects-bruh.sln
-    fullPath: D:\Documents\CSE442\442projects-bruh\442projects-bruh.sln
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\442projects-bruh.sln
     projectPath: 442projects-bruh.sln
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Assembly-CSharp.csproj
-    fullPath: D:\Documents\CSE442\442projects-bruh\Assembly-CSharp.csproj
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Assembly-CSharp.csproj
     projectPath: Assembly-CSharp.csproj
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Assembly-CSharp-Editor-firstpass.csproj
-    fullPath: D:\Documents\CSE442\442projects-bruh\Assembly-CSharp-Editor-firstpass.csproj
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Assembly-CSharp-Editor-firstpass.csproj
     projectPath: Assembly-CSharp-Editor-firstpass.csproj
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Assembly-CSharp-firstpass.csproj
-    fullPath: D:\Documents\CSE442\442projects-bruh\Assembly-CSharp-firstpass.csproj
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Assembly-CSharp-firstpass.csproj
     projectPath: Assembly-CSharp-firstpass.csproj
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Library\assetDatabase3
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\assetDatabase3
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Library\assetDatabase3
     projectPath: Library\assetDatabase3
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Library\Collab\CollabSnapshot_47081a36-643e-4f6f-895a-2d8542ad10b6.txt
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\CollabSnapshot_47081a36-643e-4f6f-895a-2d8542ad10b6.txt
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Library\Collab\CollabSnapshot_47081a36-643e-4f6f-895a-2d8542ad10b6.txt
     projectPath: Library\Collab\CollabSnapshot_47081a36-643e-4f6f-895a-2d8542ad10b6.txt
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Library\CurrentLayout.dwlt
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\CurrentLayout.dwlt
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Library\CurrentLayout.dwlt
     projectPath: Library\CurrentLayout.dwlt
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Library\EditorInstance.json
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\EditorInstance.json
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: Library\gfu\cache\gitlocks.yaml
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\gfu\cache\gitlocks.yaml
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Library\gfu\cache\gitlocks.yaml
     projectPath: Library\gfu\cache\gitlocks.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Library\gfu\cache\gitstatusentries.yaml
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\gfu\cache\gitstatusentries.yaml
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 5
+    workTreeStatus: 3
   - path: Library\gfu\cache\gittrackingstatus.yaml
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Library\gfu\cache\repoinfo.yaml
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Library\gfu\cache\repoinfo.yaml
     projectPath: Library\gfu\cache\repoinfo.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\10\10145f279f90346bbb61712ff585828b
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\10\10145f279f90346bbb61712ff585828b
-    projectPath: Library\metadata\10\10145f279f90346bbb61712ff585828b
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\25\25ebe415cc14c4f4ea15c34a796b75bb
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\25\25ebe415cc14c4f4ea15c34a796b75bb
-    projectPath: Library\metadata\25\25ebe415cc14c4f4ea15c34a796b75bb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\2e\2e498d1c8094910479dc3e1b768306a4.info
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\2e\2e498d1c8094910479dc3e1b768306a4.info
-    projectPath: Library\metadata\2e\2e498d1c8094910479dc3e1b768306a4.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\3a\3aba9fe1ad29b42ffb0eea781318a626
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\3a\3aba9fe1ad29b42ffb0eea781318a626
-    projectPath: Library\metadata\3a\3aba9fe1ad29b42ffb0eea781318a626
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\46\46c02d8d6499b4309ac1ec5d0b818585
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\46\46c02d8d6499b4309ac1ec5d0b818585
-    projectPath: Library\metadata\46\46c02d8d6499b4309ac1ec5d0b818585
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\4c\4c433abcdb28444ebb7bd395ba5c76fc
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\4c\4c433abcdb28444ebb7bd395ba5c76fc
-    projectPath: Library\metadata\4c\4c433abcdb28444ebb7bd395ba5c76fc
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\4d\4dfd3f5da88944ec6ac5977d676c30c6
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\4d\4dfd3f5da88944ec6ac5977d676c30c6
-    projectPath: Library\metadata\4d\4dfd3f5da88944ec6ac5977d676c30c6
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\4f\4f768b64e6c37495699fffe3007e4379
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\4f\4f768b64e6c37495699fffe3007e4379
-    projectPath: Library\metadata\4f\4f768b64e6c37495699fffe3007e4379
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\59\599a5fd92bab81a4ab02e52d0b1b1c60
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\59\599a5fd92bab81a4ab02e52d0b1b1c60
-    projectPath: Library\metadata\59\599a5fd92bab81a4ab02e52d0b1b1c60
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\8f\8f586378b4e144a9851e7b34d9b748ee.info
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\8f\8f586378b4e144a9851e7b34d9b748ee.info
-    projectPath: Library\metadata\8f\8f586378b4e144a9851e7b34d9b748ee.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\93\93c1370867fcb45079592da39e0994c5
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\93\93c1370867fcb45079592da39e0994c5
-    projectPath: Library\metadata\93\93c1370867fcb45079592da39e0994c5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\97\97dff1b5ae41ee84886ae7a80ae21499
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\97\97dff1b5ae41ee84886ae7a80ae21499
-    projectPath: Library\metadata\97\97dff1b5ae41ee84886ae7a80ae21499
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\a8\a8d9e44eff3f447db9448925617ccb44
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\a8\a8d9e44eff3f447db9448925617ccb44
-    projectPath: Library\metadata\a8\a8d9e44eff3f447db9448925617ccb44
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\ac\acc34040a66fe4170bc8885268860cfe
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\ac\acc34040a66fe4170bc8885268860cfe
-    projectPath: Library\metadata\ac\acc34040a66fe4170bc8885268860cfe
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\bb\bbec1324b05a54939ad2fea2d7e11063
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\bb\bbec1324b05a54939ad2fea2d7e11063
-    projectPath: Library\metadata\bb\bbec1324b05a54939ad2fea2d7e11063
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\cd\cd44c1bc0fa624a39aa784af44c62180
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\cd\cd44c1bc0fa624a39aa784af44c62180
-    projectPath: Library\metadata\cd\cd44c1bc0fa624a39aa784af44c62180
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\f8\f8eca3a711f4842eba0c52ea9885ef7f
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\f8\f8eca3a711f4842eba0c52ea9885ef7f
-    projectPath: Library\metadata\f8\f8eca3a711f4842eba0c52ea9885ef7f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp.dll
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Assembly-CSharp.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Assembly-CSharp.pdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp-firstpass.pdb
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Assembly-CSharp-firstpass.pdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-firstpass.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-    projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
-    projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Library\shadercompiler-UnityShaderCompiler.exe0.log
     projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\StateCache\Hierarchy\969f3c-mainStage.json
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\StateCache\Hierarchy\969f3c-mainStage.json
-    projectPath: Library\StateCache\Hierarchy\969f3c-mainStage.json
+  - path: Library\StateCache\Hierarchy\6ae370-mainStage.json
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Library\StateCache\Hierarchy\6ae370-mainStage.json
+    projectPath: Library\StateCache\Hierarchy\6ae370-mainStage.json
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\StateCache\SceneView\a2b00e-mainStage.json
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\StateCache\SceneView\a2b00e-mainStage.json
-    projectPath: Library\StateCache\SceneView\a2b00e-mainStage.json
+  - path: Library\StateCache\SceneView\1e37e2-mainStage.json
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Library\StateCache\SceneView\1e37e2-mainStage.json
+    projectPath: Library\StateCache\SceneView\1e37e2-mainStage.json
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: Temp\__Backupscenes\0.backup
-    fullPath: D:\Documents\CSE442\442projects-bruh\Temp\__Backupscenes\0.backup
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\__Backupscenes\0.backup
     projectPath: Temp\__Backupscenes\0.backup
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: Temp\UnityLockfile
-    fullPath: D:\Documents\CSE442\442projects-bruh\Temp\UnityLockfile
+    fullPath: C:\Users\carmela\Documents\442projects-bruh\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-0be1e2e54d4dd104199c4efc59aab46f
-    fullPath: D:\Documents\CSE442\442projects-bruh\Temp\UnityTempFile-0be1e2e54d4dd104199c4efc59aab46f
-    projectPath: Temp\UnityTempFile-0be1e2e54d4dd104199c4efc59aab46f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-138fadd8de9b37e498d6dbbaed387663
-    fullPath: D:\Documents\CSE442\442projects-bruh\Temp\UnityTempFile-138fadd8de9b37e498d6dbbaed387663
-    projectPath: Temp\UnityTempFile-138fadd8de9b37e498d6dbbaed387663
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-25bdf64f1439ca44890b84d177f62d4e
-    fullPath: D:\Documents\CSE442\442projects-bruh\Temp\UnityTempFile-25bdf64f1439ca44890b84d177f62d4e
-    projectPath: Temp\UnityTempFile-25bdf64f1439ca44890b84d177f62d4e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-486d9d8db9f736849b9696c0b259853e
-    fullPath: D:\Documents\CSE442\442projects-bruh\Temp\UnityTempFile-486d9d8db9f736849b9696c0b259853e
-    projectPath: Temp\UnityTempFile-486d9d8db9f736849b9696c0b259853e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-4d13bc66b57ad654685e9c2920272af9
-    fullPath: D:\Documents\CSE442\442projects-bruh\Temp\UnityTempFile-4d13bc66b57ad654685e9c2920272af9
-    projectPath: Temp\UnityTempFile-4d13bc66b57ad654685e9c2920272af9
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-55ce53b1de64bac47aeace3d58c89451
-    fullPath: D:\Documents\CSE442\442projects-bruh\Temp\UnityTempFile-55ce53b1de64bac47aeace3d58c89451
-    projectPath: Temp\UnityTempFile-55ce53b1de64bac47aeace3d58c89451
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-678128883d0332247a79fc5753552ed9
-    fullPath: D:\Documents\CSE442\442projects-bruh\Temp\UnityTempFile-678128883d0332247a79fc5753552ed9
-    projectPath: Temp\UnityTempFile-678128883d0332247a79fc5753552ed9
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-6bcd5d0f9c7d7ff4b8c1308f42895fe4
-    fullPath: D:\Documents\CSE442\442projects-bruh\Temp\UnityTempFile-6bcd5d0f9c7d7ff4b8c1308f42895fe4
-    projectPath: Temp\UnityTempFile-6bcd5d0f9c7d7ff4b8c1308f42895fe4
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-7314690dd0293964fb76078fd5acd398
-    fullPath: D:\Documents\CSE442\442projects-bruh\Temp\UnityTempFile-7314690dd0293964fb76078fd5acd398
-    projectPath: Temp\UnityTempFile-7314690dd0293964fb76078fd5acd398
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-92074f5013e0c9c479d760092d7984b3
-    fullPath: D:\Documents\CSE442\442projects-bruh\Temp\UnityTempFile-92074f5013e0c9c479d760092d7984b3
-    projectPath: Temp\UnityTempFile-92074f5013e0c9c479d760092d7984b3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-b735e96786b6b994f98f24dc4c5b7046
-    fullPath: D:\Documents\CSE442\442projects-bruh\Temp\UnityTempFile-b735e96786b6b994f98f24dc4c5b7046
-    projectPath: Temp\UnityTempFile-b735e96786b6b994f98f24dc4c5b7046
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-b7f27a09f3de0c543bb5b12163edb2a2
-    fullPath: D:\Documents\CSE442\442projects-bruh\Temp\UnityTempFile-b7f27a09f3de0c543bb5b12163edb2a2
-    projectPath: Temp\UnityTempFile-b7f27a09f3de0c543bb5b12163edb2a2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-f45884587e7205143a47f1c9964db6c9
-    fullPath: D:\Documents\CSE442\442projects-bruh\Temp\UnityTempFile-f45884587e7205143a47f1c9964db6c9
-    projectPath: Temp\UnityTempFile-f45884587e7205143a47f1c9964db6c9
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-f845d3b70b19ab045937244e0b46f1f4
-    fullPath: D:\Documents\CSE442\442projects-bruh\Temp\UnityTempFile-f845d3b70b19ab045937244e0b46f1f4
-    projectPath: Temp\UnityTempFile-f845d3b70b19ab045937244e0b46f1f4
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-f9a5c0050465b5a4fa0accc7ad67fe39
-    fullPath: D:\Documents\CSE442\442projects-bruh\Temp\UnityTempFile-f9a5c0050465b5a4fa0accc7ad67fe39
-    projectPath: Temp\UnityTempFile-f9a5c0050465b5a4fa0accc7ad67fe39
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-fc2fe653cfb853443a012a0e2076ee42
-    fullPath: D:\Documents\CSE442\442projects-bruh\Temp\UnityTempFile-fc2fe653cfb853443a012a0e2076ee42
-    projectPath: Temp\UnityTempFile-fc2fe653cfb853443a012a0e2076ee42
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

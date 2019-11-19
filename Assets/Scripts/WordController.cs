@@ -198,6 +198,21 @@ public class WordController : MonoBehaviour
         // stop timer and bring up game won panel
         if (playerCar.transform.position.x >= 1860)
         {
+            if (GameInfo.Difficulty == 1)
+            {
+                ScoreScript.scoreValue = ScoreScript.scoreValue + (GameInfo.TimeRemaining * 5);  // Adds Time Remaining Modifier to Final Score
+                GameInfo.ScoreValue = ScoreScript.scoreValue;
+            }
+            if (GameInfo.Difficulty == 2)
+            {
+                ScoreScript.scoreValue = ScoreScript.scoreValue + (GameInfo.TimeRemaining * 10);  // Adds Time Remaining Modifier to Final Score
+                GameInfo.ScoreValue = ScoreScript.scoreValue;
+            }
+            if (GameInfo.Difficulty == 3)
+            {
+                ScoreScript.scoreValue = ScoreScript.scoreValue + (GameInfo.TimeRemaining * 20);  // Adds Time Remaining Modifier to Final Score
+                GameInfo.ScoreValue = ScoreScript.scoreValue;
+            }
             GameInfo.count = false;
             GameWonPanel.SetActive(true);
             backgroundPanel.SetActive(false);

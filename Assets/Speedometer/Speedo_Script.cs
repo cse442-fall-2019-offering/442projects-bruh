@@ -20,7 +20,7 @@ public class Speedo_Script : MonoBehaviour
 
     private void Awake() {
         needleTransform = transform.Find("needle");
-        wpm_textbox= GameObject.Find("wpm_var");
+        wpm_textbox= GameObject.Find("wpm_var"); 
         text_var = wpm_textbox.GetComponent<Text>();
 
         
@@ -41,7 +41,7 @@ public class Speedo_Script : MonoBehaviour
     {
 
 
-        speed = 3 * FetchWPM();
+        speed = 3 * FetchWPM(); // Multiplier to make wpm more realistic 
         
         
         if (speed > speedMax) speed = speedMax;

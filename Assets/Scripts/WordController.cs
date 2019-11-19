@@ -113,17 +113,17 @@ public class WordController : MonoBehaviour
             {
                 if (GameInfo.Difficulty == 1)
                 {
-                    ScoreScript.scoreValue += 50 * (int)Math.Round(currentWPM);
+                    ScoreScript.scoreValue += 50 * (int)Math.Round(currentWPM); // multiply base score with CurrentWPM 
                     GameInfo.ScoreValue = ScoreScript.scoreValue;
                 }
                 if (GameInfo.Difficulty == 2)
                 {
-                    ScoreScript.scoreValue += 75 * (int)Math.Round(currentWPM);
+                    ScoreScript.scoreValue += 75 * (int)Math.Round(currentWPM); // multiply base score with CurrentWPM
                     GameInfo.ScoreValue = ScoreScript.scoreValue;
                 }
                 if (GameInfo.Difficulty == 3)
                 {
-                    ScoreScript.scoreValue += 100 * (int)Math.Round(currentWPM);
+                    ScoreScript.scoreValue += 100 * (int)Math.Round(currentWPM); // multiply base score with CurrentWPM
                     GameInfo.ScoreValue = ScoreScript.scoreValue;
                 }
                 Correct();
@@ -166,20 +166,20 @@ public class WordController : MonoBehaviour
             else {
                 if (GameInfo.Difficulty == 1)
                 {
-                    ScoreScript.scoreValue += 50 * (int)Math.Round(currentWPM);
+                    ScoreScript.scoreValue += 50 * (int)Math.Round(currentWPM); // multiply base score with CurrentWPM
                     Debug.Log(AccessWPM());
                     Debug.Log("Current Score: " + ScoreScript.scoreValue);
                     GameInfo.ScoreValue = ScoreScript.scoreValue;
                 }
                 if (GameInfo.Difficulty == 2)
                 {
-                    ScoreScript.scoreValue += 75 * (int)Math.Round(currentWPM);
+                    ScoreScript.scoreValue += 75 * (int)Math.Round(currentWPM); // multiply base score with CurrentWPM
                     GameInfo.ScoreValue = ScoreScript.scoreValue;
                 }
                 if (GameInfo.Difficulty == 3)
                 {
-                    ScoreScript.scoreValue += 100 * (int)Math.Round(currentWPM);
-                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                    ScoreScript.scoreValue += 100 * (int)Math.Round(currentWPM); // multiply base score with CurrentWPM
+                    GameInfo.ScoreValue = ScoreScript.scoreValue; 
                 }
                 Correct();
                 Change();
@@ -249,9 +249,9 @@ public class WordController : MonoBehaviour
 
     public void updateSpeedo(float wpm)
     {
-        textVar.text = wpm.ToString();  //Updates speedo text with current wpm
+        textVar.text = ((int) Math.Round(wpm)).ToString();  //Updates speedo text with current wpm
     }
-
+    // Accessor Method 
     public float AccessWPM()
     {
         return currentWPM;

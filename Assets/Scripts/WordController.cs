@@ -27,6 +27,7 @@ public class WordController : MonoBehaviour
     public float startTime;
     public int wordsCompleted;
     GameObject wpmTextBox;
+    
 
     public float currentWPM;
     public Text textVar;
@@ -37,6 +38,7 @@ public class WordController : MonoBehaviour
     {
         Debug.Log("GAME OBJECT NAME IS: " + gameObject.name);
         inputField.enabled= false;
+        
         
         switch (GameInfo.Theme)
         {
@@ -147,14 +149,18 @@ public class WordController : MonoBehaviour
     */
     public float IncrWPM()
     {
-        float timeInSec = Time.fixedTime; //starts Time Delta
-        Debug.Log("Time passed: " + timeInSec);
-        wordsCompleted++; // Increase word count for calculating average
-        Debug.Log("Words Completed: " + wordsCompleted);
-        float currWPM = wordsCompleted / (timeInSec / 60); //Calc WPM
-        Debug.Log("WPM = " + currWPM);
-        currentWPM = currWPM;
-        return currWPM;
+        
+
+
+            float timeInSec = Time.fixedTime; //starts Time Delta
+            Debug.Log("Time passed: " + timeInSec);
+            wordsCompleted++; // Increase word count for calculating average
+            Debug.Log("Words Completed: " + wordsCompleted);
+            float currWPM = wordsCompleted / (timeInSec / 60); //Calc WPM
+            Debug.Log("WPM = " + currWPM);
+            currentWPM = currWPM;
+            return currWPM;
+        
     }
 
     public void updateSpeedo(float wpm)

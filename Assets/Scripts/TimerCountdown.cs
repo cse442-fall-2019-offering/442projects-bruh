@@ -8,7 +8,7 @@ public class TimerCountdown : MonoBehaviour
     public int timeLeft = 5; //Seconds Overall
     public int gameTimeLeft = 60;
     public Text countdown; //UI Text Object
-    //public Text gameCountdown;
+    public Text timer;
     public GameObject timePanel;
     public GameObject pausePanel;
     public GameObject backgroundPanel;
@@ -38,11 +38,11 @@ public class TimerCountdown : MonoBehaviour
             countdown.text = "";
             if (gameTimeLeft != 0)
             {
-                //gameCountdown.text = ("Time Left:" + gameTimeLeft); //Showing the Score on the Canvas
+                timer.text = ("Time: " + gameTimeLeft); //Showing the Score on the Canvas
             }
             else
             {
-                //gameCountdown.text = "Time Left:0";
+                timer.text = "Game Over";
             }
         }
 

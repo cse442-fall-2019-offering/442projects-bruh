@@ -6,7 +6,7 @@ using System.Threading;
 public class GameCountdown : MonoBehaviour
 {
     public int timeLeft = 60; //Seconds Overall
-    public Text countdown; //UI Text Object
+    //public Text countdown; //UI Text Object
     public GameObject GameOverPanel;
     public GameObject backgroundPanel;
     void Start()
@@ -19,11 +19,11 @@ public class GameCountdown : MonoBehaviour
     {
         if (timeLeft != 0)
         {
-            countdown.text = ("Time Left:" + timeLeft); //Showing the Time on the Canvas
+            //countdown.text = ("Time Left:" + timeLeft); //Showing the Score on the Canvas
         }
         else
         {
-            countdown.text = "Time Left:0";
+            //countdown.text = "Time Left:0";
         }
     }
     //Simple Coroutine

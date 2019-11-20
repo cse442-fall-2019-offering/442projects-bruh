@@ -23,21 +23,18 @@ public class WordController : MonoBehaviour
     public GameObject GameWonPanel;
     public GameObject backgroundPanel;
     public GameObject playerCar;
+    public Animator inputAnim;
+    public Animator textAnim;
 
     public float startTime;
     public int wordsCompleted;
     GameObject wpmTextBox;
-    
-
-    public float currentWPM;
     public Text textVar;
 
     // Called on start of game canvas
     void Start()
     {
-        Debug.Log("GAME OBJECT NAME IS: " + gameObject.name);
         inputField.enabled= false;
-        
         
         switch (GameInfo.Theme)
         {
@@ -95,24 +92,11 @@ public class WordController : MonoBehaviour
             {
                 ScoreScript.scoreValue -= 10;
                 GameInfo.ScoreValue = ScoreScript.scoreValue;
+                inputAnim.SetBool("Got Mistake", true);
+                textAnim.SetBool("Turn Red", true);
             }
             else
             {
-                if (GameInfo.Difficulty == 1)
-                {
-                    ScoreScript.scoreValue += 50 * (int)Math.Round(currentWPM); // multiply base score with CurrentWPM 
-                    GameInfo.ScoreValue = ScoreScript.scoreValue;
-                }
-                if (GameInfo.Difficulty == 2)
-                {
-                    ScoreScript.scoreValue += 75 * (int)Math.Round(currentWPM); // multiply base score with CurrentWPM
-                    GameInfo.ScoreValue = ScoreScript.scoreValue;
-                }
-                if (GameInfo.Difficulty == 3)
-                {
-                    ScoreScript.scoreValue += 100 * (int)Math.Round(currentWPM); // multiply base score with CurrentWPM
-                    GameInfo.ScoreValue = ScoreScript.scoreValue;
-                }
                 Correct();
                 Change();
                 updateSpeedo(IncrWPM());
@@ -136,25 +120,10 @@ public class WordController : MonoBehaviour
             {
                 ScoreScript.scoreValue -= 10;
                 GameInfo.ScoreValue = ScoreScript.scoreValue;
+                inputAnim.SetBool("Got Mistake", true);
+                textAnim.SetBool("Turn Red", true);
             }
             else {
-                if (GameInfo.Difficulty == 1)
-                {
-                    ScoreScript.scoreValue += 50 * (int)Math.Round(currentWPM); // multiply base score with CurrentWPM
-                    Debug.Log(AccessWPM());
-                    Debug.Log("Current Score: " + ScoreScript.scoreValue);
-                    GameInfo.ScoreValue = ScoreScript.scoreValue;
-                }
-                if (GameInfo.Difficulty == 2)
-                {
-                    ScoreScript.scoreValue += 75 * (int)Math.Round(currentWPM); // multiply base score with CurrentWPM
-                    GameInfo.ScoreValue = ScoreScript.scoreValue;
-                }
-                if (GameInfo.Difficulty == 3)
-                {
-                    ScoreScript.scoreValue += 100 * (int)Math.Round(currentWPM); // multiply base score with CurrentWPM
-                    GameInfo.ScoreValue = ScoreScript.scoreValue; 
-                }
                 Correct();
                 Change();
                 updateSpeedo(IncrWPM());
@@ -194,28 +163,18 @@ public class WordController : MonoBehaviour
     */
     public float IncrWPM()
     {
-        
-
-
-            float timeInSec = Time.fixedTime; //starts Time Delta
-            Debug.Log("Time passed: " + timeInSec);
-            wordsCompleted++; // Increase word count for calculating average
-            Debug.Log("Words Completed: " + wordsCompleted);
-            float currWPM = wordsCompleted / (timeInSec / 60); //Calc WPM
-            Debug.Log("WPM = " + currWPM);
-            currentWPM = currWPM;
-            return currWPM;
-        
+        float timeInSec = Time.fixedTime; //starts Time Delta
+        Debug.Log("Time passed: " + timeInSec);
+        wordsCompleted++; // Increase word count for calculating average
+        Debug.Log("Words Completed: " + wordsCompleted);
+        float currWPM = wordsCompleted / (timeInSec / 60); //Calc WPM
+        Debug.Log("WPM = " + currWPM);
+        return currWPM;
     }
 
     public void updateSpeedo(float wpm)
     {
-        textVar.text = ((int) Math.Round(wpm)).ToString();  //Updates speedo text with current wpm
-    }
-    // Accessor Method 
-    public float AccessWPM()
-    {
-        return currentWPM;
+        textVar.text = wpm.ToString();  //Updates speedo text with current wpm
     }
 
     // Get the scores from the MySQL DB to display in a GUIText.

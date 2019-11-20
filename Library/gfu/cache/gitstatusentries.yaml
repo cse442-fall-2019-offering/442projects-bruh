@@ -13,15 +13,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-11-19T16:13:02.502-05:00
-  initializedAtString: 2019-11-19T16:08:40.624-05:00
+  lastUpdatedAtString: 2019-11-20T16:21:20.312-05:00
+  initializedAtString: 2019-11-20T16:20:01.062-05:00
   entries:
-  - path: 442projects-bruh.sln
-    fullPath: D:\Documents\CSE442\442projects-bruh\442projects-bruh.sln
-    projectPath: 442projects-bruh.sln
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Assembly-CSharp.csproj
     fullPath: D:\Documents\CSE442\442projects-bruh\Assembly-CSharp.csproj
     projectPath: Assembly-CSharp.csproj
@@ -58,55 +52,20 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\Collab\Download\Assets\Audio.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Audio.meta
-    projectPath: Library\Collab\Download\Assets\Audio.meta
+  - path: Library\Collab\Download\.collabignore
+    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\.collabignore
+    projectPath: Library\Collab\Download\.collabignore
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Audio\MainAudio.mixer
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Audio\MainAudio.mixer
-    projectPath: Library\Collab\Download\Assets\Audio\MainAudio.mixer
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Audio\MainAudio.mixer.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Audio\MainAudio.mixer.meta
-    projectPath: Library\Collab\Download\Assets\Audio\MainAudio.mixer.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Audio\Sounds.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Audio\Sounds.meta
-    projectPath: Library\Collab\Download\Assets\Audio\Sounds.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Audio\Sounds\Metal Guitar Stuff - Departure.mp3
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Audio\Sounds\Metal
-      Guitar Stuff - Departure.mp3
-    projectPath: Library\Collab\Download\Assets\Audio\Sounds\Metal Guitar Stuff -
-      Departure.mp3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\Collab\Download\Assets\Audio\Sounds\Metal Guitar Stuff - Departure.mp3.meta
     fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Audio\Sounds\Metal
       Guitar Stuff - Departure.mp3.meta
     projectPath: Library\Collab\Download\Assets\Audio\Sounds\Metal Guitar Stuff -
       Departure.mp3.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Audio\Sounds\Original Song - OBSTACLES  Metal
-      (1).mp3
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Audio\Sounds\Original
-      Song - OBSTACLES  Metal (1).mp3
-    projectPath: Library\Collab\Download\Assets\Audio\Sounds\Original Song - OBSTACLES  Metal
-      (1).mp3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\Collab\Download\Assets\Audio\Sounds\Original Song - OBSTACLES  Metal
       (1).mp3.meta
     fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Audio\Sounds\Original
@@ -114,1815 +73,200 @@ MonoBehaviour:
     projectPath: Library\Collab\Download\Assets\Audio\Sounds\Original Song - OBSTACLES  Metal
       (1).mp3.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images.meta
-    projectPath: Library\Collab\Download\Assets\Images.meta
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Collab\Download\Assets\Dead Things.meta
+    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Dead
+      Things.meta
+    projectPath: Library\Collab\Download\Assets\Dead Things.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\auto-wallpapers-cars-hd-wheels-car-background-windows-automobile-tuning-amazing-cars-2560x1600.jpg
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\auto-wallpapers-cars-hd-wheels-car-background-windows-automobile-tuning-amazing-cars-2560x1600.jpg
-    projectPath: Library\Collab\Download\Assets\Images\auto-wallpapers-cars-hd-wheels-car-background-windows-automobile-tuning-amazing-cars-2560x1600.jpg
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Collab\Download\Assets\Dead Things\Main Menu.unity
+    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Dead
+      Things\Main Menu.unity
+    projectPath: Library\Collab\Download\Assets\Dead Things\Main Menu.unity
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\auto-wallpapers-cars-hd-wheels-car-background-windows-automobile-tuning-amazing-cars-2560x1600.jpg.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\auto-wallpapers-cars-hd-wheels-car-background-windows-automobile-tuning-amazing-cars-2560x1600.jpg.meta
-    projectPath: Library\Collab\Download\Assets\Images\auto-wallpapers-cars-hd-wheels-car-background-windows-automobile-tuning-amazing-cars-2560x1600.jpg.meta
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Collab\Download\Assets\Dead Things\Main Menu.unity.meta
+    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Dead
+      Things\Main Menu.unity.meta
+    projectPath: Library\Collab\Download\Assets\Dead Things\Main Menu.unity.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\Background.jpg
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\Background.jpg
-    projectPath: Library\Collab\Download\Assets\Images\Background.jpg
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\Background.jpg.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\Background.jpg.meta
-    projectPath: Library\Collab\Download\Assets\Images\Background.jpg.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\black carc.png
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\black
-      carc.png
-    projectPath: Library\Collab\Download\Assets\Images\black carc.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\black carc.png.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\black
-      carc.png.meta
-    projectPath: Library\Collab\Download\Assets\Images\black carc.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\blue carc.png
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\blue
-      carc.png
-    projectPath: Library\Collab\Download\Assets\Images\blue carc.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\blue carc.png.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\blue
-      carc.png.meta
-    projectPath: Library\Collab\Download\Assets\Images\blue carc.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\city background.png
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\city
-      background.png
-    projectPath: Library\Collab\Download\Assets\Images\city background.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\city background.png.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\city
-      background.png.meta
-    projectPath: Library\Collab\Download\Assets\Images\city background.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\Close.PNG
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\Close.PNG
-    projectPath: Library\Collab\Download\Assets\Images\Close.PNG
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\Close.PNG.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\Close.PNG.meta
-    projectPath: Library\Collab\Download\Assets\Images\Close.PNG.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\ColorfulButtons\Pause.png
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\ColorfulButtons\Pause.png
-    projectPath: Library\Collab\Download\Assets\Images\ColorfulButtons\Pause.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\ColorfulButtons\Pause.png.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\ColorfulButtons\Pause.png.meta
-    projectPath: Library\Collab\Download\Assets\Images\ColorfulButtons\Pause.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\cropped road.jpg
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\cropped
-      road.jpg
-    projectPath: Library\Collab\Download\Assets\Images\cropped road.jpg
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\cropped road.jpg.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\cropped
-      road.jpg.meta
-    projectPath: Library\Collab\Download\Assets\Images\cropped road.jpg.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\easy.jpg
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\easy.jpg
-    projectPath: Library\Collab\Download\Assets\Images\easy.jpg
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\easy.jpg.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\easy.jpg.meta
-    projectPath: Library\Collab\Download\Assets\Images\easy.jpg.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\enemy.png
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\enemy.png
-    projectPath: Library\Collab\Download\Assets\Images\enemy.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\enemy.png.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\enemy.png.meta
-    projectPath: Library\Collab\Download\Assets\Images\enemy.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\ffflogo.png
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\ffflogo.png
-    projectPath: Library\Collab\Download\Assets\Images\ffflogo.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\ffflogo.png.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\ffflogo.png.meta
-    projectPath: Library\Collab\Download\Assets\Images\ffflogo.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\finger_logo_2.png
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\finger_logo_2.png
-    projectPath: Library\Collab\Download\Assets\Images\finger_logo_2.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\Collab\Download\Assets\Images\finger_logo_2.png.meta
     fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\finger_logo_2.png.meta
     projectPath: Library\Collab\Download\Assets\Images\finger_logo_2.png.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\ForwardLeft.PNG
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\ForwardLeft.PNG
-    projectPath: Library\Collab\Download\Assets\Images\ForwardLeft.PNG
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Collab\Download\Assets\Images\pausescreenbackground.jpg.meta
+    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\pausescreenbackground.jpg.meta
+    projectPath: Library\Collab\Download\Assets\Images\pausescreenbackground.jpg.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\ForwardLeft.PNG.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\ForwardLeft.PNG.meta
-    projectPath: Library\Collab\Download\Assets\Images\ForwardLeft.PNG.meta
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Collab\Download\Assets\Images\player_red.png.meta
+    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\player_red.png.meta
+    projectPath: Library\Collab\Download\Assets\Images\player_red.png.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\furiousback.png
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\furiousback.png
-    projectPath: Library\Collab\Download\Assets\Images\furiousback.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\furiousback.png.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\furiousback.png.meta
-    projectPath: Library\Collab\Download\Assets\Images\furiousback.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\green carc.png
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\green
-      carc.png
-    projectPath: Library\Collab\Download\Assets\Images\green carc.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\green carc.png.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\green
-      carc.png.meta
-    projectPath: Library\Collab\Download\Assets\Images\green carc.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\hard.jpg
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\hard.jpg
-    projectPath: Library\Collab\Download\Assets\Images\hard.jpg
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\hard.jpg.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\hard.jpg.meta
-    projectPath: Library\Collab\Download\Assets\Images\hard.jpg.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\Home.PNG
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\Home.PNG
-    projectPath: Library\Collab\Download\Assets\Images\Home.PNG
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\Home.PNG.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\Home.PNG.meta
-    projectPath: Library\Collab\Download\Assets\Images\Home.PNG.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\icon.png
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\icon.png
-    projectPath: Library\Collab\Download\Assets\Images\icon.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\icon.png.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\icon.png.meta
-    projectPath: Library\Collab\Download\Assets\Images\icon.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\license_20190915174558_82303.png
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\license_20190915174558_82303.png
-    projectPath: Library\Collab\Download\Assets\Images\license_20190915174558_82303.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\license_20190915174558_82303.png.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\license_20190915174558_82303.png.meta
-    projectPath: Library\Collab\Download\Assets\Images\license_20190915174558_82303.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\license_20190915174653_83735.png
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\license_20190915174653_83735.png
-    projectPath: Library\Collab\Download\Assets\Images\license_20190915174653_83735.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\license_20190915174653_83735.png.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\license_20190915174653_83735.png.meta
-    projectPath: Library\Collab\Download\Assets\Images\license_20190915174653_83735.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\license_20190915184438_2061.png
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\license_20190915184438_2061.png
-    projectPath: Library\Collab\Download\Assets\Images\license_20190915184438_2061.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\license_20190915184438_2061.png.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\license_20190915184438_2061.png.meta
-    projectPath: Library\Collab\Download\Assets\Images\license_20190915184438_2061.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\medium.jpg
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\medium.jpg
-    projectPath: Library\Collab\Download\Assets\Images\medium.jpg
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\medium.jpg.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\medium.jpg.meta
-    projectPath: Library\Collab\Download\Assets\Images\medium.jpg.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\pause.png
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\pause.png
-    projectPath: Library\Collab\Download\Assets\Images\pause.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\pause.png.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\pause.png.meta
-    projectPath: Library\Collab\Download\Assets\Images\pause.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\player_black.png
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\player_black.png
-    projectPath: Library\Collab\Download\Assets\Images\player_black.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\player_black.png.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\player_black.png.meta
-    projectPath: Library\Collab\Download\Assets\Images\player_black.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\player_blue.png
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\player_blue.png
-    projectPath: Library\Collab\Download\Assets\Images\player_blue.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\player_blue.png.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\player_blue.png.meta
-    projectPath: Library\Collab\Download\Assets\Images\player_blue.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\player_green.png
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\player_green.png
-    projectPath: Library\Collab\Download\Assets\Images\player_green.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\player_green.png.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\player_green.png.meta
-    projectPath: Library\Collab\Download\Assets\Images\player_green.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\player_red.png
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\player_red.png
-    projectPath: Library\Collab\Download\Assets\Images\player_red.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\player_white.png
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\player_white.png
-    projectPath: Library\Collab\Download\Assets\Images\player_white.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\player_white.png.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\player_white.png.meta
-    projectPath: Library\Collab\Download\Assets\Images\player_white.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\ray_back.jpeg
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\ray_back.jpeg
-    projectPath: Library\Collab\Download\Assets\Images\ray_back.jpeg
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\Collab\Download\Assets\Images\ray_back.jpeg.meta
     fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\ray_back.jpeg.meta
     projectPath: Library\Collab\Download\Assets\Images\ray_back.jpeg.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\red carc.png
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\red
-      carc.png
-    projectPath: Library\Collab\Download\Assets\Images\red carc.png
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Collab\Download\Assets\Images\redplaybutton.png.meta
+    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\redplaybutton.png.meta
+    projectPath: Library\Collab\Download\Assets\Images\redplaybutton.png.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\red carc.png.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\red
-      carc.png.meta
-    projectPath: Library\Collab\Download\Assets\Images\red carc.png.meta
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Collab\Download\Assets\Images\redplaytransparant.jpg.meta
+    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\redplaytransparant.jpg.meta
+    projectPath: Library\Collab\Download\Assets\Images\redplaytransparant.jpg.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\Settings.PNG
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\Settings.PNG
-    projectPath: Library\Collab\Download\Assets\Images\Settings.PNG
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Collab\Download\Assets\Images\redtransparant.png.meta
+    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\redtransparant.png.meta
+    projectPath: Library\Collab\Download\Assets\Images\redtransparant.png.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\Settings.PNG.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\Settings.PNG.meta
-    projectPath: Library\Collab\Download\Assets\Images\Settings.PNG.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\sexy-girl-wallpaper-thumb.jpg
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\sexy-girl-wallpaper-thumb.jpg
-    projectPath: Library\Collab\Download\Assets\Images\sexy-girl-wallpaper-thumb.jpg
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\Collab\Download\Assets\Images\sexy-girl-wallpaper-thumb.jpg.meta
     fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\sexy-girl-wallpaper-thumb.jpg.meta
     projectPath: Library\Collab\Download\Assets\Images\sexy-girl-wallpaper-thumb.jpg.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\SoundOff.png
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\SoundOff.png
-    projectPath: Library\Collab\Download\Assets\Images\SoundOff.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\SoundOff.png.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\SoundOff.png.meta
-    projectPath: Library\Collab\Download\Assets\Images\SoundOff.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\SoundOn.PNG
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\SoundOn.PNG
-    projectPath: Library\Collab\Download\Assets\Images\SoundOn.PNG
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\SoundOn.PNG.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\SoundOn.PNG.meta
-    projectPath: Library\Collab\Download\Assets\Images\SoundOn.PNG.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\trophy.PNG
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\trophy.PNG
-    projectPath: Library\Collab\Download\Assets\Images\trophy.PNG
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\trophy.PNG.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\trophy.PNG.meta
-    projectPath: Library\Collab\Download\Assets\Images\trophy.PNG.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\white carc.png
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\white
-      carc.png
-    projectPath: Library\Collab\Download\Assets\Images\white carc.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Images\white carc.png.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Images\white
-      carc.png.meta
-    projectPath: Library\Collab\Download\Assets\Images\white carc.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins.meta
-    projectPath: Library\Collab\Download\Assets\Plugins.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\ButtonSoundsEditor.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\ButtonSoundsEditor.meta
-    projectPath: Library\Collab\Download\Assets\Plugins\ButtonSoundsEditor.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\Collab\Download\Assets\Plugins\ButtonSoundsEditor\ButtonClickSound.cs
     fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\ButtonSoundsEditor\ButtonClickSound.cs
     projectPath: Library\Collab\Download\Assets\Plugins\ButtonSoundsEditor\ButtonClickSound.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\ButtonSoundsEditor\ButtonClickSound.cs.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\ButtonSoundsEditor\ButtonClickSound.cs.meta
-    projectPath: Library\Collab\Download\Assets\Plugins\ButtonSoundsEditor\ButtonClickSound.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\ButtonSoundsEditor\Editor.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\ButtonSoundsEditor\Editor.meta
-    projectPath: Library\Collab\Download\Assets\Plugins\ButtonSoundsEditor\Editor.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\ButtonSoundsEditor\Editor\ButtonSoundsEditor.cs
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\ButtonSoundsEditor\Editor\ButtonSoundsEditor.cs
-    projectPath: Library\Collab\Download\Assets\Plugins\ButtonSoundsEditor\Editor\ButtonSoundsEditor.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\ButtonSoundsEditor\Editor\ButtonSoundsEditor.cs.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\ButtonSoundsEditor\Editor\ButtonSoundsEditor.cs.meta
-    projectPath: Library\Collab\Download\Assets\Plugins\ButtonSoundsEditor\Editor\ButtonSoundsEditor.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub.meta
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor.meta
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\big-logo@2x.png
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\big-logo@2x.png
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\big-logo@2x.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\credits.txt
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\credits.txt
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\credits.txt
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\credits.txt.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\credits.txt.meta
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\credits.txt.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\eula.txt
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\eula.txt
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\eula.txt
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\eula.txt.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\eula.txt.meta
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\eula.txt.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\libsfw.bundle
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\libsfw.bundle
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\libsfw.bundle
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\libsfw.so
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\libsfw.so
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\libsfw.so
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\libsfw.so.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\libsfw.so.meta
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\libsfw.so.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\sfw.net.dll
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\sfw.net.dll
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\sfw.net.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\System.Threading.dll
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\System.Threading.dll
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\System.Threading.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\x64.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\x64.meta
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\x64.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\x86.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\x86.meta
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\x86.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-    projectPath: Library\Collab\Download\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Scenes.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scenes.meta
-    projectPath: Library\Collab\Download\Assets\Scenes.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\Collab\Download\Assets\Scenes\Game.unity
     fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scenes\Game.unity
     projectPath: Library\Collab\Download\Assets\Scenes\Game.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\Collab\Download\Assets\Scenes\Game.unity.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scenes\Game.unity.meta
-    projectPath: Library\Collab\Download\Assets\Scenes\Game.unity.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Scenes\SampleScene.unity
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scenes\SampleScene.unity
-    projectPath: Library\Collab\Download\Assets\Scenes\SampleScene.unity
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Scenes\SampleScene.unity.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scenes\SampleScene.unity.meta
-    projectPath: Library\Collab\Download\Assets\Scenes\SampleScene.unity.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Scenes\Settings.unity
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scenes\Settings.unity
-    projectPath: Library\Collab\Download\Assets\Scenes\Settings.unity
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Scenes\Settings.unity.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scenes\Settings.unity.meta
-    projectPath: Library\Collab\Download\Assets\Scenes\Settings.unity.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Collab\Download\Assets\Scenes\Start.unity
     fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scenes\Start.unity
     projectPath: Library\Collab\Download\Assets\Scenes\Start.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\Collab\Download\Assets\Scenes\Start.unity.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scenes\Start.unity.meta
-    projectPath: Library\Collab\Download\Assets\Scenes\Start.unity.meta
+  - path: Library\Collab\Download\Assets\Scenes\Stats.unity
+    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scenes\Stats.unity
+    projectPath: Library\Collab\Download\Assets\Scenes\Stats.unity
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Scenes\Stats.unity.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scenes\Stats.unity.meta
-    projectPath: Library\Collab\Download\Assets\Scenes\Stats.unity.meta
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Collab\Download\Assets\Scripts.meta
+    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scripts.meta
+    projectPath: Library\Collab\Download\Assets\Scripts.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Scenes\WORKING PROJECT ORIGINAL.unity
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scenes\WORKING
-      PROJECT ORIGINAL.unity
-    projectPath: Library\Collab\Download\Assets\Scenes\WORKING PROJECT ORIGINAL.unity
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Collab\Download\Assets\Scripts\GameCountdown.cs.meta
+    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scripts\GameCountdown.cs.meta
+    projectPath: Library\Collab\Download\Assets\Scripts\GameCountdown.cs.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Scenes\WORKING PROJECT ORIGINAL.unity.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scenes\WORKING
-      PROJECT ORIGINAL.unity.meta
-    projectPath: Library\Collab\Download\Assets\Scenes\WORKING PROJECT ORIGINAL.unity.meta
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Collab\Download\Assets\Scripts\GameInfo.cs.meta
+    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scripts\GameInfo.cs.meta
+    projectPath: Library\Collab\Download\Assets\Scripts\GameInfo.cs.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Scripts\ChangeDropdownSprite.cs
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scripts\ChangeDropdownSprite.cs
-    projectPath: Library\Collab\Download\Assets\Scripts\ChangeDropdownSprite.cs
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Collab\Download\Assets\Scripts\HighscoreController.cs.meta
+    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scripts\HighscoreController.cs.meta
+    projectPath: Library\Collab\Download\Assets\Scripts\HighscoreController.cs.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Scripts\ChangeDropdownSprite.cs.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scripts\ChangeDropdownSprite.cs.meta
-    projectPath: Library\Collab\Download\Assets\Scripts\ChangeDropdownSprite.cs.meta
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Collab\Download\Assets\Scripts\InputField_extend.cs.meta
+    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scripts\InputField_extend.cs.meta
+    projectPath: Library\Collab\Download\Assets\Scripts\InputField_extend.cs.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Scripts\ChangeTheme.cs
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scripts\ChangeTheme.cs
-    projectPath: Library\Collab\Download\Assets\Scripts\ChangeTheme.cs
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Collab\Download\Assets\Scripts\InputFieldScript.cs.meta
+    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scripts\InputFieldScript.cs.meta
+    projectPath: Library\Collab\Download\Assets\Scripts\InputFieldScript.cs.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Scripts\ChangeTheme.cs.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scripts\ChangeTheme.cs.meta
-    projectPath: Library\Collab\Download\Assets\Scripts\ChangeTheme.cs.meta
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Collab\Download\Assets\Scripts\PlayerNameDisplay.cs.meta
+    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scripts\PlayerNameDisplay.cs.meta
+    projectPath: Library\Collab\Download\Assets\Scripts\PlayerNameDisplay.cs.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Scripts\Example.cs
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scripts\Example.cs
-    projectPath: Library\Collab\Download\Assets\Scripts\Example.cs
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Collab\Download\Assets\Scripts\TimerCountdown.cs.meta
+    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scripts\TimerCountdown.cs.meta
+    projectPath: Library\Collab\Download\Assets\Scripts\TimerCountdown.cs.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Scripts\Example.cs.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scripts\Example.cs.meta
-    projectPath: Library\Collab\Download\Assets\Scripts\Example.cs.meta
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Collab\Download\Assets\Scripts\WordController.cs.meta
+    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scripts\WordController.cs.meta
+    projectPath: Library\Collab\Download\Assets\Scripts\WordController.cs.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Scripts\Game.cs
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scripts\Game.cs
-    projectPath: Library\Collab\Download\Assets\Scripts\Game.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Scripts\Game.cs.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scripts\Game.cs.meta
-    projectPath: Library\Collab\Download\Assets\Scripts\Game.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Scripts\GameCountdown.cs
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scripts\GameCountdown.cs
-    projectPath: Library\Collab\Download\Assets\Scripts\GameCountdown.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Scripts\GameInfo.cs
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scripts\GameInfo.cs
-    projectPath: Library\Collab\Download\Assets\Scripts\GameInfo.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Scripts\HighScore.cs
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scripts\HighScore.cs
-    projectPath: Library\Collab\Download\Assets\Scripts\HighScore.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Scripts\HighScore.cs.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scripts\HighScore.cs.meta
-    projectPath: Library\Collab\Download\Assets\Scripts\HighScore.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Scripts\HighscoreController.cs
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scripts\HighscoreController.cs
-    projectPath: Library\Collab\Download\Assets\Scripts\HighscoreController.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Scripts\InputField_extend.cs
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scripts\InputField_extend.cs
-    projectPath: Library\Collab\Download\Assets\Scripts\InputField_extend.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Scripts\InputFieldScript.cs
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scripts\InputFieldScript.cs
-    projectPath: Library\Collab\Download\Assets\Scripts\InputFieldScript.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Scripts\MainMenu.cs
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scripts\MainMenu.cs
-    projectPath: Library\Collab\Download\Assets\Scripts\MainMenu.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Scripts\MainMenu.cs.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scripts\MainMenu.cs.meta
-    projectPath: Library\Collab\Download\Assets\Scripts\MainMenu.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Scripts\PauseScript.cs.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scripts\PauseScript.cs.meta
-    projectPath: Library\Collab\Download\Assets\Scripts\PauseScript.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Scripts\PlayerNameDisplay.cs
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scripts\PlayerNameDisplay.cs
-    projectPath: Library\Collab\Download\Assets\Scripts\PlayerNameDisplay.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Scripts\ScoreScript.cs
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scripts\ScoreScript.cs
-    projectPath: Library\Collab\Download\Assets\Scripts\ScoreScript.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Scripts\ScoreScript.cs.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scripts\ScoreScript.cs.meta
-    projectPath: Library\Collab\Download\Assets\Scripts\ScoreScript.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Scripts\setVol_script.cs
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scripts\setVol_script.cs
-    projectPath: Library\Collab\Download\Assets\Scripts\setVol_script.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Scripts\setVol_script.cs.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scripts\setVol_script.cs.meta
-    projectPath: Library\Collab\Download\Assets\Scripts\setVol_script.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Scripts\StartMenu.cs
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scripts\StartMenu.cs
-    projectPath: Library\Collab\Download\Assets\Scripts\StartMenu.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Scripts\StartMenu.cs.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scripts\StartMenu.cs.meta
-    projectPath: Library\Collab\Download\Assets\Scripts\StartMenu.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Scripts\Stats.cs
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scripts\Stats.cs
-    projectPath: Library\Collab\Download\Assets\Scripts\Stats.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Scripts\Stats.cs.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scripts\Stats.cs.meta
-    projectPath: Library\Collab\Download\Assets\Scripts\Stats.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Scripts\WordController.cs
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scripts\WordController.cs
-    projectPath: Library\Collab\Download\Assets\Scripts\WordController.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Scripts\WpmCalc.cs
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scripts\WpmCalc.cs
-    projectPath: Library\Collab\Download\Assets\Scripts\WpmCalc.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Scripts\WpmCalc.cs.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Scripts\WpmCalc.cs.meta
-    projectPath: Library\Collab\Download\Assets\Scripts\WpmCalc.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Sounds.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Sounds.meta
-    projectPath: Library\Collab\Download\Assets\Sounds.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Sounds\button_click.mp3
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Sounds\button_click.mp3
-    projectPath: Library\Collab\Download\Assets\Sounds\button_click.mp3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Sounds\button_click.mp3.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Sounds\button_click.mp3.meta
-    projectPath: Library\Collab\Download\Assets\Sounds\button_click.mp3.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Speedometer.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Speedometer.meta
-    projectPath: Library\Collab\Download\Assets\Speedometer.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Speedometer\Speedo_Script.cs
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Speedometer\Speedo_Script.cs
-    projectPath: Library\Collab\Download\Assets\Speedometer\Speedo_Script.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Speedometer\Speedo_Script.cs.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Speedometer\Speedo_Script.cs.meta
-    projectPath: Library\Collab\Download\Assets\Speedometer\Speedo_Script.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Speedometer\SpeedometerBackground.png
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Speedometer\SpeedometerBackground.png
-    projectPath: Library\Collab\Download\Assets\Speedometer\SpeedometerBackground.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Speedometer\SpeedometerBackground.png.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Speedometer\SpeedometerBackground.png.meta
-    projectPath: Library\Collab\Download\Assets\Speedometer\SpeedometerBackground.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Speedometer\SpeedometerNeedle.png
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Speedometer\SpeedometerNeedle.png
-    projectPath: Library\Collab\Download\Assets\Speedometer\SpeedometerNeedle.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Speedometer\SpeedometerNeedle.png.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Speedometer\SpeedometerNeedle.png.meta
-    projectPath: Library\Collab\Download\Assets\Speedometer\SpeedometerNeedle.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro.meta
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Documentation.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Documentation.meta
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Documentation.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Documentation\TextMesh Pro User
-      Guide 2016.pdf
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Documentation\TextMesh Pro User Guide 2016.pdf
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Documentation\TextMesh
-      Pro User Guide 2016.pdf
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Documentation\TextMesh Pro User
-      Guide 2016.pdf.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Documentation\TextMesh Pro User Guide 2016.pdf.meta
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Documentation\TextMesh
-      Pro User Guide 2016.pdf.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Fonts.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Fonts.meta
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Fonts.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Fonts\LiberationSans - OFL.txt
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Fonts\LiberationSans
-      - OFL.txt
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Fonts\LiberationSans - OFL.txt.meta
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Fonts\LiberationSans
-      - OFL.txt.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Fonts\LiberationSans.ttf
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Fonts\LiberationSans.ttf
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Fonts\LiberationSans.ttf
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Fonts\LiberationSans.ttf.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Fonts\LiberationSans.ttf.meta
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Fonts\LiberationSans.ttf.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources.meta
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\Fonts & Materials.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\Fonts & Materials.meta
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\Fonts & Materials.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
-      SDF - Drop Shadow.mat
+      SDF - Fallback.asset
     fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\Fonts & Materials\LiberationSans SDF - Drop Shadow.mat
+      Pro\Resources\Fonts & Materials\LiberationSans SDF - Fallback.asset
     projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
-      SDF - Drop Shadow.mat
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
-      SDF - Drop Shadow.mat.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\Fonts & Materials\LiberationSans SDF - Drop Shadow.mat.meta
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
-      SDF - Drop Shadow.mat.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
-      SDF - Fallback.asset.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\Fonts & Materials\LiberationSans SDF - Fallback.asset.meta
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
-      SDF - Fallback.asset.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
-      SDF - Outline.mat
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\Fonts & Materials\LiberationSans SDF - Outline.mat
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
-      SDF - Outline.mat
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
-      SDF - Outline.mat.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\Fonts & Materials\LiberationSans SDF - Outline.mat.meta
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
-      SDF - Outline.mat.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
-      SDF.asset.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\Fonts & Materials\LiberationSans SDF.asset.meta
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
-      SDF.asset.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\LineBreaking Following
-      Characters.txt
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\LineBreaking Following Characters.txt
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\LineBreaking
-      Following Characters.txt
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\LineBreaking Following
-      Characters.txt.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\LineBreaking Following Characters.txt.meta
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\LineBreaking
-      Following Characters.txt.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\LineBreaking Leading
-      Characters.txt
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\LineBreaking Leading Characters.txt
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\LineBreaking
-      Leading Characters.txt
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\LineBreaking Leading
-      Characters.txt.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\LineBreaking Leading Characters.txt.meta
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\LineBreaking
-      Leading Characters.txt.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\Shaders.meta
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\Shaders\TMP_Bitmap.shader
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\Shaders\TMP_Bitmap.shader.meta
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader.meta
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader.meta
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\Shaders\TMP_SDF Overlay.shader
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMP_SDF
-      Overlay.shader
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\Shaders\TMP_SDF Overlay.shader.meta
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMP_SDF
-      Overlay.shader.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\Shaders\TMP_SDF.shader
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\Shaders\TMP_SDF.shader.meta
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile
-      Masking.shader
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile
-      Masking.shader
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile
-      Masking.shader.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader.meta
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile
-      Masking.shader.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile
-      Overlay.shader
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile
-      Overlay.shader
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile
-      Overlay.shader.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader.meta
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile
-      Overlay.shader.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\Shaders\TMP_SDF-Mobile.shader
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\Shaders\TMP_SDF-Mobile.shader.meta
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\Shaders\TMP_SDF-Surface.shader
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\Shaders\TMP_SDF-Surface.shader.meta
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader.meta
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\Shaders\TMP_Sprite.shader
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\Shaders\TMP_Sprite.shader.meta
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\Shaders\TMPro.cginc
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\Shaders\TMPro.cginc.meta
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\Shaders\TMPro_Properties.cginc
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\Shaders\TMPro_Properties.cginc.meta
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\Shaders\TMPro_Surface.cginc
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\Shaders\TMPro_Surface.cginc.meta
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\Sprite Assets.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\Sprite Assets.meta
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\Sprite Assets.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\Sprite Assets\EmojiOne.asset
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\Sprite Assets\EmojiOne.asset
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\Sprite Assets\EmojiOne.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\Sprite Assets\EmojiOne.asset.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\Sprite Assets\EmojiOne.asset.meta
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\Sprite Assets\EmojiOne.asset.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\Style Sheets.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\Style Sheets.meta
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\Style Sheets.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\Style Sheets\Default
-      Style Sheet.asset
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\Style Sheets\Default Style Sheet.asset
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\Style Sheets\Default
-      Style Sheet.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\Style Sheets\Default
-      Style Sheet.asset.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\Style Sheets\Default Style Sheet.asset.meta
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\Style Sheets\Default
-      Style Sheet.asset.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\TMP Settings.asset
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\TMP Settings.asset
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\TMP Settings.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Resources\TMP Settings.asset.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Resources\TMP Settings.asset.meta
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Resources\TMP Settings.asset.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Sprites.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Sprites.meta
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Sprites.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Sprites\EmojiOne Attribution.txt
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Sprites\EmojiOne Attribution.txt.meta
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Sprites\EmojiOne.json
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Sprites\EmojiOne.json
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Sprites\EmojiOne.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Sprites\EmojiOne.json.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Sprites\EmojiOne.json.meta
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Sprites\EmojiOne.json.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Sprites\EmojiOne.png
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Sprites\EmojiOne.png
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Sprites\EmojiOne.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\TextMesh Pro\Sprites\EmojiOne.png.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\TextMesh
-      Pro\Sprites\EmojiOne.png.meta
-    projectPath: Library\Collab\Download\Assets\TextMesh Pro\Sprites\EmojiOne.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Words.txt
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Words.txt
-    projectPath: Library\Collab\Download\Assets\Words.txt
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\Assets\Words.txt.meta
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\Assets\Words.txt.meta
-    projectPath: Library\Collab\Download\Assets\Words.txt.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\ProjectSettings\AudioManager.asset
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\ProjectSettings\AudioManager.asset
-    projectPath: Library\Collab\Download\ProjectSettings\AudioManager.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\ProjectSettings\ClusterInputManager.asset
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\ProjectSettings\ClusterInputManager.asset
-    projectPath: Library\Collab\Download\ProjectSettings\ClusterInputManager.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\ProjectSettings\DynamicsManager.asset
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\ProjectSettings\DynamicsManager.asset
-    projectPath: Library\Collab\Download\ProjectSettings\DynamicsManager.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\ProjectSettings\EditorSettings.asset
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\ProjectSettings\EditorSettings.asset
-    projectPath: Library\Collab\Download\ProjectSettings\EditorSettings.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\ProjectSettings\GraphicsSettings.asset
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\ProjectSettings\GraphicsSettings.asset
-    projectPath: Library\Collab\Download\ProjectSettings\GraphicsSettings.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\ProjectSettings\InputManager.asset
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\ProjectSettings\InputManager.asset
-    projectPath: Library\Collab\Download\ProjectSettings\InputManager.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\ProjectSettings\NavMeshAreas.asset
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\ProjectSettings\NavMeshAreas.asset
-    projectPath: Library\Collab\Download\ProjectSettings\NavMeshAreas.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\ProjectSettings\Physics2DSettings.asset
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\ProjectSettings\Physics2DSettings.asset
-    projectPath: Library\Collab\Download\ProjectSettings\Physics2DSettings.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\ProjectSettings\PresetManager.asset
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\ProjectSettings\PresetManager.asset
-    projectPath: Library\Collab\Download\ProjectSettings\PresetManager.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+      SDF - Fallback.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Collab\Download\ProjectSettings\EditorBuildSettings.asset
+    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\ProjectSettings\EditorBuildSettings.asset
+    projectPath: Library\Collab\Download\ProjectSettings\EditorBuildSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\Collab\Download\ProjectSettings\ProjectSettings.asset
     fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\ProjectSettings\ProjectSettings.asset
     projectPath: Library\Collab\Download\ProjectSettings\ProjectSettings.asset
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\ProjectSettings\ProjectVersion.txt
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\ProjectSettings\ProjectVersion.txt
-    projectPath: Library\Collab\Download\ProjectSettings\ProjectVersion.txt
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\Collab\Download\ProjectSettings\QualitySettings.asset
     fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\ProjectSettings\QualitySettings.asset
     projectPath: Library\Collab\Download\ProjectSettings\QualitySettings.asset
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Collab\Download\ProjectSettings\TagManager.asset
+    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\ProjectSettings\TagManager.asset
+    projectPath: Library\Collab\Download\ProjectSettings\TagManager.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\Collab\Download\ProjectSettings\TimeManager.asset
     fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\ProjectSettings\TimeManager.asset
     projectPath: Library\Collab\Download\ProjectSettings\TimeManager.asset
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\Collab\Download\ProjectSettings\UnityConnectSettings.asset
     fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\ProjectSettings\UnityConnectSettings.asset
     projectPath: Library\Collab\Download\ProjectSettings\UnityConnectSettings.asset
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Download\ProjectSettings\VFXManager.asset
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Download\ProjectSettings\VFXManager.asset
-    projectPath: Library\Collab\Download\ProjectSettings\VFXManager.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Original\Assets\Scenes\Game.unity
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Original\Assets\Scenes\Game.unity
-    projectPath: Library\Collab\Original\Assets\Scenes\Game.unity
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\Collab\Original\Assets\Scenes\Start.unity
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Original\Assets\Scenes\Start.unity
-    projectPath: Library\Collab\Original\Assets\Scenes\Start.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Collab\Original\Assets\Scripts\GameCountdown.cs
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Original\Assets\Scripts\GameCountdown.cs
-    projectPath: Library\Collab\Original\Assets\Scripts\GameCountdown.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Original\Assets\Scripts\GameInfo.cs
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Original\Assets\Scripts\GameInfo.cs
-    projectPath: Library\Collab\Original\Assets\Scripts\GameInfo.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Original\Assets\Scripts\PauseScript.cs
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Original\Assets\Scripts\PauseScript.cs
-    projectPath: Library\Collab\Original\Assets\Scripts\PauseScript.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Original\Assets\Scripts\StartMenu.cs
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Original\Assets\Scripts\StartMenu.cs
-    projectPath: Library\Collab\Original\Assets\Scripts\StartMenu.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Collab\Original\Assets\Scripts\WordController.cs
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\Collab\Original\Assets\Scripts\WordController.cs
-    projectPath: Library\Collab\Original\Assets\Scripts\WordController.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\CrashedAssetImports.txt
     fullPath: D:\Documents\CSE442\442projects-bruh\Library\CrashedAssetImports.txt
     projectPath: Library\CrashedAssetImports.txt
@@ -1959,198 +303,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\10\10145f279f90346bbb61712ff585828b
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\10\10145f279f90346bbb61712ff585828b
-    projectPath: Library\metadata\10\10145f279f90346bbb61712ff585828b
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\25\25ebe415cc14c4f4ea15c34a796b75bb
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\25\25ebe415cc14c4f4ea15c34a796b75bb
-    projectPath: Library\metadata\25\25ebe415cc14c4f4ea15c34a796b75bb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\2e\2e498d1c8094910479dc3e1b768306a4.info
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\2e\2e498d1c8094910479dc3e1b768306a4.info
-    projectPath: Library\metadata\2e\2e498d1c8094910479dc3e1b768306a4.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\3a\3aba9fe1ad29b42ffb0eea781318a626
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\3a\3aba9fe1ad29b42ffb0eea781318a626
-    projectPath: Library\metadata\3a\3aba9fe1ad29b42ffb0eea781318a626
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\46\46c02d8d6499b4309ac1ec5d0b818585
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\46\46c02d8d6499b4309ac1ec5d0b818585
-    projectPath: Library\metadata\46\46c02d8d6499b4309ac1ec5d0b818585
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\47\47a2e9d701123d546b874108298148b3.info
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\47\47a2e9d701123d546b874108298148b3.info
-    projectPath: Library\metadata\47\47a2e9d701123d546b874108298148b3.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\4c\4c433abcdb28444ebb7bd395ba5c76fc
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\4c\4c433abcdb28444ebb7bd395ba5c76fc
-    projectPath: Library\metadata\4c\4c433abcdb28444ebb7bd395ba5c76fc
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\4d\4dfd3f5da88944ec6ac5977d676c30c6
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\4d\4dfd3f5da88944ec6ac5977d676c30c6
-    projectPath: Library\metadata\4d\4dfd3f5da88944ec6ac5977d676c30c6
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\4f\4f768b64e6c37495699fffe3007e4379
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\4f\4f768b64e6c37495699fffe3007e4379
-    projectPath: Library\metadata\4f\4f768b64e6c37495699fffe3007e4379
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\59\599a5fd92bab81a4ab02e52d0b1b1c60
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\59\599a5fd92bab81a4ab02e52d0b1b1c60
-    projectPath: Library\metadata\59\599a5fd92bab81a4ab02e52d0b1b1c60
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\85\8534285dcd0afb7409fbed9fb148f07f.info
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\85\8534285dcd0afb7409fbed9fb148f07f.info
-    projectPath: Library\metadata\85\8534285dcd0afb7409fbed9fb148f07f.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\93\930808d4ba5cc844dacdba31e36bc17a.info
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\93\930808d4ba5cc844dacdba31e36bc17a.info
-    projectPath: Library\metadata\93\930808d4ba5cc844dacdba31e36bc17a.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\93\93c1370867fcb45079592da39e0994c5
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\93\93c1370867fcb45079592da39e0994c5
-    projectPath: Library\metadata\93\93c1370867fcb45079592da39e0994c5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\97\97dff1b5ae41ee84886ae7a80ae21499
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\97\97dff1b5ae41ee84886ae7a80ae21499
-    projectPath: Library\metadata\97\97dff1b5ae41ee84886ae7a80ae21499
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\a8\a8d9e44eff3f447db9448925617ccb44
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\a8\a8d9e44eff3f447db9448925617ccb44
-    projectPath: Library\metadata\a8\a8d9e44eff3f447db9448925617ccb44
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\ac\acc34040a66fe4170bc8885268860cfe
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\ac\acc34040a66fe4170bc8885268860cfe
-    projectPath: Library\metadata\ac\acc34040a66fe4170bc8885268860cfe
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\bb\bbec1324b05a54939ad2fea2d7e11063
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\bb\bbec1324b05a54939ad2fea2d7e11063
-    projectPath: Library\metadata\bb\bbec1324b05a54939ad2fea2d7e11063
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\cd\cd44c1bc0fa624a39aa784af44c62180
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\cd\cd44c1bc0fa624a39aa784af44c62180
-    projectPath: Library\metadata\cd\cd44c1bc0fa624a39aa784af44c62180
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\f7\f747016d01bd8eb4a9ca9ec3391336ed.info
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\f7\f747016d01bd8eb4a9ca9ec3391336ed.info
-    projectPath: Library\metadata\f7\f747016d01bd8eb4a9ca9ec3391336ed.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\f8\f8eca3a711f4842eba0c52ea9885ef7f
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\metadata\f8\f8eca3a711f4842eba0c52ea9885ef7f
-    projectPath: Library\metadata\f8\f8eca3a711f4842eba0c52ea9885ef7f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp.dll
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Assembly-CSharp.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Assembly-CSharp.pdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-    projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
     fullPath: D:\Documents\CSE442\442projects-bruh\Library\shadercompiler-UnityShaderCompiler.exe0.log
     projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\StateCache\Hierarchy\6ae370-mainStage.json
-    fullPath: D:\Documents\CSE442\442projects-bruh\Library\StateCache\Hierarchy\6ae370-mainStage.json
-    projectPath: Library\StateCache\Hierarchy\6ae370-mainStage.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Temp\__Backupscenes\0.backup
-    fullPath: D:\Documents\CSE442\442projects-bruh\Temp\__Backupscenes\0.backup
-    projectPath: Temp\__Backupscenes\0.backup
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Temp\UnityLockfile
     fullPath: D:\Documents\CSE442\442projects-bruh\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile

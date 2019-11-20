@@ -13,15 +13,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2019-11-13T17:05:58.087-05:00
-  initializedAtString: 2019-11-13T16:07:36.077-05:00
+  lastUpdatedAtString: 2019-11-19T19:05:29.458-05:00
+  initializedAtString: 2019-11-19T19:01:32.617-05:00
   localBranches:
   - name: dev
     tracking: origin/dev
-  - name: issue56_scoringsystem
-    tracking: origin/issue56_scoringsystem
-  - name: master
-    tracking: origin/master
+  - name: issue17_inputfield
+    tracking: origin/issue17_inputfield
+  - name: issue30_disableKey
+    tracking: origin/issue30_disableKey
+  - name: issue36_pause
+    tracking: origin/issue36_pause
+  - name: issue38_cleanUp
+    tracking: origin/issue38_cleanUp
+  - name: issue57_pauseMenu
+    tracking: origin/issue57_pauseMenu
+  - name: issue66_gamePanels
+    tracking: 
   remoteBranches:
   - name: origin/dev
     tracking: '[None]'
@@ -88,24 +96,48 @@ MonoBehaviour:
   localConfigBranches:
     keys:
     - dev
-    - issue56_scoringsystem
-    - master
+    - issue17_inputfield
+    - issue30_disableKey
+    - issue36_pause
+    - issue38_cleanUp
+    - issue57_pauseMenu
+    - issue66_gamePanels
     values:
     - name: dev
       remote:
         name: origin
         url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
       trackingBranch: dev
-    - name: issue56_scoringsystem
+    - name: issue17_inputfield
       remote:
         name: origin
         url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
-      trackingBranch: issue56_scoringsystem
-    - name: master
+      trackingBranch: issue17_inputfield
+    - name: issue30_disableKey
       remote:
         name: origin
         url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
-      trackingBranch: master
+      trackingBranch: issue30_disableKey
+    - name: issue36_pause
+      remote:
+        name: origin
+        url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+      trackingBranch: issue36_pause
+    - name: issue38_cleanUp
+      remote:
+        name: origin
+        url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+      trackingBranch: issue38_cleanUp
+    - name: issue57_pauseMenu
+      remote:
+        name: origin
+        url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+      trackingBranch: issue57_pauseMenu
+    - name: issue66_gamePanels
+      remote:
+        name: 
+        url: 
+      trackingBranch: 
   remoteConfigBranches:
     keys:
     - origin

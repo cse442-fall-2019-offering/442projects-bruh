@@ -20,18 +20,30 @@ public class Speedo_Script : MonoBehaviour
 
     private void Awake() {
         needleTransform = transform.Find("needle");
-        wpm_textbox= GameObject.Find("wpm_var");
+        wpm_textbox= GameObject.Find("wpm_var"); 
         text_var = wpm_textbox.GetComponent<Text>();
+
+        
 
         speed = 0f;
         speedMax = 150f;
 
-    }  
-    
+    }
+    public float FetchWPM()
+    {
+        GameObject canv = GameObject.Find("Canvas");
+        WordController wordController = canv.GetComponent<WordController>();
+        return wordController.AccessWPM();
+    }
+
     // Update is called once per frame
     void Update()
     {
-        speed += 30f * Time.deltaTime;
+
+
+        speed = 3 * FetchWPM(); // Multiplier to make wpm more realistic 
+        
+        
         if (speed > speedMax) speed = speedMax;
         
 //        text_var.text = speed.ToString();

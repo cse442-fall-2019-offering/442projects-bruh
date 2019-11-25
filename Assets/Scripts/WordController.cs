@@ -27,12 +27,17 @@ public class WordController : MonoBehaviour
     public float startTime;
     public int wordsCompleted;
     GameObject wpmTextBox;
+    
+
+    public float currentWPM;
     public Text textVar;
 
     // Called on start of game canvas
     void Start()
     {
+        Debug.Log("GAME OBJECT NAME IS: " + gameObject.name);
         inputField.enabled= false;
+        
         
         switch (GameInfo.Theme)
         {
@@ -82,16 +87,40 @@ public class WordController : MonoBehaviour
     // Checks if inputed word matches prompted word and if so, initiates correct and change of prompted word
     public void CheckWord()
     {
+        newText = newText.ToLower();
         if (newText.Length > 1)
         {
             newText = newText.Substring(0, newText.Length - 1);
+            if (newText != GameInfo.PromptWord)
+            {
+                ScoreScript.scoreValue -= 10;
+                GameInfo.ScoreValue = ScoreScript.scoreValue;
+            }
+            else
+            {
+                if (GameInfo.Difficulty == 1)
+                {
+                    ScoreScript.scoreValue += 50 * (int)Math.Round(currentWPM); // multiply base score with CurrentWPM 
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
+                if (GameInfo.Difficulty == 2)
+                {
+                    ScoreScript.scoreValue += 75 * (int)Math.Round(currentWPM); // multiply base score with CurrentWPM
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
+                if (GameInfo.Difficulty == 3)
+                {
+                    ScoreScript.scoreValue += 100 * (int)Math.Round(currentWPM); // multiply base score with CurrentWPM
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
+                Correct();
+                Change();
+                updateSpeedo(IncrWPM());
+                ScoreScript.scoreValue += 50;
+                GameInfo.ScoreValue = ScoreScript.scoreValue;
+            }
         }
-        if (newText == GameInfo.PromptWord)
-        {
-            Correct();
-            Change();
-            updateSpeedo(IncrWPM());
-        }
+        
     }
 
     // Exception for if enter is used to submit words; same effect as CheckWord
@@ -103,10 +132,34 @@ public class WordController : MonoBehaviour
             // DO NOTHING
         }
         else {
-            if(newText == GameInfo.PromptWord) {
+            if (newText != GameInfo.PromptWord)
+            {
+                ScoreScript.scoreValue -= 10;
+                GameInfo.ScoreValue = ScoreScript.scoreValue;
+            }
+            else {
+                if (GameInfo.Difficulty == 1)
+                {
+                    ScoreScript.scoreValue += 50 * (int)Math.Round(currentWPM); // multiply base score with CurrentWPM
+                    Debug.Log(AccessWPM());
+                    Debug.Log("Current Score: " + ScoreScript.scoreValue);
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
+                if (GameInfo.Difficulty == 2)
+                {
+                    ScoreScript.scoreValue += 75 * (int)Math.Round(currentWPM); // multiply base score with CurrentWPM
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
+                if (GameInfo.Difficulty == 3)
+                {
+                    ScoreScript.scoreValue += 100 * (int)Math.Round(currentWPM); // multiply base score with CurrentWPM
+                    GameInfo.ScoreValue = ScoreScript.scoreValue; 
+                }
                 Correct();
                 Change();
                 updateSpeedo(IncrWPM());
+                ScoreScript.scoreValue += 50;
+                GameInfo.ScoreValue = ScoreScript.scoreValue;
             }
             inputField.text = "";
             inputField.Select();
@@ -141,18 +194,28 @@ public class WordController : MonoBehaviour
     */
     public float IncrWPM()
     {
-        float timeInSec = Time.fixedTime; //starts Time Delta
-        Debug.Log("Time passed: " + timeInSec);
-        wordsCompleted++; // Increase word count for calculating average
-        Debug.Log("Words Completed: " + wordsCompleted);
-        float currWPM = wordsCompleted / (timeInSec / 60); //Calc WPM
-        Debug.Log("WPM = " + currWPM);
-        return currWPM;
+        
+
+
+            float timeInSec = Time.fixedTime; //starts Time Delta
+            Debug.Log("Time passed: " + timeInSec);
+            wordsCompleted++; // Increase word count for calculating average
+            Debug.Log("Words Completed: " + wordsCompleted);
+            float currWPM = wordsCompleted / (timeInSec / 60); //Calc WPM
+            Debug.Log("WPM = " + currWPM);
+            currentWPM = currWPM;
+            return currWPM;
+        
     }
 
     public void updateSpeedo(float wpm)
     {
-        textVar.text = wpm.ToString();  //Updates speedo text with current wpm
+        textVar.text = ((int) Math.Round(wpm)).ToString();  //Updates speedo text with current wpm
+    }
+    // Accessor Method 
+    public float AccessWPM()
+    {
+        return currentWPM;
     }
 
     // Get the scores from the MySQL DB to display in a GUIText.

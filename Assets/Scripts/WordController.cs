@@ -93,8 +93,21 @@ public class WordController : MonoBehaviour
             newText = newText.Substring(0, newText.Length - 1);
             if (newText != GameInfo.PromptWord)
             {
-                ScoreScript.scoreValue -= 10;
-                GameInfo.ScoreValue = ScoreScript.scoreValue;
+                if (GameInfo.Difficulty == 1)
+                {
+                    ScoreScript.scoreValue -= 10;
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
+                if (GameInfo.Difficulty == 2)
+                {
+                    ScoreScript.scoreValue -= 15;
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
+                if (GameInfo.Difficulty == 3)
+                {
+                    ScoreScript.scoreValue -= 20;
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
             }
             else
             {
@@ -116,7 +129,6 @@ public class WordController : MonoBehaviour
                 Correct();
                 Change();
                 updateSpeedo(IncrWPM());
-                ScoreScript.scoreValue += 50;
                 GameInfo.ScoreValue = ScoreScript.scoreValue;
             }
         }
@@ -134,8 +146,21 @@ public class WordController : MonoBehaviour
         else {
             if (newText != GameInfo.PromptWord)
             {
-                ScoreScript.scoreValue -= 10;
-                GameInfo.ScoreValue = ScoreScript.scoreValue;
+                if (GameInfo.Difficulty == 1)
+                {
+                    ScoreScript.scoreValue -= 10;
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
+                if (GameInfo.Difficulty == 2)
+                {
+                    ScoreScript.scoreValue -= 15;
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
+                if (GameInfo.Difficulty == 3)
+                {
+                    ScoreScript.scoreValue -= 20;
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
             }
             else {
                 if (GameInfo.Difficulty == 1)
@@ -158,7 +183,6 @@ public class WordController : MonoBehaviour
                 Correct();
                 Change();
                 updateSpeedo(IncrWPM());
-                ScoreScript.scoreValue += 50;
                 GameInfo.ScoreValue = ScoreScript.scoreValue;
             }
             inputField.text = "";
@@ -181,6 +205,7 @@ public class WordController : MonoBehaviour
         // stop timer and bring up game won panel
         if (playerCar.transform.position.x >= 1860)
         {
+            GameInfo.ScoreValue = ScoreScript.scoreValue + (30 * GameInfo.TimeRemaining); //Multiplies final score by Time Remaining Multiplier
             GameInfo.count = false;
             GameWonPanel.SetActive(true);
             backgroundPanel.SetActive(false);

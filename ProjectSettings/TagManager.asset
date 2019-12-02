@@ -3,7 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: [Speedometer_tag]
+  tags: [Speedometer_tag, Fire]
   layers:
   - Default
   - TransparentFX
@@ -15,7 +15,7 @@ TagManager:
   - 
   - images
   - Speedo_layer
-  - 
+  - foreground
   - 
   - 
   - 
@@ -40,4 +40,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: particle
+    uniqueID: 3980754049
     locked: 0

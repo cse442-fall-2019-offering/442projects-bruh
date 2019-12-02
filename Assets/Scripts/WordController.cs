@@ -23,22 +23,22 @@ public class WordController : MonoBehaviour
     public GameObject GameWonPanel;
     public GameObject backgroundPanel;
     public GameObject playerCar;
-
+    public ParticleSystem firer;
+    public ParticleSystem firel;
+    public Animator inputAnim;
+    public Animator textAnim;
     public float startTime;
     public int wordsCompleted;
     GameObject wpmTextBox;
-    
-
-    public float currentWPM;
     public Text textVar;
-
+    public int i = 1;
+    public int right = 0;
     // Called on start of game canvas
     void Start()
     {
-        Debug.Log("GAME OBJECT NAME IS: " + gameObject.name);
         inputField.enabled= false;
-        
-        
+        firel.enableEmission = false;
+        firer.enableEmission = false;
         switch (GameInfo.Theme)
         {
             case 1:
@@ -93,42 +93,20 @@ public class WordController : MonoBehaviour
             newText = newText.Substring(0, newText.Length - 1);
             if (newText != GameInfo.PromptWord)
             {
-                if (GameInfo.Difficulty == 1)
-                {
-                    ScoreScript.scoreValue -= 10;
-                    GameInfo.ScoreValue = ScoreScript.scoreValue;
-                }
-                if (GameInfo.Difficulty == 2)
-                {
-                    ScoreScript.scoreValue -= 15;
-                    GameInfo.ScoreValue = ScoreScript.scoreValue;
-                }
-                if (GameInfo.Difficulty == 3)
-                {
-                    ScoreScript.scoreValue -= 20;
-                    GameInfo.ScoreValue = ScoreScript.scoreValue;
-                }
+                right = 0;
+                firel.enableEmission = false;
+                firer.enableEmission = false;
+                ScoreScript.scoreValue -= 10;
+                GameInfo.ScoreValue = ScoreScript.scoreValue;
+                inputAnim.SetBool("Got Mistake", true);
+                textAnim.SetBool("Turn Red", true);
             }
             else
             {
-                if (GameInfo.Difficulty == 1)
-                {
-                    ScoreScript.scoreValue += 50 * (int)Math.Round(currentWPM); // multiply base score with CurrentWPM 
-                    GameInfo.ScoreValue = ScoreScript.scoreValue;
-                }
-                if (GameInfo.Difficulty == 2)
-                {
-                    ScoreScript.scoreValue += 75 * (int)Math.Round(currentWPM); // multiply base score with CurrentWPM
-                    GameInfo.ScoreValue = ScoreScript.scoreValue;
-                }
-                if (GameInfo.Difficulty == 3)
-                {
-                    ScoreScript.scoreValue += 100 * (int)Math.Round(currentWPM); // multiply base score with CurrentWPM
-                    GameInfo.ScoreValue = ScoreScript.scoreValue;
-                }
                 Correct();
                 Change();
                 updateSpeedo(IncrWPM());
+                ScoreScript.scoreValue += 50;
                 GameInfo.ScoreValue = ScoreScript.scoreValue;
             }
         }
@@ -146,43 +124,19 @@ public class WordController : MonoBehaviour
         else {
             if (newText != GameInfo.PromptWord)
             {
-                if (GameInfo.Difficulty == 1)
-                {
-                    ScoreScript.scoreValue -= 10;
-                    GameInfo.ScoreValue = ScoreScript.scoreValue;
-                }
-                if (GameInfo.Difficulty == 2)
-                {
-                    ScoreScript.scoreValue -= 15;
-                    GameInfo.ScoreValue = ScoreScript.scoreValue;
-                }
-                if (GameInfo.Difficulty == 3)
-                {
-                    ScoreScript.scoreValue -= 20;
-                    GameInfo.ScoreValue = ScoreScript.scoreValue;
-                }
+                right = 0;
+                firel.enableEmission = false;
+                firer.enableEmission = false;
+                ScoreScript.scoreValue -= 10;
+                GameInfo.ScoreValue = ScoreScript.scoreValue;
+                inputAnim.SetBool("Got Mistake", true);
+                textAnim.SetBool("Turn Red", true);
             }
             else {
-                if (GameInfo.Difficulty == 1)
-                {
-                    ScoreScript.scoreValue += 50 * (int)Math.Round(currentWPM); // multiply base score with CurrentWPM
-                    Debug.Log(AccessWPM());
-                    Debug.Log("Current Score: " + ScoreScript.scoreValue);
-                    GameInfo.ScoreValue = ScoreScript.scoreValue;
-                }
-                if (GameInfo.Difficulty == 2)
-                {
-                    ScoreScript.scoreValue += 75 * (int)Math.Round(currentWPM); // multiply base score with CurrentWPM
-                    GameInfo.ScoreValue = ScoreScript.scoreValue;
-                }
-                if (GameInfo.Difficulty == 3)
-                {
-                    ScoreScript.scoreValue += 100 * (int)Math.Round(currentWPM); // multiply base score with CurrentWPM
-                    GameInfo.ScoreValue = ScoreScript.scoreValue; 
-                }
                 Correct();
                 Change();
                 updateSpeedo(IncrWPM());
+                ScoreScript.scoreValue += 50;
                 GameInfo.ScoreValue = ScoreScript.scoreValue;
             }
             inputField.text = "";
@@ -200,16 +154,22 @@ public class WordController : MonoBehaviour
     // Player has typed a word correctly and the car is pushed forward
     public void Correct()
     {
+        right += 1;
         playerCar.transform.Translate(70,0,0);
+        if(right > 4)
+        {
+            firel.enableEmission = true;
+            firer.enableEmission = true;
+        }
         // Check if player has reached end of the road
         // stop timer and bring up game won panel
         if (playerCar.transform.position.x >= 1860)
         {
-            GameInfo.ScoreValue = ScoreScript.scoreValue + (30 * GameInfo.TimeRemaining); //Multiplies final score by Time Remaining Multiplier
             GameInfo.count = false;
             GameWonPanel.SetActive(true);
             backgroundPanel.SetActive(false);
         }
+        
     }
 
     /**
@@ -219,28 +179,18 @@ public class WordController : MonoBehaviour
     */
     public float IncrWPM()
     {
-        
-
-
-            float timeInSec = Time.fixedTime; //starts Time Delta
-            Debug.Log("Time passed: " + timeInSec);
-            wordsCompleted++; // Increase word count for calculating average
-            Debug.Log("Words Completed: " + wordsCompleted);
-            float currWPM = wordsCompleted / (timeInSec / 60); //Calc WPM
-            Debug.Log("WPM = " + currWPM);
-            currentWPM = currWPM;
-            return currWPM;
-        
+        float timeInSec = Time.fixedTime; //starts Time Delta
+        Debug.Log("Time passed: " + timeInSec);
+        wordsCompleted++; // Increase word count for calculating average
+        Debug.Log("Words Completed: " + wordsCompleted);
+        float currWPM = wordsCompleted / (timeInSec / 60); //Calc WPM
+        Debug.Log("WPM = " + currWPM);
+        return currWPM;
     }
 
     public void updateSpeedo(float wpm)
     {
-        textVar.text = ((int) Math.Round(wpm)).ToString();  //Updates speedo text with current wpm
-    }
-    // Accessor Method 
-    public float AccessWPM()
-    {
-        return currentWPM;
+        textVar.text = wpm.ToString();  //Updates speedo text with current wpm
     }
 
     // Get the scores from the MySQL DB to display in a GUIText.
@@ -248,28 +198,45 @@ public class WordController : MonoBehaviour
     IEnumerator GetScores()
     {
         int num = GameInfo.difficulty;
-        if (num == 1)
+        
+        if (num == 1 && i == 1)
         {
-            UnityWebRequest www = UnityWebRequest.Get(displayWordEasyURL);
-            yield return www.SendWebRequest();
+                UnityWebRequest www = UnityWebRequest.Get(displayWordEasyURL);
+                yield return www.SendWebRequest();
 
-            if (www.isNetworkError || www.isHttpError)
-            {
-                Debug.Log(www.error);
+                if (www.isNetworkError || www.isHttpError)
+                {
+                    Debug.Log(www.error);
+                }
+                else
+                {
+
+                    // Show results as text
+                    Debug.Log(www.downloadHandler.text);
+                    string webtext = www.downloadHandler.text;
+                    string[] webTextArray = webtext.Split(new string[] { "\n", "\r\n" }, StringSplitOptions.None);
+                    GameInfo.Wordlist = webTextArray;
+                    wordDisplay.GetComponent<Text>().text = webTextArray[1];
+                    GameInfo.PromptWord = webTextArray[1];
+                    i += 2;
+
+
+
+                }
+    
             }
-            else
-            {
-
-                // Show results as text
-                Debug.Log(www.downloadHandler.text);
-                string webtext = www.downloadHandler.text;
-                string[] webTextArray = webtext.Split(new string[] { "\n", "\r\n" }, StringSplitOptions.None);
-                wordDisplay.GetComponent<Text>().text = webTextArray[1];
-                GameInfo.PromptWord = webTextArray[1];
-
-
-            }
+        else
+        {
+            
+            wordDisplay.GetComponent<Text>().text = GameInfo.wordlist[i];
+            GameInfo.PromptWord = GameInfo.wordlist[i];
+            i += 2;
         }
+       
+            
+           
+           
+        
         if (num == 2)
         {
             UnityWebRequest www = UnityWebRequest.Get(displayWordMedURL);

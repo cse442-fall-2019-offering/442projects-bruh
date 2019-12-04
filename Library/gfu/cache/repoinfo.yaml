@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2019-12-04T14:15:14.763-05:00
-  initializedAtString: 2019-12-04T14:15:14.763-05:00
+  lastUpdatedAtString: 2019-12-04T15:41:47.309-05:00
+  initializedAtString: 2019-12-04T15:41:47.309-05:00
   currentGitRemote:
     name: origin
     url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
@@ -24,14 +24,14 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: dev
-    tracking: origin/dev
+    name: issue77_easteregg
+    tracking: 
   currentConfigBranch:
-    name: dev
+    name: issue77_easteregg
     remote:
-      name: origin
-      url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
-    trackingBranch: dev
+      name: 
+      url: 
+    trackingBranch: 
   currentConfigRemote:
     name: origin
     url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git

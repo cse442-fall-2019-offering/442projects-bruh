@@ -30,6 +30,7 @@ public class WordController : MonoBehaviour
     public float startTime;
     public int wordsCompleted;
     GameObject wpmTextBox;
+    public float currentWPM;
     public Text textVar;
     public int i = 1;
     public int right = 0;
@@ -93,21 +94,41 @@ public class WordController : MonoBehaviour
             newText = newText.Substring(0, newText.Length - 1);
             if (newText != GameInfo.PromptWord)
             {
+                if(GameInfo.difficulty == 1){
+                    ScoreScript.scoreValue -= 10;
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
+                if(GameInfo.difficulty == 2){
+                    ScoreScript.scoreValue -= 15;
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
+                if(GameInfo.difficulty == 3){
+                    ScoreScript.scoreValue -= 20;
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
                 right = 0;
                 firel.enableEmission = false;
                 firer.enableEmission = false;
-                ScoreScript.scoreValue -= 10;
-                GameInfo.ScoreValue = ScoreScript.scoreValue;
                 inputAnim.SetBool("Got Mistake", true);
                 textAnim.SetBool("Turn Red", true);
             }
             else
             {
+                if(GameInfo.difficulty == 1){
+                    ScoreScript.scoreValue += 50 * 14;
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
+                if(GameInfo.difficulty == 2){
+                    ScoreScript.scoreValue += 75 * 14;
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
+                if(GameInfo.difficulty == 3){
+                    ScoreScript.scoreValue += 100 * 14;
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
                 Correct();
                 Change();
                 updateSpeedo(IncrWPM());
-                ScoreScript.scoreValue += 50;
-                GameInfo.ScoreValue = ScoreScript.scoreValue;
             }
         }
         
@@ -124,6 +145,18 @@ public class WordController : MonoBehaviour
         else {
             if (newText != GameInfo.PromptWord)
             {
+                if(GameInfo.difficulty == 1){
+                    ScoreScript.scoreValue -= 10;
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
+                if(GameInfo.difficulty == 2){
+                    ScoreScript.scoreValue -= 15;
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
+                if(GameInfo.difficulty == 3){
+                    ScoreScript.scoreValue -= 20;
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
                 right = 0;
                 firel.enableEmission = false;
                 firer.enableEmission = false;
@@ -133,11 +166,21 @@ public class WordController : MonoBehaviour
                 textAnim.SetBool("Turn Red", true);
             }
             else {
+                if(GameInfo.difficulty == 1){
+                    ScoreScript.scoreValue += 50 * 14;
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
+                if(GameInfo.difficulty == 2){
+                    ScoreScript.scoreValue += 75 * 14;
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
+                if(GameInfo.difficulty == 3){
+                    ScoreScript.scoreValue += 100 * 14;
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
                 Correct();
                 Change();
                 updateSpeedo(IncrWPM());
-                ScoreScript.scoreValue += 50;
-                GameInfo.ScoreValue = ScoreScript.scoreValue;
             }
             inputField.text = "";
             inputField.Select();

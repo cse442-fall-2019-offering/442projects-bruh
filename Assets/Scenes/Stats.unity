@@ -2665,7 +2665,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2030914171}
   - component: {fileID: 2030914170}
-  - component: {fileID: 2030914169}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -2673,42 +2672,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2030914169
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2030914168}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23e4db613d4156d41adc4fc871f30484, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  names:
-  - {fileID: 38571568}
-  - {fileID: 16067954}
-  - {fileID: 465369227}
-  - {fileID: 582691841}
-  - {fileID: 1971975838}
-  - {fileID: 655011521}
-  - {fileID: 619088999}
-  - {fileID: 326813627}
-  - {fileID: 1457139964}
-  - {fileID: 1677316658}
-  values:
-  - {fileID: 212699891}
-  - {fileID: 792086027}
-  - {fileID: 511931405}
-  - {fileID: 1590069147}
-  - {fileID: 21944443}
-  - {fileID: 413092607}
-  - {fileID: 855313057}
-  - {fileID: 1341113982}
-  - {fileID: 279770825}
-  - {fileID: 1748677820}
-  highScoreNames: []
-  highScoreValues: 
 --- !u!114 &2030914170
 MonoBehaviour:
   m_ObjectHideFlags: 0

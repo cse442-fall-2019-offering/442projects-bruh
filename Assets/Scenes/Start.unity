@@ -631,8 +631,6 @@ GameObject:
   - component: {fileID: 354403532}
   - component: {fileID: 354403531}
   - component: {fileID: 354403530}
-  - component: {fileID: 354403533}
-  - component: {fileID: 354403534}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -704,38 +702,6 @@ Transform:
   m_Father: {fileID: 1880413916}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &354403533
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 354403529}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7639064e48039ab43a8e5018f6b4ce60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerNamePanel: {fileID: 0}
-  startGamePanel: {fileID: 0}
-  difficultyError: {fileID: 0}
-  inputField: {fileID: 0}
---- !u!114 &354403534
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 354403529}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7639064e48039ab43a8e5018f6b4ce60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerNamePanel: {fileID: 0}
-  startGamePanel: {fileID: 0}
-  difficultyError: {fileID: 0}
-  inputField: {fileID: 0}
 --- !u!1 &420811122
 GameObject:
   m_ObjectHideFlags: 0

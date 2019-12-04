@@ -14,10 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cacheType: 7
 <<<<<<< HEAD
+<<<<<<< HEAD
   lastUpdatedAtString: 2019-12-04T16:47:57.444-05:00
   initializedAtString: 2019-12-04T16:40:44.494-05:00
 =======
   lastUpdatedAtString: 2019-11-06T15:13:02.803-05:00
   initializedAtString: 2019-11-06T15:05:36.260-05:00
 >>>>>>> issue54_UIscheme
+=======
+  lastUpdatedAtString: 2019-11-13T16:48:46.920-05:00
+  initializedAtString: 2019-11-13T16:22:22.700-05:00
+>>>>>>> issue63_copyright
   gitLocks: []

@@ -53,8 +53,12 @@ MonoBehaviour:
   m_MinSize: {x: 681, y: 348}
   m_MaxSize: {x: 12006, y: 8048}
   vertical: 0
+<<<<<<< HEAD
   controlID: 103
 >>>>>>> issue54_UIscheme
+=======
+  controlID: 58
+>>>>>>> issue63_copyright
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -104,9 +108,14 @@ MonoBehaviour:
 =======
     width: 398
     height: 513
+<<<<<<< HEAD
 >>>>>>> issue54_UIscheme
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
+=======
+  m_MinSize: {x: 202, y: 224}
+  m_MaxSize: {x: 4002, y: 4024}
+>>>>>>> issue63_copyright
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -248,8 +257,12 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 348}
   m_MaxSize: {x: 8004, y: 8048}
   vertical: 1
+<<<<<<< HEAD
   controlID: 83
 >>>>>>> issue54_UIscheme
+=======
+  controlID: 59
+>>>>>>> issue63_copyright
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -275,6 +288,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 224}
   m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
+<<<<<<< HEAD
   controlID: 97
 =======
     width: 1372
@@ -284,6 +298,9 @@ MonoBehaviour:
   vertical: 0
   controlID: 84
 >>>>>>> issue54_UIscheme
+=======
+  controlID: 60
+>>>>>>> issue63_copyright
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -307,7 +324,10 @@ MonoBehaviour:
 =======
     width: 974
     height: 513
+<<<<<<< HEAD
 >>>>>>> issue54_UIscheme
+=======
+>>>>>>> issue63_copyright
   m_MinSize: {x: 204, y: 224}
   m_MaxSize: {x: 4004, y: 4024}
   m_ActualView: {fileID: 16}
@@ -394,17 +414,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Audio/Sounds
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Audio/Sounds
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Documents\CSE442\442projects-bruh
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_SelectedIDs: 760b0000
     m_LastClickedID: 2934
@@ -414,6 +435,11 @@ MonoBehaviour:
     m_LastClickedID: 2790
     m_ExpandedIDs: 00000000520a0000b80a0000720b0000
 >>>>>>> issue54_UIscheme
+=======
+    m_SelectedIDs: f60b0000
+    m_LastClickedID: 3062
+    m_ExpandedIDs: 00000000520a0000b80a0000760b00006c0d000000ca9a3b
+>>>>>>> issue63_copyright
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -442,10 +468,14 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000760a0000340c0000
 =======
     m_ExpandedIDs: 00000000520a0000b80a0000720b0000
 >>>>>>> issue54_UIscheme
+=======
+    m_ExpandedIDs: 00000000520a0000b80a0000760b0000
+>>>>>>> issue63_copyright
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -470,8 +500,13 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
+<<<<<<< HEAD
     m_SelectedInstanceIDs: 2a0d0000
     m_LastClickedInstanceID: 3370
+=======
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+>>>>>>> issue63_copyright
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000320b0000
     m_RenameOverlay:
@@ -572,10 +607,14 @@ MonoBehaviour:
       m_SelectedIDs: 
       m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_ExpandedIDs: c0fbffff
 =======
       m_ExpandedIDs: d6fbffff
 >>>>>>> issue54_UIscheme
+=======
+      m_ExpandedIDs: 8ef8ffffaef8ffffbef9ffffd6fbffff
+>>>>>>> issue63_copyright
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -631,6 +670,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_Position:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 1167, y: 313.6875, z: 158.32812}
     speed: 2
     m_Value: {x: 1167, y: 313.6875, z: 158.32812}
@@ -639,6 +679,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 915.2224, y: 519.7268, z: 6.75}
 >>>>>>> issue54_UIscheme
+=======
+    m_Target: {x: 964.8235, y: 614.92413, z: -18.0081}
+    speed: 2
+    m_Value: {x: 964.8235, y: 614.92413, z: -18.0081}
+>>>>>>> issue63_copyright
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -671,6 +716,7 @@ MonoBehaviour:
     m_Value: {x: 0.10011391, y: 0.6948204, z: -0.0986247, w: 0.70531917}
   m_Size:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: 1613.5182
     speed: 2
     m_Value: 1613.5182
@@ -679,6 +725,11 @@ MonoBehaviour:
     speed: 2
     m_Value: 1259.3732
 >>>>>>> issue54_UIscheme
+=======
+    m_Target: 1839.416
+    speed: 2
+    m_Value: 1839.416
+>>>>>>> issue63_copyright
   m_Ortho:
     m_Target: 1
     speed: 2

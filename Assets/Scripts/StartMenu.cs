@@ -6,6 +6,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+
+
 /// <summary>
 /// Start menu page controls and functionality
 /// </summary>
@@ -23,6 +25,8 @@ public class StartMenu : MonoBehaviour
         playerNamePanel.SetActive(false);
         difficultyError.SetActive(false);
     }
+
+    
 
     // Load settings screen
     public void SettingsScene()

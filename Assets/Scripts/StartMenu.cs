@@ -47,8 +47,6 @@ public class StartMenu : MonoBehaviour
             playerNamePanel.SetActive(true);
             startGamePanel.SetActive(false);
             difficultyError.SetActive(false);
-            ScoreScript.scoreValue = 0;
-            GameInfo.ScoreValue = 0;
             //SceneManager.LoadScene(3);
         }
 
@@ -60,8 +58,6 @@ public class StartMenu : MonoBehaviour
         playerNamePanel.SetActive(false);
         startGamePanel.SetActive(true);
         difficultyError.SetActive(false);
-        ScoreScript.scoreValue = 0;
-        GameInfo.ScoreValue = 0;
     }
 
     // Go to highscore page

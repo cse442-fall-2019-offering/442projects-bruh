@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2019-11-20T16:19:59.976-05:00
-  initializedAtString: 2019-11-20T16:19:59.976-05:00
+  lastUpdatedAtString: 2019-12-04T14:15:14.763-05:00
+  initializedAtString: 2019-12-04T14:15:14.763-05:00
   currentGitRemote:
     name: origin
     url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
@@ -24,14 +24,14 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: issue66_gamePanels
-    tracking: 
+    name: dev
+    tracking: origin/dev
   currentConfigBranch:
-    name: issue66_gamePanels
+    name: dev
     remote:
-      name: 
-      url: 
-    trackingBranch: 
+      name: origin
+      url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+    trackingBranch: dev
   currentConfigRemote:
     name: origin
     url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git

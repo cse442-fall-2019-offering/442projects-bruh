@@ -13,17 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-<<<<<<< HEAD
-<<<<<<< HEAD
   lastUpdatedAtString: 2019-12-04T16:40:44.478-05:00
   initializedAtString: 2019-12-04T16:40:44.478-05:00
-=======
-  lastUpdatedAtString: 2019-11-06T15:05:38.390-05:00
-  initializedAtString: 2019-11-06T15:05:38.390-05:00
->>>>>>> issue54_UIscheme
-=======
-  lastUpdatedAtString: 2019-11-13T16:22:24.040-05:00
-  initializedAtString: 2019-11-13T16:22:24.040-05:00
->>>>>>> issue63_copyright
   ahead: 0
   behind: 0

@@ -1,9 +1,1 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":886.2461547851563,"y":574.8283081054688,"z":19.62313461303711},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":1670.193359375,"orthographic":true}
-=======
-﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":915.222412109375,"y":519.726806640625,"z":6.75},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":1259.3731689453125,"orthographic":true}
->>>>>>> issue54_UIscheme
-=======
-﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":964.823486328125,"y":614.9241333007813,"z":-18.008100509643556},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":1839.416015625,"orthographic":true}
->>>>>>> issue63_copyright

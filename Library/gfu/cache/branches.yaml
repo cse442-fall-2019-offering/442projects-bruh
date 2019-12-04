@@ -1,0 +1,371 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1666186674, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 2
+  lastUpdatedAtString: 2019-12-04T16:43:30.239-05:00
+  initializedAtString: 2019-12-04T16:43:30.213-05:00
+  localBranches:
+  - name: dev
+    tracking: origin/dev
+  - name: issue17_inputfield
+    tracking: origin/issue17_inputfield
+  - name: issue30_disableKey
+    tracking: origin/issue30_disableKey
+  - name: issue36_pause
+    tracking: origin/issue36_pause
+  - name: issue38_cleanUp
+    tracking: origin/issue38_cleanUp
+  - name: issue57_pauseMenu
+    tracking: origin/issue57_pauseMenu
+  - name: issue63_copyright
+    tracking: origin/issue63_copyright
+  - name: issue66_gamePanels
+    tracking: origin/issue66_gamePanels
+  remoteBranches:
+  - name: origin/dev
+    tracking: '[None]'
+  - name: origin/issue17_inputfield
+    tracking: '[None]'
+  - name: origin/issue18_wordpopup
+    tracking: '[None]'
+  - name: origin/issue20_diffhighscore
+    tracking: '[None]'
+  - name: origin/issue21_music
+    tracking: '[None]'
+  - name: origin/issue22_dropdownmenu
+    tracking: '[None]'
+  - name: origin/issue27_finalscore
+    tracking: '[None]'
+  - name: origin/issue30_disableKey
+    tracking: '[None]'
+  - name: origin/issue31_carmodels
+    tracking: '[None]'
+  - name: origin/issue33_worddatabase
+    tracking: '[None]'
+  - name: origin/issue34_randworddatabase
+    tracking: '[None]'
+  - name: origin/issue36_pause
+    tracking: '[None]'
+  - name: origin/issue37_volslider
+    tracking: '[None]'
+  - name: origin/issue38_cleanUp
+    tracking: '[None]'
+  - name: origin/issue41_checkword
+    tracking: '[None]'
+  - name: origin/issue42_sfx
+    tracking: '[None]'
+  - name: origin/issue44_scorecounter
+    tracking: '[None]'
+  - name: origin/issue45_autoword
+    tracking: '[None]'
+  - name: origin/issue47_wpm
+    tracking: '[None]'
+  - name: origin/issue54_UIscheme
+    tracking: '[None]'
+  - name: origin/issue56_scoringsystem
+    tracking: '[None]'
+  - name: origin/issue57_pauseMenu
+    tracking: '[None]'
+  - name: origin/issue58_wpm_speedo
+    tracking: '[None]'
+  - name: origin/issue63_copyright
+    tracking: '[None]'
+  - name: origin/issue66_gamePanels
+    tracking: '[None]'
+  - name: origin/issue69_countdown
+    tracking: '[None]'
+  - name: origin/issue70_mistake
+    tracking: '[None]'
+  - name: origin/issue75_trbonus
+    tracking: '[None]'
+  - name: origin/issue77_easteregg
+    tracking: '[None]'
+  - name: origin/issues16_gauges
+    tracking: '[None]'
+  - name: origin/issue_48_highscoreimplement
+    tracking: '[None]'
+  - name: origin/issue_67_fireanimations
+    tracking: '[None]'
+  - name: origin/master
+    tracking: '[None]'
+  remotes:
+  - name: origin
+    url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+    login: 
+    user: 
+    host: 
+    function: 0
+    token: 
+  localConfigBranches:
+    keys:
+    - dev
+    - issue17_inputfield
+    - issue30_disableKey
+    - issue36_pause
+    - issue38_cleanUp
+    - issue57_pauseMenu
+    - issue63_copyright
+    - issue66_gamePanels
+    values:
+    - name: dev
+      remote:
+        name: origin
+        url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+      trackingBranch: dev
+    - name: issue17_inputfield
+      remote:
+        name: origin
+        url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+      trackingBranch: issue17_inputfield
+    - name: issue30_disableKey
+      remote:
+        name: origin
+        url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+      trackingBranch: issue30_disableKey
+    - name: issue36_pause
+      remote:
+        name: origin
+        url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+      trackingBranch: issue36_pause
+    - name: issue38_cleanUp
+      remote:
+        name: origin
+        url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+      trackingBranch: issue38_cleanUp
+    - name: issue57_pauseMenu
+      remote:
+        name: origin
+        url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+      trackingBranch: issue57_pauseMenu
+    - name: issue63_copyright
+      remote:
+        name: origin
+        url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+      trackingBranch: issue63_copyright
+    - name: issue66_gamePanels
+      remote:
+        name: origin
+        url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+      trackingBranch: issue66_gamePanels
+  remoteConfigBranches:
+    keys:
+    - origin
+    subKeys:
+    - Values:
+      - dev
+      - issue17_inputfield
+      - issue18_wordpopup
+      - issue20_diffhighscore
+      - issue21_music
+      - issue22_dropdownmenu
+      - issue27_finalscore
+      - issue30_disableKey
+      - issue31_carmodels
+      - issue33_worddatabase
+      - issue34_randworddatabase
+      - issue36_pause
+      - issue37_volslider
+      - issue38_cleanUp
+      - issue41_checkword
+      - issue42_sfx
+      - issue44_scorecounter
+      - issue45_autoword
+      - issue47_wpm
+      - issue54_UIscheme
+      - issue56_scoringsystem
+      - issue57_pauseMenu
+      - issue58_wpm_speedo
+      - issue63_copyright
+      - issue66_gamePanels
+      - issue69_countdown
+      - issue70_mistake
+      - issue75_trbonus
+      - issue77_easteregg
+      - issues16_gauges
+      - issue_48_highscoreimplement
+      - issue_67_fireanimations
+      - master
+    subKeyValues:
+    - Values:
+      - name: dev
+        remote:
+          name: origin
+          url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+        trackingBranch: 
+      - name: issue17_inputfield
+        remote:
+          name: origin
+          url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+        trackingBranch: 
+      - name: issue18_wordpopup
+        remote:
+          name: origin
+          url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+        trackingBranch: 
+      - name: issue20_diffhighscore
+        remote:
+          name: origin
+          url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+        trackingBranch: 
+      - name: issue21_music
+        remote:
+          name: origin
+          url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+        trackingBranch: 
+      - name: issue22_dropdownmenu
+        remote:
+          name: origin
+          url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+        trackingBranch: 
+      - name: issue27_finalscore
+        remote:
+          name: origin
+          url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+        trackingBranch: 
+      - name: issue30_disableKey
+        remote:
+          name: origin
+          url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+        trackingBranch: 
+      - name: issue31_carmodels
+        remote:
+          name: origin
+          url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+        trackingBranch: 
+      - name: issue33_worddatabase
+        remote:
+          name: origin
+          url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+        trackingBranch: 
+      - name: issue34_randworddatabase
+        remote:
+          name: origin
+          url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+        trackingBranch: 
+      - name: issue36_pause
+        remote:
+          name: origin
+          url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+        trackingBranch: 
+      - name: issue37_volslider
+        remote:
+          name: origin
+          url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+        trackingBranch: 
+      - name: issue38_cleanUp
+        remote:
+          name: origin
+          url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+        trackingBranch: 
+      - name: issue41_checkword
+        remote:
+          name: origin
+          url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+        trackingBranch: 
+      - name: issue42_sfx
+        remote:
+          name: origin
+          url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+        trackingBranch: 
+      - name: issue44_scorecounter
+        remote:
+          name: origin
+          url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+        trackingBranch: 
+      - name: issue45_autoword
+        remote:
+          name: origin
+          url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+        trackingBranch: 
+      - name: issue47_wpm
+        remote:
+          name: origin
+          url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+        trackingBranch: 
+      - name: issue54_UIscheme
+        remote:
+          name: origin
+          url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+        trackingBranch: 
+      - name: issue56_scoringsystem
+        remote:
+          name: origin
+          url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+        trackingBranch: 
+      - name: issue57_pauseMenu
+        remote:
+          name: origin
+          url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+        trackingBranch: 
+      - name: issue58_wpm_speedo
+        remote:
+          name: origin
+          url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+        trackingBranch: 
+      - name: issue63_copyright
+        remote:
+          name: origin
+          url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+        trackingBranch: 
+      - name: issue66_gamePanels
+        remote:
+          name: origin
+          url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+        trackingBranch: 
+      - name: issue69_countdown
+        remote:
+          name: origin
+          url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+        trackingBranch: 
+      - name: issue70_mistake
+        remote:
+          name: origin
+          url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+        trackingBranch: 
+      - name: issue75_trbonus
+        remote:
+          name: origin
+          url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+        trackingBranch: 
+      - name: issue77_easteregg
+        remote:
+          name: origin
+          url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+        trackingBranch: 
+      - name: issues16_gauges
+        remote:
+          name: origin
+          url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+        trackingBranch: 
+      - name: issue_48_highscoreimplement
+        remote:
+          name: origin
+          url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+        trackingBranch: 
+      - name: issue_67_fireanimations
+        remote:
+          name: origin
+          url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+        trackingBranch: 
+      - name: master
+        remote:
+          name: origin
+          url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git
+        trackingBranch: 
+  configRemotes:
+    keys:
+    - origin
+    values:
+    - name: origin
+      url: https://github.com/cse442-fall-2019-offering/442projects-bruh.git

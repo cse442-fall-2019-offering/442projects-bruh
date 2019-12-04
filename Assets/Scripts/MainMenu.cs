@@ -26,4 +26,12 @@ public class MainMenu : MonoBehaviour {
     {
         SceneManager.LoadScene(1);
     }
+
+    void Update()
+    {
+        if (Input.GetKeyDown("f") & Input.GetKeyDown("u") & Input.GetKeyDown("r") & Input.GetKeyDown("y"))
+        {
+            Debug.Log("hello");
+        }
+    }
 }

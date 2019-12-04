@@ -10,6 +10,7 @@ public class TimerCountdown : MonoBehaviour
     public Text countdown; //UI Text Object
     //public Text gameCountdown;
     public GameObject timePanel;
+    public GameObject pausePanel;
     public GameObject backgroundPanel;
     public GameObject gameOverPanel;
     public GameObject gameWonPanel;
@@ -19,8 +20,10 @@ public class TimerCountdown : MonoBehaviour
         GameInfo.count = true;
         timePanel.SetActive(true);
         backgroundPanel.SetActive(false);
+        pausePanel.SetActive(false);
         gameOverPanel.SetActive(false);
         gameWonPanel.SetActive(false);
+
         StartCoroutine("LoseTime");
         Time.timeScale = 1; //Just making sure that the timeScale is right
     }

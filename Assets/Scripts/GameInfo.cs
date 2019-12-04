@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public static class GameInfo 
+public static class GameInfo
 {
     // Start is called before the first frame update
     public static int difficulty;
@@ -10,8 +10,9 @@ public static class GameInfo
     public static string playerName;
     public static int theme;
     public static bool count;
+    public static int scoreValue;
     public static List<KeyValuePair<string, string>> savedHighscores;
-
+    public static string[] wordlist;
     // Difficulty of the game stored here
     public static int Difficulty
     {
@@ -43,7 +44,11 @@ public static class GameInfo
         set { count = value; }
 
     }
-
+    public static string[] Wordlist
+    {
+        get { return wordlist; }
+        set { wordlist = value; }
+    }
     // Prompted word of the game stored here
     public static string PromptWord
     {
@@ -58,6 +63,13 @@ public static class GameInfo
         get { return playerName; }
         set { playerName = value; }
 
+    }
+
+    // Final Score Value stored here
+    public static int ScoreValue
+    {
+        get { return scoreValue; }
+        set { scoreValue = value; }
     }
 
 }

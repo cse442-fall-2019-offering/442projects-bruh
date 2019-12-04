@@ -23,17 +23,23 @@ public class WordController : MonoBehaviour
     public GameObject GameWonPanel;
     public GameObject backgroundPanel;
     public GameObject playerCar;
-
+    public ParticleSystem firer;
+    public ParticleSystem firel;
+    public Animator inputAnim;
+    public Animator textAnim;
     public float startTime;
     public int wordsCompleted;
     GameObject wpmTextBox;
+    public float currentWPM;
     public Text textVar;
-
+    public int i = 1;
+    public int right = 0;
     // Called on start of game canvas
     void Start()
     {
         inputField.enabled= false;
-        
+        firel.enableEmission = false;
+        firer.enableEmission = false;
         switch (GameInfo.Theme)
         {
             case 1:
@@ -82,16 +88,50 @@ public class WordController : MonoBehaviour
     // Checks if inputed word matches prompted word and if so, initiates correct and change of prompted word
     public void CheckWord()
     {
+        newText = newText.ToLower();
         if (newText.Length > 1)
         {
             newText = newText.Substring(0, newText.Length - 1);
+            if (newText != GameInfo.PromptWord)
+            {
+                if(GameInfo.difficulty == 1){
+                    ScoreScript.scoreValue -= 10;
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
+                if(GameInfo.difficulty == 2){
+                    ScoreScript.scoreValue -= 15;
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
+                if(GameInfo.difficulty == 3){
+                    ScoreScript.scoreValue -= 20;
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
+                right = 0;
+                firel.enableEmission = false;
+                firer.enableEmission = false;
+                inputAnim.SetBool("Got Mistake", true);
+                textAnim.SetBool("Turn Red", true);
+            }
+            else
+            {
+                if(GameInfo.difficulty == 1){
+                    ScoreScript.scoreValue += 50 * 14;
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
+                if(GameInfo.difficulty == 2){
+                    ScoreScript.scoreValue += 75 * 14;
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
+                if(GameInfo.difficulty == 3){
+                    ScoreScript.scoreValue += 100 * 14;
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
+                Correct();
+                Change();
+                updateSpeedo(IncrWPM());
+            }
         }
-        if (newText == GameInfo.PromptWord)
-        {
-            Correct();
-            Change();
-            updateSpeedo(IncrWPM());
-        }
+        
     }
 
     // Exception for if enter is used to submit words; same effect as CheckWord
@@ -103,7 +143,41 @@ public class WordController : MonoBehaviour
             // DO NOTHING
         }
         else {
-            if(newText == GameInfo.PromptWord) {
+            if (newText != GameInfo.PromptWord)
+            {
+                if(GameInfo.difficulty == 1){
+                    ScoreScript.scoreValue -= 10;
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
+                if(GameInfo.difficulty == 2){
+                    ScoreScript.scoreValue -= 15;
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
+                if(GameInfo.difficulty == 3){
+                    ScoreScript.scoreValue -= 20;
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
+                right = 0;
+                firel.enableEmission = false;
+                firer.enableEmission = false;
+                ScoreScript.scoreValue -= 10;
+                GameInfo.ScoreValue = ScoreScript.scoreValue;
+                inputAnim.SetBool("Got Mistake", true);
+                textAnim.SetBool("Turn Red", true);
+            }
+            else {
+                if(GameInfo.difficulty == 1){
+                    ScoreScript.scoreValue += 50 * 14;
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
+                if(GameInfo.difficulty == 2){
+                    ScoreScript.scoreValue += 75 * 14;
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
+                if(GameInfo.difficulty == 3){
+                    ScoreScript.scoreValue += 100 * 14;
+                    GameInfo.ScoreValue = ScoreScript.scoreValue;
+                }
                 Correct();
                 Change();
                 updateSpeedo(IncrWPM());
@@ -123,7 +197,13 @@ public class WordController : MonoBehaviour
     // Player has typed a word correctly and the car is pushed forward
     public void Correct()
     {
+        right += 1;
         playerCar.transform.Translate(70,0,0);
+        if(right > 4)
+        {
+            firel.enableEmission = true;
+            firer.enableEmission = true;
+        }
         // Check if player has reached end of the road
         // stop timer and bring up game won panel
         if (playerCar.transform.position.x >= 1860)
@@ -132,6 +212,7 @@ public class WordController : MonoBehaviour
             GameWonPanel.SetActive(true);
             backgroundPanel.SetActive(false);
         }
+        
     }
 
     /**
@@ -160,28 +241,45 @@ public class WordController : MonoBehaviour
     IEnumerator GetScores()
     {
         int num = GameInfo.difficulty;
-        if (num == 1)
+        
+        if (num == 1 && i == 1)
         {
-            UnityWebRequest www = UnityWebRequest.Get(displayWordEasyURL);
-            yield return www.SendWebRequest();
+                UnityWebRequest www = UnityWebRequest.Get(displayWordEasyURL);
+                yield return www.SendWebRequest();
 
-            if (www.isNetworkError || www.isHttpError)
-            {
-                Debug.Log(www.error);
+                if (www.isNetworkError || www.isHttpError)
+                {
+                    Debug.Log(www.error);
+                }
+                else
+                {
+
+                    // Show results as text
+                    Debug.Log(www.downloadHandler.text);
+                    string webtext = www.downloadHandler.text;
+                    string[] webTextArray = webtext.Split(new string[] { "\n", "\r\n" }, StringSplitOptions.None);
+                    GameInfo.Wordlist = webTextArray;
+                    wordDisplay.GetComponent<Text>().text = webTextArray[1];
+                    GameInfo.PromptWord = webTextArray[1];
+                    i += 2;
+
+
+
+                }
+    
             }
-            else
-            {
-
-                // Show results as text
-                Debug.Log(www.downloadHandler.text);
-                string webtext = www.downloadHandler.text;
-                string[] webTextArray = webtext.Split(new string[] { "\n", "\r\n" }, StringSplitOptions.None);
-                wordDisplay.GetComponent<Text>().text = webTextArray[1];
-                GameInfo.PromptWord = webTextArray[1];
-
-
-            }
+        else
+        {
+            
+            wordDisplay.GetComponent<Text>().text = GameInfo.wordlist[i];
+            GameInfo.PromptWord = GameInfo.wordlist[i];
+            i += 2;
         }
+       
+            
+           
+           
+        
         if (num == 2)
         {
             UnityWebRequest www = UnityWebRequest.Get(displayWordMedURL);
